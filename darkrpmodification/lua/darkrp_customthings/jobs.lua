@@ -41,7 +41,7 @@ TEAM_AUSBILDER = DarkRP.createJob("Ausbilder", {
     end,
 })
 
-TEAM_AUSBILDER = DarkRP.createJob("Team im Dienst", {
+TEAM_STAFF = DarkRP.createJob("Team im Dienst", {
     color = Color(170, 255, 255),
     model = {"models/player/combine_super_soldier.mdl"},
     description = [[]],
