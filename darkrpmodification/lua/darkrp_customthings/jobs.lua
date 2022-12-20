@@ -3173,6 +3173,27 @@ TEAM_NAVY_AD = DarkRP.createJob("Republic Navy | AD", {
     end,
 })
 
+TEAM_RC_ABLE = DarkRP.createJob("RC │ Able", {
+    color = Color(140, 140, 140),
+    model = {"models/aussiwozzi/phase1clones/trooper.mdl"},
+    description = [[]],
+    weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a_o", "rw_sw_dc15s"},
+    command = "give_job_rc_able",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Republic Commando",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(110)
+        ply:SetMaxHealth(110)
+        ply:SetArmor(110)
+        ply:SetMaxArmor(110)
+    end,
+})
+
 --[[---------------------------------------------------------------------------
 Custom Chars
 ---------------------------------------------------------------------------]]
