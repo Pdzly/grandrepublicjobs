@@ -84,7 +84,7 @@ DarkRP.createCategory{
     name = "Keeli Company │ Company",
     categorises = "jobs",
     startExpanded = true,
-    color = Color(140, 140, 140),
+    color = Color(61,23,20),
     sortOrder = 6,
     canSee = function(ply)
         return true
@@ -95,7 +95,7 @@ DarkRP.createCategory{
     name = "Keeli Company │ Heavy Platoon",
     categorises = "jobs",
     startExpanded = true,
-    color = Color(140, 140, 140),
+    color = Color(61,23,20),
     sortOrder = 7,
     canSee = function(ply)
         return true
@@ -106,7 +106,7 @@ DarkRP.createCategory{
     name = "Keeli Company │ Medical Platoon",
     categorises = "jobs",
     startExpanded = true,
-    color = Color(255, 0, 0),
+    color = Color(61,23,20),
     sortOrder = 8,
     canSee = function(ply)
         return true
@@ -117,7 +117,7 @@ DarkRP.createCategory{
     name = "Keeli Company │ Advanced Reconnaissance Force",
     categorises = "jobs",
     startExpanded = true,
-    color = Color(255, 0, 0),
+    color = Color(61,23,20),
     sortOrder = 9,
     canSee = function(ply)
         return true
@@ -128,7 +128,7 @@ DarkRP.createCategory{
     name = "ST │ Company",
     categorises = "jobs",
     startExpanded = true,
-    color = Color(0, 120, 255),
+    color = Color(255, 0, 0),
     sortOrder = 10,
     canSee = function(ply)
         return true
@@ -139,7 +139,7 @@ DarkRP.createCategory{
     name = "ST │ Riot Platoon",
     categorises = "jobs",
     startExpanded = true,
-    color = Color(0, 120, 255),
+    color = Color(255, 0, 0),
     sortOrder = 11,
     canSee = function(ply)
         return true
@@ -150,7 +150,7 @@ DarkRP.createCategory{
     name = "ST │ K9 ARF Platoon",
     categorises = "jobs",
     startExpanded = true,
-    color = Color(0, 120, 255),
+    color = Color(255, 0, 0),
     sortOrder = 12,
     canSee = function(ply)
         return true
