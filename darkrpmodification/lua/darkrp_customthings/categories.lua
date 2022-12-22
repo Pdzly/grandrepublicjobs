@@ -70,7 +70,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "104th │ TEB",
+    name = "104th │ EP",
     categorises = "jobs",
     startExpanded = true,
     color = Color(140, 140, 140),
