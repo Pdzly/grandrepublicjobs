@@ -160,8 +160,8 @@ TEAM_ZIVI_MIN = DarkRP.createJob("Minenarbeiter", {
     category = "Zivilisten",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(200)
-        ply:SetMaxHealth(200)
+        ply:SetHealth(225)
+        ply:SetMaxHealth(225)
         ply:SetArmor(0)
         ply:SetMaxArmor(100)
     end,
@@ -181,10 +181,10 @@ TEAM_ZIVI_KOJG = DarkRP.createJob("Kopfgeldjäger", {
     category = "Zivilisten",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(200)
-        ply:SetMaxHealth(200)
-        ply:SetArmor(0)
-        ply:SetMaxArmor(100)
+        ply:SetHealth(225)
+        ply:SetMaxHealth(275)
+        ply:SetArmor(50)
+        ply:SetMaxArmor(250)
     end,
 })
 
@@ -202,10 +202,10 @@ TEAM_ZIVI_KARTWA = DarkRP.createJob("Kartelmitglied", {
     category = "Zivilisten",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(200)
-        ply:SetMaxHealth(200)
-        ply:SetArmor(0)
-        ply:SetMaxArmor(100)
+        ply:SetHealth(250)
+        ply:SetMaxHealth(250)
+        ply:SetArmor(100)
+        ply:SetMaxArmor(250)
     end,
 })
 
@@ -223,10 +223,10 @@ TEAM_ZIVI_KARTBOSS = DarkRP.createJob("Kartelboss", {
     category = "Zivilisten",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(200)
-        ply:SetMaxHealth(200)
-        ply:SetArmor(0)
-        ply:SetMaxArmor(100)
+        ply:SetHealth(300)
+        ply:SetMaxHealth(300)
+        ply:SetArmor(150)
+        ply:SetMaxArmor(250)
     end,
 })
 
@@ -244,10 +244,10 @@ TEAM_ZIVI_MANDO = DarkRP.createJob("Mandalorianer", {
     category = "Zivilisten",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(200)
-        ply:SetMaxHealth(200)
-        ply:SetArmor(0)
-        ply:SetMaxArmor(100)
+        ply:SetHealth(300)
+        ply:SetMaxHealth(300)
+        ply:SetArmor(300)
+        ply:SetMaxArmor(400)
     end,
 })
 
