@@ -1367,7 +1367,7 @@ TEAM_104TH_AU_1STLT = DarkRP.createJob("104th Airborne | 1stLT", {
     end,
 })
 
-TEAM_104TH_TEB_PVT = DarkRP.createJob("104th TEB | PVT", {
+TEAM_104TH_TEB_PVT = DarkRP.createJob("104th EP | PVT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/officer.mdl"},
     description = [[]],
@@ -1378,7 +1378,7 @@ TEAM_104TH_TEB_PVT = DarkRP.createJob("104th TEB | PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th │ TEB",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1388,7 +1388,7 @@ TEAM_104TH_TEB_PVT = DarkRP.createJob("104th TEB | PVT", {
     end,
 })
 
-TEAM_104TH_TEB_PFC = DarkRP.createJob("104th TEB | PFC", {
+TEAM_104TH_TEB_PFC = DarkRP.createJob("104th EP | PFC", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/officer.mdl"},
     description = [[]],
@@ -1399,7 +1399,7 @@ TEAM_104TH_TEB_PFC = DarkRP.createJob("104th TEB | PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th │ TEB",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1409,7 +1409,7 @@ TEAM_104TH_TEB_PFC = DarkRP.createJob("104th TEB | PFC", {
     end,
 })
 
-TEAM_104TH_TEB_SPC = DarkRP.createJob("104th TEB | SPC", {
+TEAM_104TH_TEB_SPC = DarkRP.createJob("104th EP | SPC", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/officer.mdl"},
     description = [[]],
@@ -1420,7 +1420,7 @@ TEAM_104TH_TEB_SPC = DarkRP.createJob("104th TEB | SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th │ TEB",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1430,7 +1430,7 @@ TEAM_104TH_TEB_SPC = DarkRP.createJob("104th TEB | SPC", {
     end,
 })
 
-TEAM_104TH_TEB_LCPL = DarkRP.createJob("104th TEB | LCPL", {
+TEAM_104TH_TEB_LCPL = DarkRP.createJob("104th EP | LCPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/officer.mdl"},
     description = [[]],
@@ -1441,7 +1441,7 @@ TEAM_104TH_TEB_LCPL = DarkRP.createJob("104th TEB | LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th │ TEB",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1451,7 +1451,7 @@ TEAM_104TH_TEB_LCPL = DarkRP.createJob("104th TEB | LCPL", {
     end,
 })
 
-TEAM_104TH_TEB_CPL = DarkRP.createJob("104th TEB | CPL", {
+TEAM_104TH_TEB_CPL = DarkRP.createJob("104th EP | CPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/officer.mdl"},
     description = [[]],
@@ -1462,7 +1462,7 @@ TEAM_104TH_TEB_CPL = DarkRP.createJob("104th TEB | CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th │ TEB",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1472,7 +1472,7 @@ TEAM_104TH_TEB_CPL = DarkRP.createJob("104th TEB | CPL", {
     end,
 })
 
-TEAM_104TH_TEB_CCPL = DarkRP.createJob("104th TEB | CCPL", {
+TEAM_104TH_TEB_CCPL = DarkRP.createJob("104th EP | CCPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/officer.mdl"},
     description = [[]],
@@ -1483,7 +1483,7 @@ TEAM_104TH_TEB_CCPL = DarkRP.createJob("104th TEB | CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th │ TEB",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1493,7 +1493,7 @@ TEAM_104TH_TEB_CCPL = DarkRP.createJob("104th TEB | CCPL", {
     end,
 })
 
-TEAM_104TH_TEB_SGT = DarkRP.createJob("104th TEB | SGT", {
+TEAM_104TH_TEB_SGT = DarkRP.createJob("104th EP | SGT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/officer.mdl"},
     description = [[]],
@@ -1504,7 +1504,7 @@ TEAM_104TH_TEB_SGT = DarkRP.createJob("104th TEB | SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th │ TEB",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1514,7 +1514,7 @@ TEAM_104TH_TEB_SGT = DarkRP.createJob("104th TEB | SGT", {
     end,
 })
 
-TEAM_104TH_TEB_SMJ = DarkRP.createJob("104th TEB | SMJ", {
+TEAM_104TH_TEB_SMJ = DarkRP.createJob("104th EP | SMJ", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/officer.mdl"},
     description = [[]],
@@ -1525,7 +1525,7 @@ TEAM_104TH_TEB_SMJ = DarkRP.createJob("104th TEB | SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th │ TEB",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1535,7 +1535,7 @@ TEAM_104TH_TEB_SMJ = DarkRP.createJob("104th TEB | SMJ", {
     end,
 })
 
-TEAM_104TH_TEB_LT = DarkRP.createJob("104th TEB | LT", {
+TEAM_104TH_TEB_LT = DarkRP.createJob("104th EP | LT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/officer.mdl"},
     description = [[]],
@@ -1546,7 +1546,7 @@ TEAM_104TH_TEB_LT = DarkRP.createJob("104th TEB | LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th │ TEB",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1556,7 +1556,7 @@ TEAM_104TH_TEB_LT = DarkRP.createJob("104th TEB | LT", {
     end,
 })
 
-TEAM_104TH_TEB_1STLT = DarkRP.createJob("104th TEB | 1st LT", {
+TEAM_104TH_TEB_1STLT = DarkRP.createJob("104th EP | 1st LT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/officer.mdl"},
     description = [[]],
@@ -1567,7 +1567,7 @@ TEAM_104TH_TEB_1STLT = DarkRP.createJob("104th TEB | 1st LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th │ TEB",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
