@@ -232,7 +232,7 @@ TEAM_ZIVI_KARTBOSS = DarkRP.createJob("Kartelboss", {
 
 TEAM_ZIVI_MANDO = DarkRP.createJob("Mandalorianer", {
     color = Color(240, 240, 240),
-    model = {"models/player/aussiwozzi/mandalorians/male_mando_gold.mdl", "models/player/aussiwozzi/mandalorians/female_mando_orange.mdl", "models/player/aussiwozzi/mandalorians/male_mando_blue.mdl", "models/player/aussiwozzi/mandalorians/female_mando_blue.mdl"},
+    model = {"models/player/aussiwozzi/mandalorians/male_mando_gold.mdl", "models/player/aussiwozzi/mandalorians/female_mando_orange.mdl", "models/player/aussiwozzi/mandalorians/male_mando_blue.mdl", "models/player/aussiwozzi/mandalorians/female_mando_blue.mdl", "models/player/aussiwozzi/mandalorians/male_mando.mdl", "models/gonzo/narshaddaacharacters/snake/snake.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "rw_sw_dual_westar34", "rw_sw_westar34", "jet_mk5"},
     command = "give_job_zivi_mando",
