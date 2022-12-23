@@ -378,7 +378,7 @@ TEAM_ARC_SGT = DarkRP.createJob("ARC Trooper │ Sergeant", {
 })
 
 TEAM_ARC_WOLF = DarkRP.createJob("ARC Wolf", {
-    color = Color(0, 120, 255),
+    color = Color(153, 0, 0),
     model = {"models/mailer/tera/tera_okami_pc.mdl"},
     description = [[]],
     weapons = {"sk_massif_swep", "climb_swep2"},
@@ -398,6 +398,27 @@ TEAM_ARC_WOLF = DarkRP.createJob("ARC Wolf", {
         ply:SetWalkSpeed(300)
         ply:SetRunSpeed(800)
         ply:SetJumpPower(200)
+    end,
+})
+
+TEAM_104TH_AVP_ARC = DarkRP.createJob("ARC Trooper | ARC", {
+    color = Color(255, 255, 255),
+    model = {"models/aussiwozzi/phase1clones/pilots/pilot_arc.mdl"},
+    description = [[]],
+    weapons = {"climb_swep2", "jet_mk5", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dp23", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17ext", "rw_sw_nade_stun", "rw_sw_nade_thermal",},
+    command = "give_job_104th_avp_arc",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Alpha Advanced Recon Commando",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(200)
+        ply:SetMaxHealth(200)
+        ply:SetArmor(260)
+        ply:SetMaxArmor(260)
     end,
 })
 
@@ -741,7 +762,7 @@ TEAM_104TH_PFC_CCPL = DarkRP.createJob("104th | PFC", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
-    weapons = {"climb_swep2", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17",},
+    weapons = {"climb_swep2", "sw_datapad", "rw_sw_nade_thermal", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17",},
     command = "give_job_104th_pfc",
     max = 0,
     salary = 100,
@@ -762,7 +783,7 @@ TEAM_104TH_SPC = DarkRP.createJob("104th | SPC", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
-    weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17",},
+    weapons = {"climb_swep2", "jet_mk2", "rw_sw_nade_thermal", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17",},
     command = "give_job_104th_spc",
     max = 0,
     salary = 100,
@@ -783,7 +804,7 @@ TEAM_104TH_LCPL = DarkRP.createJob("104th | LCPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
-    weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17",},
+    weapons = {"climb_swep2", "jet_mk2", "rw_sw_nade_thermal", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17",},
     command = "give_job_104th_lcpl",
     max = 0,
     salary = 100,
@@ -804,7 +825,7 @@ TEAM_104TH_CPL = DarkRP.createJob("104th | CPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
-    weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17",},
+    weapons = {"climb_swep2", "jet_mk2", "rw_sw_nade_thermal", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17",},
     command = "give_job_104th_cpl",
     max = 0,
     salary = 100,
@@ -825,7 +846,7 @@ TEAM_104TH_CCPL = DarkRP.createJob("104th | CCPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
-    weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17",},
+    weapons = {"climb_swep2", "jet_mk2", "rw_sw_nade_thermal", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17",},
     command = "give_job_104th_ccpl",
     max = 0,
     salary = 100,
@@ -846,7 +867,7 @@ TEAM_104TH_SGT = DarkRP.createJob("104th | SGT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
-    weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17",},
+    weapons = {"climb_swep2", "jet_mk2", "rw_sw_nade_thermal", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17",},
     command = "give_job_104th_sgt",
     max = 0,
     salary = 100,
@@ -867,7 +888,7 @@ TEAM_104TH_SMJ = DarkRP.createJob("104th | SMJ", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
-    weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17",},
+    weapons = {"climb_swep2", "jet_mk2", "rw_sw_nade_thermal", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17",},
     command = "give_job_104th_smj",
     max = 0,
     salary = 100,
@@ -888,7 +909,7 @@ TEAM_104TH_LT = DarkRP.createJob("104th | LT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
-    weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
+    weapons = {"climb_swep2", "jet_mk2", "rw_sw_nade_thermal", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
     command = "give_job_104th_lt",
     max = 0,
     salary = 100,
@@ -909,7 +930,7 @@ TEAM_104TH_1STLT = DarkRP.createJob("104th | 1stLT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
-    weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
+    weapons = {"climb_swep2", "jet_mk2", "rw_sw_nade_thermal", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
     command = "give_job_104th_1stlt",
     max = 0,
     salary = 100,
@@ -930,7 +951,7 @@ TEAM_104TH_CPT = DarkRP.createJob("104th | CPT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
-    weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
+    weapons = {"climb_swep2", "jet_mk2", "rw_sw_nade_thermal", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
     command = "give_job_104th_cpt",
     max = 0,
     salary = 100,
@@ -942,6 +963,27 @@ TEAM_104TH_CPT = DarkRP.createJob("104th | CPT", {
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
         ply:SetMaxHealth(100)
+        ply:SetArmor(260)
+        ply:SetMaxArmor(260)
+    end,
+})
+
+TEAM_104TH_ARC = DarkRP.createJob("104th | ARC", {
+    color = Color(140, 140, 140),
+    model = {"models/joey/bf2/104tharc.mdl"},
+    description = [[]],
+    weapons = {"climb_swep2", "jet_mk5", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17ext", "rw_sw_nade_stun", "rw_sw_nade_thermal",},
+    command = "give_job_104th_arc",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "104th │ Wolfpack",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(200)
+        ply:SetMaxHealth(200)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
@@ -1157,6 +1199,27 @@ TEAM_104TH_AVP_1STLT = DarkRP.createJob("104th AVP | 1st LT", {
     end,
 })
 
+TEAM_104TH_AVP_ARC = DarkRP.createJob("104th AVP | ARC", {
+    color = Color(140, 140, 140),
+    model = {"models/aussiwozzi/phase1clones/pilots/pilot_arc.mdl"},
+    description = [[]],
+    weapons = {"climb_swep2", "jet_mk5", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dp23", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17ext", "rw_sw_nade_stun", "rw_sw_nade_thermal",},
+    command = "give_job_104th_avp_arc",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "104th │ Advanced Vehicle Platoon",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(200)
+        ply:SetMaxHealth(200)
+        ply:SetArmor(260)
+        ply:SetMaxArmor(260)
+    end,
+})
+
 TEAM_104TH_AU_PVT = DarkRP.createJob("104th Airborne | PVT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
@@ -1367,6 +1430,28 @@ TEAM_104TH_AU_1STLT = DarkRP.createJob("104th Airborne | 1stLT", {
     end,
 })
 
+TEAM_104TH_AU_ARC = DarkRP.createJob("104th Airborne | ARC", {
+    color = Color(140, 140, 140),
+    model = {"models/joey/bf2/104tharc.mdl"},
+    description = [[]],
+    weapons = {"climb_swep2", "jet_mk5", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dp23", "rw_sw_dp24", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17ext", "rw_sw_nade_stun", "rw_sw_nade_thermal", "rw_sw_nade_impact",},
+    command = "give_job_104th_au_arc",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "104th │ Airborne Unit",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(200)
+        ply:SetMaxHealth(200)
+        ply:SetArmor(260)
+        ply:SetMaxArmor(260)
+    end,
+})
+
+
 TEAM_104TH_TEB_PVT = DarkRP.createJob("104th EP | PVT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/officer.mdl"},
@@ -1572,6 +1657,27 @@ TEAM_104TH_TEB_1STLT = DarkRP.createJob("104th EP | 1st LT", {
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
         ply:SetMaxHealth(100)
+        ply:SetArmor(260)
+        ply:SetMaxArmor(260)
+    end,
+})
+
+TEAM_104TH_TEB_ARC = DarkRP.createJob("104th EP | ARC", {
+    color = Color(140, 140, 140),
+    model = {"models/aotr/sparrow/rancor/arc/specialist.mdl"},
+    description = [[]],
+    weapons = {"climb_swep2", "jet_mk5", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "sw_datapad", "weapon_armorkit", "fort_datapad", "alydus_fusioncutter", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dp23", "rw_sw_dp24", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17ext", "rw_sw_nade_stun", "rw_sw_nade_thermal", "rw_sw_nade_impact",},
+    command = "give_job_104th_teb_arc",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "104th │ EP",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(200)
+        ply:SetMaxHealth(200)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
