@@ -85,7 +85,7 @@ TEAM_CADET = DarkRP.createJob("Cadet", {
 
 TEAM_ZIVI_BUR = DarkRP.createJob("Bürger", {
     color = Color(240, 240, 240),
-    model = {},
+    model = {"models/hcn/starwars/bf/alien/alien.mdl", "models/hcn/starwars/bf/human/human_male.mdl",},
     description = [[]],
     weapons = {"sw_datapad"},
     command = "give_job_zivi_bur",
@@ -106,7 +106,7 @@ TEAM_ZIVI_BUR = DarkRP.createJob("Bürger", {
 
 TEAM_ZIVI_MAG = DarkRP.createJob("Magnat", {
     color = Color(240, 240, 240),
-    model = {},
+    model = {"models/hcn/starwars/bf/alien/alien_5.mdl", "models/hcn/starwars/bf/human/human_male_5.mdl",},
     description = [[]],
     weapons = {"sw_datapad"},
     command = "give_job_zivi_mag",
@@ -127,7 +127,7 @@ TEAM_ZIVI_MAG = DarkRP.createJob("Magnat", {
 
 TEAM_ZIVI_FAR = DarkRP.createJob("Farmer", {
     color = Color(240, 240, 240),
-    model = {},
+    model = {"models/hcn/starwars/bf/alien/alien.mdl", "models/hcn/starwars/bf/human/human_male.mdl",},
     description = [[]],
     weapons = {"sw_datapad"},
     command = "give_job_zivi_far",
@@ -148,7 +148,7 @@ TEAM_ZIVI_FAR = DarkRP.createJob("Farmer", {
 
 TEAM_ZIVI_MIN = DarkRP.createJob("Minenarbeiter", {
     color = Color(240, 240, 240),
-    model = {},
+    model = {"models/hcn/starwars/bf/alien/alien_2.mdl", "models/hcn/starwars/bf/human/human_male_2.mdl",},
     description = [[]],
     weapons = {"sw_datapad"},
     command = "give_job_zivi_min",
@@ -169,7 +169,7 @@ TEAM_ZIVI_MIN = DarkRP.createJob("Minenarbeiter", {
 
 TEAM_ZIVI_KOJG = DarkRP.createJob("Kopfgeldjäger", {
     color = Color(240, 240, 240),
-    model = {},
+    model = {"models/hcn/starwars/bf/alien/alien_4.mdl", "models/hcn/starwars/bf/human/human_male_4.mdl",},
     description = [[]],
     weapons = {"sw_datapad", "rw_sw_dl18", ""},
     command = "give_job_zivi_kojg",
@@ -190,7 +190,7 @@ TEAM_ZIVI_KOJG = DarkRP.createJob("Kopfgeldjäger", {
 
 TEAM_ZIVI_KARTWA = DarkRP.createJob("Kartelmitglied", {
     color = Color(240, 240, 240),
-    model = {"models/hcn/starwars/bf/abednedo/abednedo_3.mdl", "models/hcn/starwars/bf/aqualish/aqualish_3.mdl", "models/hcn/starwars/bf/dressellian/dressellian_3.mdl", "models/hcn/starwars/bf/duros/duros_3.mdl", "models/hcn/starwars/bf/human/human_male_3.mdl", "models/hcn/starwars/bf/ishitib/ishitib_3.mdl", "models/hcn/starwars/bf/quarren/quarren_3.mdl", "models/hcn/starwars/bf/rodian/rodian_3.mdl", "models/hcn/starwars/bf/sullustan/sullustan_3.mdl", "models/hcn/starwars/bf/weequay/weequay_3.mdl", "models/hcn/starwars/bf/zabrak/zabrak_3.mdl"},
+    model = {"models/hcn/starwars/bf/alien/alien_3.mdl", "models/hcn/starwars/bf/human/human_male_3.mdl",},
     description = [[]],
     weapons = {"sw_datapad", "rw_sw_electrohammer"},
     command = "give_job_zivi_kartwa",
@@ -211,7 +211,7 @@ TEAM_ZIVI_KARTWA = DarkRP.createJob("Kartelmitglied", {
 
 TEAM_ZIVI_KARTBOSS = DarkRP.createJob("Kartelboss", {
     color = Color(240, 240, 240),
-    model = {"models/hgn/swrp/swrp/hutt_01.mdl"},
+    model = {"models/gonzo/tenarshaddaaarmourpack/heavycrusaderarmour/heavycrusaderarmour.mdl", "models/gonzo/tenarshaddaaarmourpack/armstechmaster/armstechmaster.mdl",},
     description = [[]],
     weapons = {"sw_datapad"},
     command = "give_job_zivi_kartboss",
