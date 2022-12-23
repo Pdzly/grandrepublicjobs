@@ -233,3 +233,14 @@ DarkRP.createCategory{
         return true
     end,
 }
+
+DarkRP.createCategory{
+    name = "Einheits ARC",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(152, 152, 152),
+    sortOrder = 19,
+    canSee = function(ply)
+        return true
+    end,
+}

@@ -20,6 +20,27 @@ Add your custom jobs under the following line:
     Generated using: DarkRP | Job Generator
     https://yourdevtools.com/gmod/darkrp-job
 --]]
+TEAM_ST_ARC = DarkRP.createJob("ARC", {
+    color = Color(170, 255, 255),
+    model = {"models/joey/st/starctrooper.mdl"},
+    description = [[False]],
+    weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "jet_mk5", "rw_sw_dc17", "rw_sw_dual_dc17ext", "stunstick", "weapon_cuff_elastic", "rw_sw_dc15le", "rw_sw_nade_stun", "rw_sw_nade_thermal"},
+    command = "give_job_einheits_arc",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Einheits ARC",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(200)
+        ply:SetMaxHealth(200)
+        ply:SetArmor(260)
+        ply:SetMaxArmor(260)
+    end,
+})
+
 TEAM_AUSBILDER = DarkRP.createJob("Ausbilder", {
     color = Color(170, 255, 255),
     model = {"models/aotr/sparrow/rancor/arc/advisor.mdl"},
@@ -274,7 +295,7 @@ TEAM_EVENT = DarkRP.createJob("Event Char", {
 
 TEAM_ARC_CAPTAIN = DarkRP.createJob("ARC Trooper │ Captain", {
     color = Color(153, 0, 0),
-    model = {"models/mks/custom/drift/drift.mdl", "models/mks/custom/drift/drift.mdl", "models/mks/custom/muun/muun.mdl", "models/sky/custom/meister/meister.mdl",  "models/mks/custom/tracer/tracer.mdl", "models/defcon/stan/arcevo/rancor/evorancor.mdl", "models/starwars/grady/legends_arcs/legends_arc_rino.mdl", "models/starwars/grady/legends_arcs/legends_arc_grady.mdl"},
+    model = {"models/starwars/grady/legends_arcs/legends_arc_lieutenant.mdl", "models/starwars/grady/legends_arcs/legends_arc_sergeant.mdl", "models/starwars/grady/legends_arcs/legends_arc_trooper.mdl", "models/starwars/grady/legends_arcs/legends_arc_commander.mdl", "models/starwars/grady/legends_arcs/legends_arc_captain.mdl", "models/sky/custom/sky/nexu.mdl"},
     description = [[]],
     weapons = {"rw_sw_westarm5", "weapon_bactainjector", "alydus_fusioncutter", "weapon_armorkit", "stunstick", "rw_sw_wristflame", "rw_sw_dual_dc17s", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "rw_sw_nade_impact", "rw_sw_plx1", "rw_sw_valken38x", "jet_mk5", "shadow", "revival_tool", "seal6-c4", "weapon_cuff_elastic", "weapon_leash_elastic", "rw_sw_dual_dc15s"},
     command = "give_job_arc_captain",
@@ -295,7 +316,7 @@ TEAM_ARC_CAPTAIN = DarkRP.createJob("ARC Trooper │ Captain", {
 
 TEAM_ARC_1STLT1 = DarkRP.createJob("ARC Trooper │ 1st Lieutenant 1", {
     color = Color(153, 0, 0),
-    model = {"models/mks/custom/drift/drift.mdl", "models/mks/custom/drift/drift.mdl", "models/mks/custom/muun/muun.mdl", "models/sky/custom/meister/meister.mdl",  "models/mks/custom/tracer/tracer.mdl", "models/defcon/stan/arcevo/rancor/evorancor.mdl", "models/starwars/grady/legends_arcs/legends_arc_rino.mdl", "models/starwars/grady/legends_arcs/legends_arc_grady.mdl"},
+    model = {"models/starwars/grady/legends_arcs/legends_arc_lieutenant.mdl", "models/starwars/grady/legends_arcs/legends_arc_sergeant.mdl", "models/starwars/grady/legends_arcs/legends_arc_trooper.mdl", "models/starwars/grady/legends_arcs/legends_arc_commander.mdl", "models/starwars/grady/legends_arcs/legends_arc_captain.mdl", "models/sky/custom/sky/nexu.mdl"},
     description = [[]],
     weapons = {"rw_sw_westarm5", "weapon_bactainjector", "alydus_fusioncutter", "weapon_armorkit", "stunstick", "rw_sw_wristflame", "rw_sw_dual_dc17s", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "rw_sw_nade_impact", "rw_sw_plx1", "rw_sw_valken38x", "jet_mk5", "shadow", "seal6-c4", "revival_tool", "weapon_cuff_elastic", "rw_sw_dual_dc15s"},
     command = "give_job_arc_1stlt1",
@@ -316,7 +337,7 @@ TEAM_ARC_1STLT1 = DarkRP.createJob("ARC Trooper │ 1st Lieutenant 1", {
 
 TEAM_ARC_LT2 = DarkRP.createJob("ARC Trooper │ Lieutenant 2", {
     color = Color(153, 0, 0),
-    model = {"models/mks/custom/drift/drift.mdl", "models/mks/custom/drift/drift.mdl", "models/mks/custom/muun/muun.mdl", "models/sky/custom/meister/meister.mdl",  "models/mks/custom/tracer/tracer.mdl", "models/defcon/stan/arcevo/rancor/evorancor.mdl", "models/starwars/grady/legends_arcs/legends_arc_rino.mdl", "models/starwars/grady/legends_arcs/legends_arc_grady.mdl"},
+    model = {"models/starwars/grady/legends_arcs/legends_arc_lieutenant.mdl", "models/starwars/grady/legends_arcs/legends_arc_sergeant.mdl", "models/starwars/grady/legends_arcs/legends_arc_trooper.mdl", "models/starwars/grady/legends_arcs/legends_arc_commander.mdl", "models/starwars/grady/legends_arcs/legends_arc_captain.mdl", "models/sky/custom/sky/nexu.mdl"},
     description = [[]],
     weapons = {"rw_sw_westarm5", "weapon_bactainjector", "alydus_fusioncutter", "weapon_armorkit", "stunstick", "rw_sw_wristflame", "rw_sw_dual_dc17s", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "rw_sw_nade_impact", "rw_sw_plx1", "rw_sw_valken38x", "jet_mk5", "shadow", "seal6-c4", "revival_tool", "weapon_cuff_elastic", "rw_sw_dual_dc15s"},
     command = "give_job_arc_1stlt2",
@@ -337,7 +358,7 @@ TEAM_ARC_LT2 = DarkRP.createJob("ARC Trooper │ Lieutenant 2", {
 
 TEAM_ARC_LT1 = DarkRP.createJob("ARC Trooper │ Lieutenant 1", {
     color = Color(153, 0, 0),
-    model = {"models/mks/custom/drift/drift.mdl", "models/mks/custom/drift/drift.mdl", "models/mks/custom/muun/muun.mdl", "models/sky/custom/meister/meister.mdl",  "models/mks/custom/tracer/tracer.mdl", "models/defcon/stan/arcevo/rancor/evorancor.mdl", "models/starwars/grady/legends_arcs/legends_arc_rino.mdl", "models/starwars/grady/legends_arcs/legends_arc_grady.mdl"},
+    model = {"models/starwars/grady/legends_arcs/legends_arc_lieutenant.mdl", "models/starwars/grady/legends_arcs/legends_arc_sergeant.mdl", "models/starwars/grady/legends_arcs/legends_arc_trooper.mdl", "models/starwars/grady/legends_arcs/legends_arc_commander.mdl", "models/starwars/grady/legends_arcs/legends_arc_captain.mdl", "models/sky/custom/sky/nexu.mdl"},
     description = [[]],
     weapons = {"rw_sw_westarm5", "weapon_bactainjector", "alydus_fusioncutter", "weapon_armorkit", "stunstick", "rw_sw_wristflame", "rw_sw_dual_dc17s", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "rw_sw_nade_impact", "rw_sw_plx1", "rw_sw_valken38x", "jet_mk5", "shadow", "seal6-c4", "revival_tool", "weapon_cuff_elastic", "rw_sw_dual_dc15s"},
     command = "give_job_arc_lt1",
@@ -358,9 +379,9 @@ TEAM_ARC_LT1 = DarkRP.createJob("ARC Trooper │ Lieutenant 1", {
 
 TEAM_ARC_SGT = DarkRP.createJob("ARC Trooper │ Sergeant", {
     color = Color(153, 0, 0),
-    model = {"models/mks/custom/drift/drift.mdl", "models/mks/custom/drift/drift.mdl", "models/mks/custom/muun/muun.mdl", "models/sky/custom/meister/meister.mdl",  "models/mks/custom/tracer/tracer.mdl", "models/defcon/stan/arcevo/rancor/evorancor.mdl", "models/starwars/grady/legends_arcs/legends_arc_rino.mdl", "models/starwars/grady/legends_arcs/legends_arc_grady.mdl"},
+    model = {"models/mks/custom/drift/drift.mdl", "models/mks/custom/drift/drift.mdl", "models/mks/custom/muun/muun.mdl", "models/sky/custom/meister/meister.mdl", "models/mks/custom/tracer/tracer.mdl", "models/defcon/stan/arcevo/rancor/evorancor.mdl", "models/starwars/grady/legends_arcs/legends_arc_rino.mdl", "models/starwars/grady/legends_arcs/legends_arc_grady.mdl"},
     description = [[]],
-    weapons = {"rw_sw_westarm5", "weapon_bactainjector", "alydus_fusioncutter", "weapon_armorkit", "stunstick", "rw_sw_wristflame", "rw_sw_dual_dc17s", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "rw_sw_nade_impact", "rw_sw_plx1", "rw_sw_valken38x", "jet_mk5", "shadow", "seal6-c4", "revival_tool", "weapon_cuff_elastic", "rw_sw_dual_dc15s"},
+    weapons = {"models/starwars/grady/legends_arcs/legends_arc_lieutenant.mdl", "models/starwars/grady/legends_arcs/legends_arc_sergeant.mdl", "models/starwars/grady/legends_arcs/legends_arc_trooper.mdl", "models/starwars/grady/legends_arcs/legends_arc_commander.mdl", "models/starwars/grady/legends_arcs/legends_arc_captain.mdl", "models/sky/custom/sky/nexu.mdl"},
     command = "give_job_arc_sgt",
     max = 0,
     salary = 100,
@@ -2662,8 +2683,8 @@ TEAM_ST_ARC = DarkRP.createJob("ST AR", {
     category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(150 )
-        ply:SetMaxHealth(150 )
+        ply:SetHealth(150)
+        ply:SetMaxHealth(150)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
@@ -3197,7 +3218,6 @@ TEAM_RC_ABLE = DarkRP.createJob("RC │ Able", {
 --[[---------------------------------------------------------------------------
 Custom Chars
 ---------------------------------------------------------------------------]]
-
 TEAM_104TH_Nade = DarkRP.createJob("104th | SGT Nade", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
@@ -3221,8 +3241,8 @@ TEAM_104TH_Nade = DarkRP.createJob("104th | SGT Nade", {
         ply:SetBodygroup(7, 1)
     end,
 })
--- Erlaubnis bekommen von Noel
 
+-- Erlaubnis bekommen von Noel
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
 ---------------------------------------------------------------------------]]
