@@ -85,7 +85,7 @@ TEAM_CADET = DarkRP.createJob("Cadet", {
 
 TEAM_ZIVI_BUR = DarkRP.createJob("Bürger", {
     color = Color(240, 240, 240),
-    model = {"models/hcn/starwars/bf/abednedo/abednedo.mdl", "models/hcn/starwars/bf/aqualish/aqualish.mdl", "models/hcn/starwars/bf/dressellian/dressellian.mdl", "models/hcn/starwars/bf/duros/duros.mdl", "models/hcn/starwars/bf/human/human_male.mdl", "models/hcn/starwars/bf/ishitib/ishitib.mdl", "models/hcn/starwars/bf/quarren/quarren.mdl", "models/hcn/starwars/bf/rodian/rodian.mdl", "models/hcn/starwars/bf/sullustan/sullustan.mdl", "models/hcn/starwars/bf/weequay/weequay.mdl", "models/hcn/starwars/bf/zabrak/zabrak.mdl"},
+    model = {},
     description = [[]],
     weapons = {"sw_datapad"},
     command = "give_job_zivi_bur",
@@ -106,7 +106,7 @@ TEAM_ZIVI_BUR = DarkRP.createJob("Bürger", {
 
 TEAM_ZIVI_MAG = DarkRP.createJob("Magnat", {
     color = Color(240, 240, 240),
-    model = {"models/hcn/starwars/bf/abednedo/abednedo_5.mdl", "models/hcn/starwars/bf/aqualish/aqualish_5.mdl", "models/hcn/starwars/bf/dressellian/dressellian_5.mdl", "models/hcn/starwars/bf/duros/duros_5.mdl", "models/hcn/starwars/bf/human/human_male_5.mdl", "models/hcn/starwars/bf/ishitib/ishitib_5.mdl", "models/hcn/starwars/bf/quarren/quarren_5.mdl", "models/hcn/starwars/bf/rodian/rodian_5.mdl", "models/hcn/starwars/bf/sullustan/sullustan_5.mdl", "models/hcn/starwars/bf/weequay/weequay_5.mdl", "models/hcn/starwars/bf/zabrak/zabrak_5.mdl"},
+    model = {},
     description = [[]],
     weapons = {"sw_datapad"},
     command = "give_job_zivi_mag",
@@ -127,7 +127,7 @@ TEAM_ZIVI_MAG = DarkRP.createJob("Magnat", {
 
 TEAM_ZIVI_FAR = DarkRP.createJob("Farmer", {
     color = Color(240, 240, 240),
-    model = {"models/hcn/starwars/bf/abednedo/abednedo.mdl", "models/hcn/starwars/bf/aqualish/aqualish.mdl", "models/hcn/starwars/bf/dressellian/dressellian.mdl", "models/hcn/starwars/bf/duros/duros.mdl", "models/hcn/starwars/bf/human/human_male.mdl", "models/hcn/starwars/bf/ishitib/ishitib.mdl", "models/hcn/starwars/bf/quarren/quarren.mdl", "models/hcn/starwars/bf/rodian/rodian.mdl", "models/hcn/starwars/bf/sullustan/sullustan.mdl", "models/hcn/starwars/bf/weequay/weequay.mdl", "models/hcn/starwars/bf/zabrak/zabrak.mdl"},
+    model = {},
     description = [[]],
     weapons = {"sw_datapad"},
     command = "give_job_zivi_far",
@@ -148,7 +148,7 @@ TEAM_ZIVI_FAR = DarkRP.createJob("Farmer", {
 
 TEAM_ZIVI_MIN = DarkRP.createJob("Minenarbeiter", {
     color = Color(240, 240, 240),
-    model = {"models/hcn/starwars/bf/abednedo/abednedo_2.mdl", "models/hcn/starwars/bf/aqualish/aqualish_2.mdl", "models/hcn/starwars/bf/dressellian/dressellian_2.mdl", "models/hcn/starwars/bf/duros/duros_2.mdl", "models/hcn/starwars/bf/human/human_male_2.mdl", "models/hcn/starwars/bf/ishitib/ishitib_2.mdl", "models/hcn/starwars/bf/quarren/quarren_2.mdl", "models/hcn/starwars/bf/rodian/rodian_2.mdl", "models/hcn/starwars/bf/sullustan/sullustan_2.mdl", "models/hcn/starwars/bf/weequay/weequay_2.mdl", "models/hcn/starwars/bf/zabrak/zabrak_2.mdl"},
+    model = {},
     description = [[]],
     weapons = {"sw_datapad"},
     command = "give_job_zivi_min",
@@ -169,7 +169,7 @@ TEAM_ZIVI_MIN = DarkRP.createJob("Minenarbeiter", {
 
 TEAM_ZIVI_KOJG = DarkRP.createJob("Kopfgeldjäger", {
     color = Color(240, 240, 240),
-    model = {"models/hcn/starwars/bf/abednedo/abednedo_4.mdl", "models/hcn/starwars/bf/aqualish/aqualish_4.mdl", "models/hcn/starwars/bf/dressellian/dressellian_4.mdl", "models/hcn/starwars/bf/duros/duros_4.mdl", "models/hcn/starwars/bf/human/human_male_4.mdl", "models/hcn/starwars/bf/ishitib/ishitib_4.mdl", "models/hcn/starwars/bf/quarren/quarren_4.mdl", "models/hcn/starwars/bf/rodian/rodian_4.mdl", "models/hcn/starwars/bf/sullustan/sullustan_4.mdl", "models/hcn/starwars/bf/weequay/weequay_4.mdl", "models/hcn/starwars/bf/zabrak/zabrak_4.mdl", "models/gonzo/tenarshaddaaarmourpack/armourtechmaster/armourtechmaster.mdl", "models/gonzo/tenarshaddaaarmourpack/armstechmaster/armstechmaster.mdl", "models/gonzo/tenarshaddaaarmourpack/heavycrusaderarmour/heavycrusaderarmour.mdl", "models/gonzo/tenarshaddaaarmourpack/lightcrusaderarmour/lightcrusaderarmour.mdl", "models/gonzo/tenarshaddaaarmourpack/mediumcrusaderarmour/mediumcrusaderarmour.mdl", "models/gonzo/tenarshaddaaarmourpack/scraparmour/scraparmour.mdl"},
+    model = {},
     description = [[]],
     weapons = {"sw_datapad", "rw_sw_dl18", ""},
     command = "give_job_zivi_kojg",
