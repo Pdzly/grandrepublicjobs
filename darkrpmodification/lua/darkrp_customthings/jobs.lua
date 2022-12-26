@@ -3242,7 +3242,52 @@ TEAM_104TH_Nade = DarkRP.createJob("104th | SGT Nade", {
     end,
 })
 
--- Erlaubnis bekommen von Noel
+--[[---------------------------------------------------------------------------
+ARC Chars
+---------------------------------------------------------------------------]]
+
+TEAM_ARC_Cade = DarkRP.createJob("SGT Cade", {
+    color = Color(140, 140, 140),
+    model = {"models/aotr/sparrow/rancor/arc/generalcards.mdl", "models/loudmantis/arc/cards.mdl", "models/defcon/stan/arcevo/cards/evocards.mdl"},
+    description = [[]],
+    weapons = {"rw_sw_pinglauncher", "sw_datapad", "rw_sw_stun_dc17", "rw_sw_westarm5", "rw_sw_valken38x", "climb_swep2", "rw_sw_dc15s", "jet_mk5", "rw_sw_dual_dc17ext", "stunstick", "weapon_cuff_elastic", "rw_sw_nade_stun", "rw_sw_nade_thermal"},
+    command = "give_job_arc_cade",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Einheits ARC",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(200)
+        ply:SetMaxHealth(200)
+        ply:SetArmor(260)
+        ply:SetMaxArmor(260)
+    end,
+})
+
+TEAM_ARC_Exekuter = DarkRP.createJob("ARC Exekuter", {
+    color = Color(140, 140, 140),
+    model = {"models/joey/bf2/operativegreenarc.mdl", "models/hazel/arc_models/9_442nd/442nd_arc.mdl"},
+    description = [[]],
+    weapons = {"rw_sw_pinglauncher", "sw_datapad", "rw_sw_stun_dc17", "rw_sw_westarm5", "rw_sw_valken38x", "climb_swep2", "rw_sw_dc15s", "jet_mk5", "rw_sw_dual_dc17ext", "stunstick", "weapon_cuff_elastic", "rw_sw_nade_stun", "rw_sw_nade_thermal"},
+    command = "give_job_arc_exekuter",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Einheits ARC",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(200)
+        ply:SetMaxHealth(200)
+        ply:SetArmor(260)
+        ply:SetMaxArmor(260)
+    end,
+})
+
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
 ---------------------------------------------------------------------------]]
