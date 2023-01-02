@@ -293,12 +293,12 @@ TEAM_EVENT = DarkRP.createJob("Event Char", {
     end,
 })
 
-TEAM_ARC_CAPTAIN = DarkRP.createJob("ARC Trooper │ Captain", {
+TEAM_ARC_AUSBILDER = DarkRP.createJob("ARC Ausbilder", {
     color = Color(153, 0, 0),
-    model = {"models/starwars/grady/legends_arcs/legends_arc_lieutenant.mdl", "models/starwars/grady/legends_arcs/legends_arc_sergeant.mdl", "models/starwars/grady/legends_arcs/legends_arc_trooper.mdl", "models/starwars/grady/legends_arcs/legends_arc_commander.mdl", "models/starwars/grady/legends_arcs/legends_arc_captain.mdl", "models/sky/custom/sky/nexu.mdl", "models/mks/custom/drift/drift.mdl", "models/mks/custom/drift/drift.mdl", "models/mks/custom/muun/muun.mdl", "models/sky/custom/meister/meister.mdl", "models/mks/custom/tracer/tracer.mdl", "models/defcon/stan/arcevo/rancor/evorancor.mdl", "models/starwars/grady/legends_arcs/legends_arc_rino.mdl", "models/starwars/grady/legends_arcs/legends_arc_grady.mdl"},
-    description = [[]],
-    weapons = {"rw_sw_westarm5", "weapon_bactainjector", "alydus_fusioncutter", "weapon_armorkit", "stunstick", "rw_sw_wristflame", "rw_sw_dual_dc17s", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "rw_sw_nade_impact", "jet_mk5", "shadow", "tfa_defi_swrp", "seal6-c4", "weapon_cuff_elastic", "weapon_leash_elastic", "rw_sw_dc15s"},
-    command = "give_job_arc_captain",
+    model = {"models/aotr/sparrow/rancor/arc/bf2default.mdl", "models/aotr/sparrow/rancor/arc/bf2cobalthero.mdl", "models/aotr/sparrow/rancor/arc/bf2lambentseeker.mdl", "models/aotr/sparrow/rancor/arc/bf2umbaraoperative.mdl", "models/starwars/grady/arc/aoc/arc_trooper_88.mdl", "models/starwars/grady/arc/aoc/501st_arc_medic.mdl", "models/starwars/grady/arc/aoc/arc_trooper_grady.mdl", "models/starwars/grady/arc/aoc/501st_arc_heavy.mdl", " models/defcon/loudmantis/evo/rsb/trooper.mdl", "models/starwars/grady/arc/aoc/501st_arc_jaig.mdl", "models/starwars/grady/arc/aoc/avp_arc_pilot.mdl"},
+    description = [[ARC Ausbilder]],
+    weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic", "rw_sw_dc15s", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "rw_sw_dc15le", "rw_sw_dc15a", "sw_datapad"},
+    command = "give_job_arc_ausbilder",
     max = 0,
     salary = 100,
     admin = 0,
@@ -307,97 +307,10 @@ TEAM_ARC_CAPTAIN = DarkRP.createJob("ARC Trooper │ Captain", {
     category = "Alpha Advanced Recon Commando",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(300)
-        ply:SetMaxHealth(300)
-        ply:SetArmor(300)
-        ply:SetMaxArmor(300)
-    end,
-})
-
-TEAM_ARC_1STLT1 = DarkRP.createJob("ARC Trooper │ 1st Lieutenant 1", {
-    color = Color(153, 0, 0),
-    model = {"models/starwars/grady/legends_arcs/legends_arc_lieutenant.mdl", "models/starwars/grady/legends_arcs/legends_arc_sergeant.mdl", "models/starwars/grady/legends_arcs/legends_arc_trooper.mdl", "models/starwars/grady/legends_arcs/legends_arc_commander.mdl", "models/starwars/grady/legends_arcs/legends_arc_captain.mdl", "models/sky/custom/sky/nexu.mdl", "models/mks/custom/drift/drift.mdl", "models/mks/custom/drift/drift.mdl", "models/mks/custom/muun/muun.mdl", "models/sky/custom/meister/meister.mdl", "models/mks/custom/tracer/tracer.mdl", "models/defcon/stan/arcevo/rancor/evorancor.mdl", "models/starwars/grady/legends_arcs/legends_arc_rino.mdl", "models/starwars/grady/legends_arcs/legends_arc_grady.mdl"},
-    description = [[]],
-    weapons = {"rw_sw_westarm5", "weapon_bactainjector", "alydus_fusioncutter", "weapon_armorkit", "stunstick", "rw_sw_wristflame", "rw_sw_dual_dc17s", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "rw_sw_nade_impact", "jet_mk5", "shadow", "seal6-c4", "tfa_defi_swrp", "weapon_cuff_elastic", "rw_sw_dc15s"},
-    command = "give_job_arc_1stlt1",
-    max = 0,
-    salary = 100,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    category = "Alpha Advanced Recon Commando",
-    canDemote = false,
-    PlayerSpawn = function(ply)
-        ply:SetHealth(300)
-        ply:SetMaxHealth(300)
-        ply:SetArmor(300)
-        ply:SetMaxArmor(300)
-    end,
-})
-
-TEAM_ARC_LT2 = DarkRP.createJob("ARC Trooper │ Lieutenant 2", {
-    color = Color(153, 0, 0),
-    model = {"models/starwars/grady/legends_arcs/legends_arc_lieutenant.mdl", "models/starwars/grady/legends_arcs/legends_arc_sergeant.mdl", "models/starwars/grady/legends_arcs/legends_arc_trooper.mdl", "models/starwars/grady/legends_arcs/legends_arc_commander.mdl", "models/starwars/grady/legends_arcs/legends_arc_captain.mdl", "models/sky/custom/sky/nexu.mdl", "models/mks/custom/drift/drift.mdl", "models/mks/custom/drift/drift.mdl", "models/mks/custom/muun/muun.mdl", "models/sky/custom/meister/meister.mdl", "models/mks/custom/tracer/tracer.mdl", "models/defcon/stan/arcevo/rancor/evorancor.mdl", "models/starwars/grady/legends_arcs/legends_arc_rino.mdl", "models/starwars/grady/legends_arcs/legends_arc_grady.mdl"},
-    description = [[]],
-    weapons = {"rw_sw_westarm5", "weapon_bactainjector", "alydus_fusioncutter", "weapon_armorkit", "stunstick", "rw_sw_wristflame", "rw_sw_dual_dc17s", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "rw_sw_nade_impact", "jet_mk5", "shadow", "seal6-c4", "tfa_defi_swrp", "weapon_cuff_elastic", "rw_sw_dc15s"},
-    command = "give_job_arc_1stlt2",
-    max = 0,
-    salary = 100,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    category = "Alpha Advanced Recon Commando",
-    canDemote = false,
-    PlayerSpawn = function(ply)
-        ply:SetHealth(300)
-        ply:SetMaxHealth(300)
-        ply:SetArmor(300)
-        ply:SetMaxArmor(300)
-    end,
-})
-
-TEAM_ARC_LT1 = DarkRP.createJob("ARC Trooper │ Lieutenant 1", {
-    color = Color(153, 0, 0),
-    model = {"models/starwars/grady/legends_arcs/legends_arc_lieutenant.mdl", "models/starwars/grady/legends_arcs/legends_arc_sergeant.mdl", "models/starwars/grady/legends_arcs/legends_arc_trooper.mdl", "models/starwars/grady/legends_arcs/legends_arc_commander.mdl", "models/starwars/grady/legends_arcs/legends_arc_captain.mdl", "models/sky/custom/sky/nexu.mdl", "models/mks/custom/drift/drift.mdl", "models/mks/custom/drift/drift.mdl", "models/mks/custom/muun/muun.mdl", "models/sky/custom/meister/meister.mdl", "models/mks/custom/tracer/tracer.mdl", "models/defcon/stan/arcevo/rancor/evorancor.mdl", "models/starwars/grady/legends_arcs/legends_arc_rino.mdl", "models/starwars/grady/legends_arcs/legends_arc_grady.mdl"},
-    description = [[]],
-    weapons = {"rw_sw_westarm5", "weapon_bactainjector", "alydus_fusioncutter", "weapon_armorkit", "stunstick", "rw_sw_wristflame", "rw_sw_dual_dc17s", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "rw_sw_nade_impact", "jet_mk5", "shadow", "seal6-c4", "tfa_defi_swrp", "weapon_cuff_elastic", "rw_sw_dc15s"},
-    command = "give_job_arc_lt1",
-    max = 0,
-    salary = 100,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    category = "Alpha Advanced Recon Commando",
-    canDemote = false,
-    PlayerSpawn = function(ply)
-        ply:SetHealth(300)
-        ply:SetMaxHealth(300)
-        ply:SetArmor(300)
-        ply:SetMaxArmor(300)
-    end,
-})
-
-TEAM_ARC_WOLF = DarkRP.createJob("ARC Wolf", {
-    color = Color(0, 120, 255),
-    model = {"models/mailer/tera/tera_okami_pc.mdl"},
-    description = [[]],
-    weapons = {"sk_massif_swep", "climb_swep2"},
-    command = "give_job_arc_wolf",
-    max = 0,
-    salary = 100,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    category = "Alpha Advanced Recon Commando",
-    canDemote = false,
-    PlayerSpawn = function(ply)
-        ply:SetHealth(500)
-        ply:SetMaxHealth(500)
-        ply:SetArmor(0)
-        ply:SetMaxArmor(0)
-        ply:SetWalkSpeed(300)
-        ply:SetRunSpeed(800)
-        ply:SetJumpPower(200)
+        ply:SetHealth(200)
+        ply:SetMaxHealth(200)
+        ply:SetArmor(200)
+        ply:SetMaxArmor(200)
     end,
 })
 
@@ -612,7 +525,7 @@ TEAM_ST_HOUND = DarkRP.createJob("Hound", {
 })
 
 TEAM_KC_KEELI = DarkRP.createJob("Keeli", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/keeli.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "mortar_constructor", "mortar_range_finder", "rw_sw_dc15a", "rw_sw_dc15se", "rw_sw_dc15s", "rw_sw_dual_dc17ext", "rw_sw_dc17",},
@@ -1578,7 +1491,7 @@ TEAM_104TH_TEB_1STLT = DarkRP.createJob("104th EP | 1st LT", {
 })
 
 TEAM_KC_PVT = DarkRP.createJob("Keeli Company | PVT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "realistic_hook", "mortar_range_finder", "mortar_constructor",},
@@ -1599,7 +1512,7 @@ TEAM_KC_PVT = DarkRP.createJob("Keeli Company | PVT", {
 })
 
 TEAM_KC_PFC = DarkRP.createJob("Keeli Company | PFC", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "realistic_hook", "mortar_range_finder", "mortar_constructor",},
@@ -1620,7 +1533,7 @@ TEAM_KC_PFC = DarkRP.createJob("Keeli Company | PFC", {
 })
 
 TEAM_KC_SPC = DarkRP.createJob("Keeli Company | SPC", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "realistic_hook", "mortar_range_finder", "mortar_constructor",},
@@ -1641,7 +1554,7 @@ TEAM_KC_SPC = DarkRP.createJob("Keeli Company | SPC", {
 })
 
 TEAM_KC_LCPL = DarkRP.createJob("Keeli Company | LCPL", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "realistic_hook", "mortar_range_finder", "mortar_constructor",},
@@ -1662,7 +1575,7 @@ TEAM_KC_LCPL = DarkRP.createJob("Keeli Company | LCPL", {
 })
 
 TEAM_KC_CPL = DarkRP.createJob("Keeli Company | CPL", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "realistic_hook", "mortar_range_finder", "mortar_constructor",},
@@ -1683,7 +1596,7 @@ TEAM_KC_CPL = DarkRP.createJob("Keeli Company | CPL", {
 })
 
 TEAM_KC_CCPL = DarkRP.createJob("Keeli Company | CCPL", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "realistic_hook", "mortar_range_finder", "mortar_constructor",},
@@ -1704,7 +1617,7 @@ TEAM_KC_CCPL = DarkRP.createJob("Keeli Company | CCPL", {
 })
 
 TEAM_KC_SGT = DarkRP.createJob("Keeli Company | SGT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "realistic_hook", "mortar_range_finder", "mortar_constructor", "rw_sw_dual_dc17",},
@@ -1725,7 +1638,7 @@ TEAM_KC_SGT = DarkRP.createJob("Keeli Company | SGT", {
 })
 
 TEAM_KC_SMJ = DarkRP.createJob("Keeli Company | SMJ", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "realistic_hook", "mortar_range_finder", "mortar_constructor", "rw_sw_dual_dc17",},
@@ -1746,7 +1659,7 @@ TEAM_KC_SMJ = DarkRP.createJob("Keeli Company | SMJ", {
 })
 
 TEAM_KC_LT = DarkRP.createJob("Keeli Company | LT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "realistic_hook", "mortar_range_finder", "mortar_constructor", "rw_sw_dual_dc17ext",},
@@ -1767,7 +1680,7 @@ TEAM_KC_LT = DarkRP.createJob("Keeli Company | LT", {
 })
 
 TEAM_KC_1STLT = DarkRP.createJob("Keeli Company | 1st LT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "realistic_hook", "mortar_range_finder", "mortar_constructor", "rw_sw_dual_dc17ext",},
@@ -1788,7 +1701,7 @@ TEAM_KC_1STLT = DarkRP.createJob("Keeli Company | 1st LT", {
 })
 
 TEAM_KC_HP_PVT = DarkRP.createJob("Heavy Platoon | PVT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_pinglauncher",},
@@ -1809,7 +1722,7 @@ TEAM_KC_HP_PVT = DarkRP.createJob("Heavy Platoon | PVT", {
 })
 
 TEAM_KC_HP_PFC = DarkRP.createJob("Heavy Platoon | PFC", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_pinglauncher",},
@@ -1830,7 +1743,7 @@ TEAM_KC_HP_PFC = DarkRP.createJob("Heavy Platoon | PFC", {
 })
 
 TEAM_KC_HP_SPC = DarkRP.createJob("Heavy Platoon | SPC", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_pinglauncher",},
@@ -1851,7 +1764,7 @@ TEAM_KC_HP_SPC = DarkRP.createJob("Heavy Platoon | SPC", {
 })
 
 TEAM_KC_HP_LCPL = DarkRP.createJob("Heavy Platoon | LCPL", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_pinglauncher",},
@@ -1872,7 +1785,7 @@ TEAM_KC_HP_LCPL = DarkRP.createJob("Heavy Platoon | LCPL", {
 })
 
 TEAM_KC_HP_CPL = DarkRP.createJob("Heavy Platoon | CPL", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_pinglauncher",},
@@ -1893,7 +1806,7 @@ TEAM_KC_HP_CPL = DarkRP.createJob("Heavy Platoon | CPL", {
 })
 
 TEAM_KC_HP_CCPL = DarkRP.createJob("Heavy Platoon | CCPL", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_pinglauncher",},
@@ -1914,7 +1827,7 @@ TEAM_KC_HP_CCPL = DarkRP.createJob("Heavy Platoon | CCPL", {
 })
 
 TEAM_KC_HP_SGT = DarkRP.createJob("Heavy Platoon | SGT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_pinglauncher", "rw_sw_dual_dc17",},
@@ -1935,7 +1848,7 @@ TEAM_KC_HP_SGT = DarkRP.createJob("Heavy Platoon | SGT", {
 })
 
 TEAM_KC_HP_SMJ = DarkRP.createJob("Heavy Platoon | SMJ", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_pinglauncher", "rw_sw_dual_dc17",},
@@ -1956,7 +1869,7 @@ TEAM_KC_HP_SMJ = DarkRP.createJob("Heavy Platoon | SMJ", {
 })
 
 TEAM_KC_HP_LT = DarkRP.createJob("Heavy Platoon | LT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_pinglauncher", "rw_sw_dual_dc17ext",},
@@ -1977,7 +1890,7 @@ TEAM_KC_HP_LT = DarkRP.createJob("Heavy Platoon | LT", {
 })
 
 TEAM_KC_HP_1STLT = DarkRP.createJob("Heavy Platoon | 1st LT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_pinglauncher", "rw_sw_dual_dc17ext",},
@@ -1998,7 +1911,7 @@ TEAM_KC_HP_1STLT = DarkRP.createJob("Heavy Platoon | 1st LT", {
 })
 
 TEAM_KC_MP_PVT = DarkRP.createJob("Medical Platoon | PVT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "tfa_defi_swrp", "rw_sw_nade_bacta", "weapon_bactanade", "weapon_bactainjector", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext"},
@@ -2019,7 +1932,7 @@ TEAM_KC_MP_PVT = DarkRP.createJob("Medical Platoon | PVT", {
 })
 
 TEAM_KC_MP_PFC = DarkRP.createJob("Medical Platoon | PFC", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "tfa_defi_swrp", "rw_sw_nade_bacta", "weapon_bactanade", "weapon_bactainjector", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
@@ -2040,7 +1953,7 @@ TEAM_KC_MP_PFC = DarkRP.createJob("Medical Platoon | PFC", {
 })
 
 TEAM_KC_MP_SPC = DarkRP.createJob("Medical Platoon | SPC", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "tfa_defi_swrp", "rw_sw_nade_bacta", "weapon_bactanade", "weapon_bactainjector", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
@@ -2061,7 +1974,7 @@ TEAM_KC_MP_SPC = DarkRP.createJob("Medical Platoon | SPC", {
 })
 
 TEAM_KC_MP_LCPL = DarkRP.createJob("Medical Platoon | LCPL", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "tfa_defi_swrp", "rw_sw_nade_bacta", "weapon_bactanade", "weapon_bactainjector", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
@@ -2082,7 +1995,7 @@ TEAM_KC_MP_LCPL = DarkRP.createJob("Medical Platoon | LCPL", {
 })
 
 TEAM_KC_MP_CPL = DarkRP.createJob("Medical Platoon | CPL", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "tfa_defi_swrp", "rw_sw_nade_bacta", "weapon_bactanade", "weapon_bactainjector", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
@@ -2103,7 +2016,7 @@ TEAM_KC_MP_CPL = DarkRP.createJob("Medical Platoon | CPL", {
 })
 
 TEAM_KC_MP_CCPL = DarkRP.createJob("Medical Platoon | cCPL", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "tfa_defi_swrp", "rw_sw_nade_bacta", "weapon_bactanade", "weapon_bactainjector", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
@@ -2124,7 +2037,7 @@ TEAM_KC_MP_CCPL = DarkRP.createJob("Medical Platoon | cCPL", {
 })
 
 TEAM_KC_MP_SGT = DarkRP.createJob("Medical Platoon | SGT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "tfa_defi_swrp", "rw_sw_nade_bacta", "weapon_bactanade", "weapon_bactainjector", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17",},
@@ -2145,7 +2058,7 @@ TEAM_KC_MP_SGT = DarkRP.createJob("Medical Platoon | SGT", {
 })
 
 TEAM_KC_MP_SMJ = DarkRP.createJob("Medical Platoon | SMJ", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "tfa_defi_swrp", "rw_sw_nade_bacta", "weapon_bactanade", "weapon_bactainjector", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17",},
@@ -2166,7 +2079,7 @@ TEAM_KC_MP_SMJ = DarkRP.createJob("Medical Platoon | SMJ", {
 })
 
 TEAM_KC_MP_LT = DarkRP.createJob("Medical Platoon | LT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "tfa_defi_swrp", "rw_sw_nade_bacta", "weapon_bactanade", "weapon_bactainjector", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
@@ -2187,7 +2100,7 @@ TEAM_KC_MP_LT = DarkRP.createJob("Medical Platoon | LT", {
 })
 
 TEAM_KC_MP_1STLT = DarkRP.createJob("Medical Platoon | 1st LT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "tfa_defi_swrp", "rw_sw_nade_bacta", "weapon_bactanade", "weapon_bactainjector", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
@@ -2208,7 +2121,7 @@ TEAM_KC_MP_1STLT = DarkRP.createJob("Medical Platoon | 1st LT", {
 })
 
 TEAM_KC_ARF_PVT = DarkRP.createJob("ARF | PVT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "realistic_hook", "rw_sw_dc15x", "rw_sw_dc15s", "rw_sw_dc17",},
@@ -2229,7 +2142,7 @@ TEAM_KC_ARF_PVT = DarkRP.createJob("ARF | PVT", {
 })
 
 TEAM_KC_ARF_PFC = DarkRP.createJob("ARF | PFC", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "realistic_hook", "rw_sw_dc15x", "rw_sw_dc15s", "rw_sw_dc17",},
@@ -2250,7 +2163,7 @@ TEAM_KC_ARF_PFC = DarkRP.createJob("ARF | PFC", {
 })
 
 TEAM_KC_ARF_SPC = DarkRP.createJob("ARF | SPC", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "realistic_hook", "rw_sw_dc15x", "rw_sw_dc15s", "rw_sw_dc17",},
@@ -2271,7 +2184,7 @@ TEAM_KC_ARF_SPC = DarkRP.createJob("ARF | SPC", {
 })
 
 TEAM_KC_ARF_LCPL = DarkRP.createJob("ARF | LCPL", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "realistic_hook", "rw_sw_dc15x", "rw_sw_dc15s", "rw_sw_dc17",},
@@ -2292,7 +2205,7 @@ TEAM_KC_ARF_LCPL = DarkRP.createJob("ARF | LCPL", {
 })
 
 TEAM_KC_ARF_CPL = DarkRP.createJob("ARF | CPL", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "realistic_hook", "rw_sw_dc15x", "rw_sw_dc15s", "rw_sw_dc17",},
@@ -2313,7 +2226,7 @@ TEAM_KC_ARF_CPL = DarkRP.createJob("ARF | CPL", {
 })
 
 TEAM_KC_ARF_CCPL = DarkRP.createJob("ARF | CCPL", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "realistic_hook", "rw_sw_dc15x", "rw_sw_dc15s", "rw_sw_dc17",},
@@ -2334,7 +2247,7 @@ TEAM_KC_ARF_CCPL = DarkRP.createJob("ARF | CCPL", {
 })
 
 TEAM_KC_ARF_SGT = DarkRP.createJob("ARF | SGT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "realistic_hook", "rw_sw_dc15x", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17",},
@@ -2355,7 +2268,7 @@ TEAM_KC_ARF_SGT = DarkRP.createJob("ARF | SGT", {
 })
 
 TEAM_KC_ARF_SMJ = DarkRP.createJob("ARF | SMJ", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "realistic_hook", "rw_sw_dc15x", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17",},
@@ -2376,7 +2289,7 @@ TEAM_KC_ARF_SMJ = DarkRP.createJob("ARF | SMJ", {
 })
 
 TEAM_KC_ARF_LT = DarkRP.createJob("ARF | LT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "realistic_hook", "rw_sw_dc15x", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17",},
@@ -2397,7 +2310,7 @@ TEAM_KC_ARF_LT = DarkRP.createJob("ARF | LT", {
 })
 
 TEAM_KC_ARF_1STLT = DarkRP.createJob("ARF | 1st LT", {
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "realistic_hook", "rw_sw_dc15x", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17",},
@@ -3224,7 +3137,6 @@ TEAM_104TH_Nade = DarkRP.createJob("104th | SGT Nade", {
 --[[---------------------------------------------------------------------------
 ARC Chars
 ---------------------------------------------------------------------------]]
-
 TEAM_ARC_Cade = DarkRP.createJob("SGT Cade", {
     color = Color(140, 140, 140),
     model = {"models/aotr/sparrow/rancor/arc/generalcards.mdl", "models/loudmantis/arc/cards.mdl", "models/defcon/stan/arcevo/cards/evocards.mdl"},
