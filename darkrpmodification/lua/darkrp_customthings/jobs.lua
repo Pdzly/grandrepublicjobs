@@ -295,7 +295,7 @@ TEAM_EVENT = DarkRP.createJob("Event Char", {
 
 TEAM_ARC_AUSBILDER = DarkRP.createJob("ARC Ausbilder", {
     color = Color(153, 0, 0),
-    model = {"models/aotr/sparrow/rancor/arc/bf2default.mdl", "models/aotr/sparrow/rancor/arc/bf2cobalthero.mdl", "models/aotr/sparrow/rancor/arc/bf2lambentseeker.mdl", "models/aotr/sparrow/rancor/arc/bf2umbaraoperative.mdl", "models/starwars/grady/arc/aoc/arc_trooper_88.mdl", "models/starwars/grady/arc/aoc/501st_arc_medic.mdl", "models/starwars/grady/arc/aoc/arc_trooper_grady.mdl", "models/starwars/grady/arc/aoc/501st_arc_heavy.mdl", " models/defcon/loudmantis/evo/rsb/trooper.mdl", "models/starwars/grady/arc/aoc/501st_arc_jaig.mdl", "models/starwars/grady/arc/aoc/avp_arc_pilot.mdl"},
+    model = {"models/aotr/sparrow/rancor/arc/bf2default.mdl", "models/aotr/sparrow/rancor/arc/bf2cobalthero.mdl", "models/aotr/sparrow/rancor/arc/bf2lambentseeker.mdl", "models/aotr/sparrow/rancor/arc/bf2umbaraoperative.mdl", "models/starwars/grady/arc/aoc/arc_trooper_88.mdl", "models/starwars/grady/arc/aoc/501st_arc_medic.mdl", "models/starwars/grady/arc/aoc/arc_trooper_grady.mdl", "models/starwars/grady/arc/aoc/501st_arc_heavy.mdl", " models/defcon/loudmantis/evo/rsb/trooper.mdl", "models/starwars/grady/arc/aoc/501st_arc_jaig.mdl", "models/starwars/grady/arc/aoc/avp_arc_pilot.mdl", "models/starwars/grady/legends_arcs/arc_trooper_luks.mdl"},
     description = [[ARC Ausbilder]],
     weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic", "rw_sw_dc15s", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "rw_sw_dc15le", "rw_sw_dc15a", "sw_datapad"},
     command = "give_job_arc_ausbilder",
