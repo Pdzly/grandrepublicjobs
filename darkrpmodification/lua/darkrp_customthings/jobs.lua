@@ -3200,12 +3200,12 @@ TEAM_CT_Unit = DarkRP.createJob("CT Unit", {
 })
 TEAM_Jedi_Orden = DarkRP.createJob("Jedi Orden", {
     color = Color(255,255,255),
-    model = {"models/aussiwozzi/phase1clones/trooper.mdl","models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"},
+    model = {"models/seven/jedi_robe_human.mdl","models/synergy/cblake/luminara_pm.mdl","models/hosti/swcw/pm_sw_ahsoka_v2.mdl","models/kaiido/mace_windu.mdl","models/tfa/comm/gg/pm_sw_yoda.mdl","models/epangelmatikes/templeguard/temple_guard_opt.mdl"},
     description = [[]],
     weapons = {"weapon_forceheal","weapon_lightsaber","sw_datapad"},
     command = "give_job_jedi_orden",
     max = 0,
-    salary = 0,
+    salary = 1000,
     admin = 0,
     vote = false,
     hasLicense = false,
