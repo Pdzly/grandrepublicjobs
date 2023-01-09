@@ -3178,7 +3178,46 @@ TEAM_ARC_Exekuter = DarkRP.createJob("ARC Exekuter", {
         ply:SetMaxArmor(260)
     end,
 })
-
+TEAM_CT_Unit = DarkRP.createJob("CT Unit", {
+    color = Color(255,255,255),
+    model = {"models/aussiwozzi/phase1clones/trooper.mdl","models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"},
+    description = [[]],
+    weapons = {"at_sw_dc15a_base1","at_sw_dc15s_base1","rw_sw_dc17","rw_sw_nade_thermal","sw_datapad"},
+    command = "give_job_ct_unit",
+    max = 0,
+    salary = 0,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Glaenzer",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(200)
+        ply:SetMaxHealth(200)
+        ply:SetArmor(200)
+        ply:SetMaxArmor(200)
+    end,
+})
+TEAM_Jedi_Orden = DarkRP.createJob("Jedi Orden", {
+    color = Color(255,255,255),
+    model = {"models/aussiwozzi/phase1clones/trooper.mdl","models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"},
+    description = [[]],
+    weapons = {"weapon_forceheal","weapon_lightsaber","sw_datapad"},
+    command = "give_job_jedi_orden",
+    max = 0,
+    salary = 0,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Jedi",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(400)
+        ply:SetMaxHealth(400)
+        ply:SetArmor(400)
+        ply:SetMaxArmor(400)
+    end,
+})
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
 ---------------------------------------------------------------------------]]
