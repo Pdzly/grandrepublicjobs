@@ -266,4 +266,13 @@ DarkRP.createCategory{
         return true
     end,
 }
-
+DarkRP.createCategory{
+	name = "SEB",
+	 categorises = "jobs",
+    startExpanded = true,
+    color = Color(255,255,255),
+    sortOrder = 22,
+    canSee = function(ply)
+        return true
+    end,
+}

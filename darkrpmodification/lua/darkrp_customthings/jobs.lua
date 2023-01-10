@@ -3218,6 +3218,28 @@ TEAM_Jedi_Orden = DarkRP.createJob("Jedi Orden", {
         ply:SetMaxArmor(400)
     end,
 })
+
+TEAM_SEB = DarkRP.createJob("Sondereinsatzbrigade", {
+    color = Color(153, 0, 0),
+    model = {"models/starwars/grady/legends_arcs/arc_trooper_luks.mdl","models/aussiwozzi/phase1clones/lieutenant_arc.mdl","models/aussiwozzi/phase1clones/sergeant_arc.mdl","models/aussiwozzi/phase1clones/Captain_arc.mdl","models/fisher/mando/skirata/skirata.mdl","models/fisher/mando/vau/vau.mdl"},
+    description = [[Sondereinsatzbrigade]],
+    weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "at_sw_dc15a_recon3", "sw_datapad","rw_sw_z6","rw_sw_dc15x"},
+    command = "give_job_seb",
+    max = 0,
+    salary = 0,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "SEB",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(200)
+        ply:SetMaxHealth(200)
+        ply:SetArmor(200)
+        ply:SetMaxArmor(200)
+    end,
+})
+
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
 ---------------------------------------------------------------------------]]
