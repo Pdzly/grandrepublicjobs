@@ -297,10 +297,10 @@ TEAM_ARC_AUSBILDER = DarkRP.createJob("ARC Ausbilder", {
     color = Color(153, 0, 0),
     model = {"models/aotr/sparrow/rancor/arc/bf2default.mdl", "models/aotr/sparrow/rancor/arc/bf2cobalthero.mdl", "models/aotr/sparrow/rancor/arc/bf2lambentseeker.mdl", "models/aotr/sparrow/rancor/arc/bf2umbaraoperative.mdl", "models/starwars/grady/arc/aoc/arc_trooper_88.mdl", "models/starwars/grady/arc/aoc/501st_arc_medic.mdl", "models/starwars/grady/arc/aoc/arc_trooper_grady.mdl", "models/starwars/grady/arc/aoc/501st_arc_heavy.mdl", " models/defcon/loudmantis/evo/rsb/trooper.mdl", "models/starwars/grady/arc/aoc/501st_arc_jaig.mdl", "models/starwars/grady/arc/aoc/avp_arc_pilot.mdl", "models/starwars/grady/legends_arcs/arc_trooper_luks.mdl","models/aussiwozzi/phase1clones/lieutenant_arc.mdl","models/aussiwozzi/phase1clones/sergeant_arc.mdl","models/aussiwozzi/phase1clones/Captain_arc.mdl","models/aussiwozzi/phase1clones/Commander_arc.mdl"},
     description = [[ARC Ausbilder]],
-    weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic", "rw_sw_dc15s", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "rw_sw_dc15le", "rw_sw_dc15a", "sw_datapad"},
+    weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "at_sw_dc15a_recon3", "sw_datapad"},
     command = "give_job_arc_ausbilder",
     max = 0,
-    salary = 100,
+    salary = 0,
     admin = 0,
     vote = false,
     hasLicense = false,
@@ -3179,7 +3179,7 @@ TEAM_ARC_Exekuter = DarkRP.createJob("ARC Exekuter", {
     end,
 })
 TEAM_CT_Unit = DarkRP.createJob("CT Unit", {
-    color = Color(255,255,255),
+    color = Color(150,150,150),
     model = {"models/aussiwozzi/phase1clones/trooper.mdl","models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"},
     description = [[]],
     weapons = {"at_sw_dc15a_base1","at_sw_dc15s_base1","rw_sw_dc17","rw_sw_nade_thermal","sw_datapad"},
@@ -3199,7 +3199,7 @@ TEAM_CT_Unit = DarkRP.createJob("CT Unit", {
     end,
 })
 TEAM_Jedi_Orden = DarkRP.createJob("Jedi Orden", {
-    color = Color(255,255,255),
+    color = Color(150,150,150),
     model = {"models/seven/jedi_robe_human.mdl","models/synergy/cblake/luminara_pm.mdl","models/hosti/swcw/pm_sw_ahsoka_v2.mdl","models/kaiido/mace_windu.mdl","models/tfa/comm/gg/pm_sw_yoda.mdl","models/epangelmatikes/templeguard/temple_guard_opt.mdl","models/tfa/comm/gg/pm_sw_barriss.mdl","models/kaiido/gnl/jedi_general_male_01.mdl","models/player/plokoon/plokoon.mdl","models/tfa/comm/gg/pm_sw_shaakti.mdl","models/cyanblue/sw/anakin/anakin.mdl"},
     description = [[]],
     weapons = {"weapon_forceheal","weapon_lightsaber","sw_datapad"},
