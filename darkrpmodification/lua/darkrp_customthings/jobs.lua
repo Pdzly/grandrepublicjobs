@@ -3239,7 +3239,26 @@ TEAM_SEB = DarkRP.createJob("Sondereinsatzbrigade", {
         ply:SetMaxArmor(200)
     end,
 })
-
+TEAM_501 = DarkRP.createJob("501st Attack Batallion", {
+    color = Color(0,0,150),
+    model = {"models/aussiwozzi/phase1clones/lieutenant.mdl","models/hazel/arc_models/2_501st/501st_arc.mdl","models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"},
+    description = [[]],
+    weapons = {"at_sw_dc15a_base1","at_sw_dc15s_base1","rw_sw_dc17","rw_sw_nade_thermal","sw_datapad"},
+    command = "give_job_501",
+    max = 0,
+    salary = 1000,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "501st",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(400)
+        ply:SetMaxHealth(400)
+        ply:SetArmor(400)
+        ply:SetMaxArmor(400)
+    end,
+})
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
 ---------------------------------------------------------------------------]]
