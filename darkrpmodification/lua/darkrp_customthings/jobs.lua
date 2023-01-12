@@ -1711,7 +1711,7 @@ TEAM_KC_HP_PVT = DarkRP.createJob("Heavy Platoon | PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company │ Heavy Platoon",
+    category = "501st",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1732,7 +1732,7 @@ TEAM_KC_HP_PFC = DarkRP.createJob("Heavy Platoon | PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company │ Heavy Platoon",
+    category = "501st",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1753,7 +1753,7 @@ TEAM_KC_HP_SPC = DarkRP.createJob("Heavy Platoon | SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company │ Heavy Platoon",
+    category = "501st",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1774,7 +1774,7 @@ TEAM_KC_HP_LCPL = DarkRP.createJob("Heavy Platoon | LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company │ Heavy Platoon",
+    category = "501st",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1795,7 +1795,7 @@ TEAM_KC_HP_CPL = DarkRP.createJob("Heavy Platoon | CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company │ Heavy Platoon",
+    category = "501st",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1816,7 +1816,7 @@ TEAM_KC_HP_CCPL = DarkRP.createJob("Heavy Platoon | CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company │ Heavy Platoon",
+    category = "501st",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1837,7 +1837,7 @@ TEAM_KC_HP_SGT = DarkRP.createJob("Heavy Platoon | SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company │ Heavy Platoon",
+    category = "501st",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1858,7 +1858,7 @@ TEAM_KC_HP_SMJ = DarkRP.createJob("Heavy Platoon | SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company │ Heavy Platoon",
+    category = "501st",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1879,7 +1879,7 @@ TEAM_KC_HP_LT = DarkRP.createJob("Heavy Platoon | LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company │ Heavy Platoon",
+    category = "501st",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(200)
@@ -1900,7 +1900,7 @@ TEAM_KC_HP_1STLT = DarkRP.createJob("Heavy Platoon | 1st LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company │ Heavy Platoon",
+    category = "501st",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
