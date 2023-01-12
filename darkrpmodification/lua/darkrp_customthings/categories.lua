@@ -37,7 +37,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "104th │ Wolfpack",
+    name = "104th â”‚ Wolfpack",
     categorises = "jobs",
     startExpanded = true,
     color = Color(140, 140, 140),
@@ -48,7 +48,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "104th │ Advanced Vehicle Platoon",
+    name = "104th â”‚ Advanced Vehicle Platoon",
     categorises = "jobs",
     startExpanded = true,
     color = Color(140, 140, 140),
@@ -59,7 +59,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "104th │ Airborne Unit",
+    name = "104th â”‚ Airborne Unit",
     categorises = "jobs",
     startExpanded = true,
     color = Color(140, 140, 140),
@@ -70,7 +70,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "104th │ EP",
+    name = "104th â”‚ EP",
     categorises = "jobs",
     startExpanded = true,
     color = Color(140, 140, 140),
@@ -81,7 +81,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Keeli Company │ Company",
+    name = "Keeli Company â”‚ Company",
     categorises = "jobs",
     startExpanded = true,
     color = Color(61,23,20),
@@ -92,7 +92,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Keeli Company │ Heavy Platoon",
+    name = "Keeli Company â”‚ Heavy Platoon",
     categorises = "jobs",
     startExpanded = true,
     color = Color(61,23,20),
@@ -103,7 +103,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Keeli Company │ Medical Platoon",
+    name = "Keeli Company â”‚ Medical Platoon",
     categorises = "jobs",
     startExpanded = true,
     color = Color(61,23,20),
@@ -114,7 +114,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Keeli Company │ Advanced Reconnaissance Force",
+    name = "Keeli Company â”‚ Advanced Reconnaissance Force",
     categorises = "jobs",
     startExpanded = true,
     color = Color(61,23,20),
@@ -125,7 +125,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "ST │ Company",
+    name = "ST â”‚ Company",
     categorises = "jobs",
     startExpanded = true,
     color = Color(255, 0, 0),
@@ -136,7 +136,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "ST │ Riot Platoon",
+    name = "ST â”‚ Riot Platoon",
     categorises = "jobs",
     startExpanded = true,
     color = Color(255, 0, 0),
@@ -147,7 +147,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "ST │ K9 ARF Platoon",
+    name = "ST â”‚ K9 ARF Platoon",
     categorises = "jobs",
     startExpanded = true,
     color = Color(255, 0, 0),
@@ -158,7 +158,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "RN │ Republic Navy",
+    name = "RN â”‚ Republic Navy",
     categorises = "jobs",
     startExpanded = true,
     color = Color(48, 48, 48),
