@@ -92,7 +92,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Keeli Company │ Heavy Platoon",
+    name = "501st │ Heavy Platoon",
     categorises = "jobs",
     startExpanded = true,
     color = Color(61,23,20),
@@ -103,7 +103,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Keeli Company │ Medical Platoon",
+    name = "RMC",
     categorises = "jobs",
     startExpanded = true,
     color = Color(61,23,20),
