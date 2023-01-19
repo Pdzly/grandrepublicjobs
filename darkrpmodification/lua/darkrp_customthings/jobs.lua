@@ -17,7 +17,7 @@ Add your custom jobs under the following line:
 ---------------------------------------------------------------------------]]
 --[[
     Cadet Job
-    Generated using: DarkRP | Job Generator
+    Generated using: DarkRP │ Job Generator
     https://yourdevtools.com/gmod/darkrp-job
 --]]
 TEAM_ST_ARC = DarkRP.createJob("ARC Trooper", {
@@ -104,7 +104,7 @@ TEAM_CADET = DarkRP.createJob("Cadet", {
     end,
 })
 
-TEAM_ZIVI_BUR = DarkRP.createJob("B�rger", {
+TEAM_ZIVI_BUR = DarkRP.createJob("Bürger", {
     color = Color(240, 240, 240),
     model = {"models/hcn/starwars/bf/abednedo/abednedo.mdl", "models/hcn/starwars/bf/aqualish/aqualish.mdl", "models/hcn/starwars/bf/dressellian/dressellian.mdl", "models/hcn/starwars/bf/duros/duros.mdl", "models/hcn/starwars/bf/human/human_male.mdl", "models/hcn/starwars/bf/ishitib/ishitib.mdl", "models/hcn/starwars/bf/quarren/quarren.mdl", "models/hcn/starwars/bf/rodian/rodian.mdl", "models/hcn/starwars/bf/sullustan/sullustan.mdl", "models/hcn/starwars/bf/weequay/weequay.mdl", "models/hcn/starwars/bf/zabrak/zabrak.mdl"},
     description = [[]],
@@ -188,7 +188,7 @@ TEAM_ZIVI_MIN = DarkRP.createJob("Minenarbeiter", {
     end,
 })
 
-TEAM_ZIVI_KOJG = DarkRP.createJob("Kopfgeldj�ger", {
+TEAM_ZIVI_KOJG = DarkRP.createJob("Kopfgeldjäger", {
     color = Color(240, 240, 240),
     model = {"models/hcn/starwars/bf/abednedo/abednedo_4.mdl", "models/hcn/starwars/bf/aqualish/aqualish_4.mdl", "models/hcn/starwars/bf/dressellian/dressellian_4.mdl", "models/hcn/starwars/bf/duros/duros_4.mdl", "models/hcn/starwars/bf/human/human_male_4.mdl", "models/hcn/starwars/bf/ishitib/ishitib_4.mdl", "models/hcn/starwars/bf/quarren/quarren_4.mdl", "models/hcn/starwars/bf/rodian/rodian_4.mdl", "models/hcn/starwars/bf/sullustan/sullustan_4.mdl", "models/hcn/starwars/bf/weequay/weequay_4.mdl", "models/hcn/starwars/bf/zabrak/zabrak_4.mdl", "models/gonzo/tenarshaddaaarmourpack/armourtechmaster/armourtechmaster.mdl", "models/gonzo/tenarshaddaaarmourpack/armstechmaster/armstechmaster.mdl", "models/gonzo/tenarshaddaaarmourpack/heavycrusaderarmour/heavycrusaderarmour.mdl", "models/gonzo/tenarshaddaaarmourpack/lightcrusaderarmour/lightcrusaderarmour.mdl", "models/gonzo/tenarshaddaaarmourpack/mediumcrusaderarmour/mediumcrusaderarmour.mdl", "models/gonzo/tenarshaddaaarmourpack/scraparmour/scraparmour.mdl"},
     description = [[]],
@@ -325,7 +325,7 @@ TEAM_MASSIFF = DarkRP.createJob("Massiff", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST � K9 ARF Platoon",
+    category = "ST K9 ARF Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(450)
@@ -346,7 +346,7 @@ TEAM_104TH_WOLLFE = DarkRP.createJob("Commander Wollfe", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(200)
@@ -367,7 +367,7 @@ TEAM_104TH_COMET = DarkRP.createJob("Comet", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -388,7 +388,7 @@ TEAM_104TH_BOOST = DarkRP.createJob("Boost", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -409,7 +409,7 @@ TEAM_104TH_SINKER = DarkRP.createJob("Sinker", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -430,7 +430,7 @@ TEAM_104TH_WARTHOG = DarkRP.createJob("Warthog", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Advanced Vehicle Platoon",
+    category = "104th Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -440,7 +440,7 @@ TEAM_104TH_WARTHOG = DarkRP.createJob("Warthog", {
     end,
 })
 
-TEAM_104TH_MJR = DarkRP.createJob("104th � MJR", {
+TEAM_104TH_MJR = DarkRP.createJob("104th MJR", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/coyote_leader.mdl"},
     description = [[]],
@@ -451,7 +451,7 @@ TEAM_104TH_MJR = DarkRP.createJob("104th � MJR", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(200)
@@ -472,7 +472,7 @@ TEAM_ST_FOX = DarkRP.createJob("Fox", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST � Company",
+    category = "ST Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(200)
@@ -493,7 +493,7 @@ TEAM_ST_THIRE = DarkRP.createJob("Thire", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST � Company",
+    category = "ST Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(150)
@@ -514,7 +514,7 @@ TEAM_ST_HOUND = DarkRP.createJob("Hound", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST � K9 ARF Platoon",
+    category = "ST K9 ARF Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -535,7 +535,7 @@ TEAM_KC_KEELI = DarkRP.createJob("Keeli", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Company",
+    category = "Keeli Company Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(150)
@@ -545,7 +545,7 @@ TEAM_KC_KEELI = DarkRP.createJob("Keeli", {
     end,
 })
 
-TEAM_RC_LEAD = DarkRP.createJob("RC � Boss", {
+TEAM_RC_LEAD = DarkRP.createJob("RC Boss", {
     color = Color(140, 140, 140),
     model = {"models/sparrow/republic/clone/commando/delta/boss.mdl"},
     description = [[]],
@@ -566,7 +566,7 @@ TEAM_RC_LEAD = DarkRP.createJob("RC � Boss", {
     end,
 })
 
-TEAM_RC_ENGINEER = DarkRP.createJob("RC � Fixer", {
+TEAM_RC_ENGINEER = DarkRP.createJob("RC Fixer", {
     color = Color(140, 140, 140),
     model = {"models/sparrow/republic/clone/commando/delta/fixer.mdl"},
     description = [[]],
@@ -587,7 +587,7 @@ TEAM_RC_ENGINEER = DarkRP.createJob("RC � Fixer", {
     end,
 })
 
-TEAM_RC_BREACHER = DarkRP.createJob("RC � Scorch", {
+TEAM_RC_BREACHER = DarkRP.createJob("RC Scorch", {
     color = Color(140, 140, 140),
     model = {"models/sparrow/republic/clone/commando/delta/scorch.mdl"},
     description = [[]],
@@ -608,7 +608,7 @@ TEAM_RC_BREACHER = DarkRP.createJob("RC � Scorch", {
     end,
 })
 
-TEAM_RC_MEDIC_SNIPER = DarkRP.createJob("RC � Sev", {
+TEAM_RC_MEDIC_SNIPER = DarkRP.createJob("RC Sev", {
     color = Color(140, 140, 140),
     model = {"models/sparrow/republic/clone/commando/delta/sev.mdl"},
     description = [[]],
@@ -629,7 +629,7 @@ TEAM_RC_MEDIC_SNIPER = DarkRP.createJob("RC � Sev", {
     end,
 })
 
-TEAM_104TH_PVT = DarkRP.createJob("104th | PVT", {
+TEAM_104TH_PVT = DarkRP.createJob("104th │ PVT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
@@ -640,7 +640,7 @@ TEAM_104TH_PVT = DarkRP.createJob("104th | PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -650,7 +650,7 @@ TEAM_104TH_PVT = DarkRP.createJob("104th | PVT", {
     end,
 })
 
-TEAM_104TH_PFC_CCPL = DarkRP.createJob("104th | PFC", {
+TEAM_104TH_PFC_CCPL = DarkRP.createJob("104th │ PFC", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
@@ -661,7 +661,7 @@ TEAM_104TH_PFC_CCPL = DarkRP.createJob("104th | PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -671,7 +671,7 @@ TEAM_104TH_PFC_CCPL = DarkRP.createJob("104th | PFC", {
     end,
 })
 
-TEAM_104TH_SPC = DarkRP.createJob("104th | SPC", {
+TEAM_104TH_SPC = DarkRP.createJob("104th │ SPC", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
@@ -682,7 +682,7 @@ TEAM_104TH_SPC = DarkRP.createJob("104th | SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -692,7 +692,7 @@ TEAM_104TH_SPC = DarkRP.createJob("104th | SPC", {
     end,
 })
 
-TEAM_104TH_LCPL = DarkRP.createJob("104th | LCPL", {
+TEAM_104TH_LCPL = DarkRP.createJob("104th │ LCPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
@@ -703,7 +703,7 @@ TEAM_104TH_LCPL = DarkRP.createJob("104th | LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -713,7 +713,7 @@ TEAM_104TH_LCPL = DarkRP.createJob("104th | LCPL", {
     end,
 })
 
-TEAM_104TH_CPL = DarkRP.createJob("104th | CPL", {
+TEAM_104TH_CPL = DarkRP.createJob("104th │ CPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
@@ -724,7 +724,7 @@ TEAM_104TH_CPL = DarkRP.createJob("104th | CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -734,7 +734,7 @@ TEAM_104TH_CPL = DarkRP.createJob("104th | CPL", {
     end,
 })
 
-TEAM_104TH_CCPL = DarkRP.createJob("104th | CCPL", {
+TEAM_104TH_CCPL = DarkRP.createJob("104th │ CCPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
@@ -745,7 +745,7 @@ TEAM_104TH_CCPL = DarkRP.createJob("104th | CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -755,7 +755,7 @@ TEAM_104TH_CCPL = DarkRP.createJob("104th | CCPL", {
     end,
 })
 
-TEAM_104TH_SGT = DarkRP.createJob("104th | SGT", {
+TEAM_104TH_SGT = DarkRP.createJob("104th │ SGT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
@@ -766,7 +766,7 @@ TEAM_104TH_SGT = DarkRP.createJob("104th | SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -776,7 +776,7 @@ TEAM_104TH_SGT = DarkRP.createJob("104th | SGT", {
     end,
 })
 
-TEAM_104TH_SMJ = DarkRP.createJob("104th | SMJ", {
+TEAM_104TH_SMJ = DarkRP.createJob("104th │ SMJ", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
@@ -787,7 +787,7 @@ TEAM_104TH_SMJ = DarkRP.createJob("104th | SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -797,7 +797,7 @@ TEAM_104TH_SMJ = DarkRP.createJob("104th | SMJ", {
     end,
 })
 
-TEAM_104TH_LT = DarkRP.createJob("104th | LT", {
+TEAM_104TH_LT = DarkRP.createJob("104th │ LT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
@@ -808,7 +808,7 @@ TEAM_104TH_LT = DarkRP.createJob("104th | LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -818,7 +818,7 @@ TEAM_104TH_LT = DarkRP.createJob("104th | LT", {
     end,
 })
 
-TEAM_104TH_1STLT = DarkRP.createJob("104th | 1stLT", {
+TEAM_104TH_1STLT = DarkRP.createJob("104th │ 1stLT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
@@ -829,7 +829,7 @@ TEAM_104TH_1STLT = DarkRP.createJob("104th | 1stLT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -839,7 +839,7 @@ TEAM_104TH_1STLT = DarkRP.createJob("104th | 1stLT", {
     end,
 })
 
-TEAM_104TH_CPT = DarkRP.createJob("104th | CPT", {
+TEAM_104TH_CPT = DarkRP.createJob("104th │ CPT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
@@ -850,7 +850,7 @@ TEAM_104TH_CPT = DarkRP.createJob("104th | CPT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -860,7 +860,7 @@ TEAM_104TH_CPT = DarkRP.createJob("104th | CPT", {
     end,
 })
 
-TEAM_104TH_AVP_PVT_CCPL = DarkRP.createJob("104th AVP | PVT", {
+TEAM_104TH_AVP_PVT_CCPL = DarkRP.createJob("104th AVP │ PVT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl"},
     description = [[]],
@@ -871,7 +871,7 @@ TEAM_104TH_AVP_PVT_CCPL = DarkRP.createJob("104th AVP | PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Advanced Vehicle Platoon",
+    category = "104th Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -881,7 +881,7 @@ TEAM_104TH_AVP_PVT_CCPL = DarkRP.createJob("104th AVP | PVT", {
     end,
 })
 
-TEAM_104TH_AVP_PFC = DarkRP.createJob("104th AVP | PFC", {
+TEAM_104TH_AVP_PFC = DarkRP.createJob("104th AVP │ PFC", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl"},
     description = [[]],
@@ -892,7 +892,7 @@ TEAM_104TH_AVP_PFC = DarkRP.createJob("104th AVP | PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Advanced Vehicle Platoon",
+    category = "104th Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -902,7 +902,7 @@ TEAM_104TH_AVP_PFC = DarkRP.createJob("104th AVP | PFC", {
     end,
 })
 
-TEAM_104TH_AVP_SPC = DarkRP.createJob("104th AVP | SPC", {
+TEAM_104TH_AVP_SPC = DarkRP.createJob("104th AVP │ SPC", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl"},
     description = [[]],
@@ -913,7 +913,7 @@ TEAM_104TH_AVP_SPC = DarkRP.createJob("104th AVP | SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Advanced Vehicle Platoon",
+    category = "104th Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -923,7 +923,7 @@ TEAM_104TH_AVP_SPC = DarkRP.createJob("104th AVP | SPC", {
     end,
 })
 
-TEAM_104TH_AVP_LCPL = DarkRP.createJob("104th AVP | LCPL", {
+TEAM_104TH_AVP_LCPL = DarkRP.createJob("104th AVP │ LCPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl"},
     description = [[]],
@@ -934,7 +934,7 @@ TEAM_104TH_AVP_LCPL = DarkRP.createJob("104th AVP | LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Advanced Vehicle Platoon",
+    category = "104th Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -944,7 +944,7 @@ TEAM_104TH_AVP_LCPL = DarkRP.createJob("104th AVP | LCPL", {
     end,
 })
 
-TEAM_104TH_AVP_CPL = DarkRP.createJob("104th AVP | CPL", {
+TEAM_104TH_AVP_CPL = DarkRP.createJob("104th AVP │ CPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl"},
     description = [[]],
@@ -955,7 +955,7 @@ TEAM_104TH_AVP_CPL = DarkRP.createJob("104th AVP | CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Advanced Vehicle Platoon",
+    category = "104th Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -965,7 +965,7 @@ TEAM_104TH_AVP_CPL = DarkRP.createJob("104th AVP | CPL", {
     end,
 })
 
-TEAM_104TH_AVP_CCPL = DarkRP.createJob("104th AVP | CCPL", {
+TEAM_104TH_AVP_CCPL = DarkRP.createJob("104th AVP │ CCPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl"},
     description = [[]],
@@ -976,7 +976,7 @@ TEAM_104TH_AVP_CCPL = DarkRP.createJob("104th AVP | CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Advanced Vehicle Platoon",
+    category = "104th Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -986,7 +986,7 @@ TEAM_104TH_AVP_CCPL = DarkRP.createJob("104th AVP | CCPL", {
     end,
 })
 
-TEAM_104TH_AVP_SGT = DarkRP.createJob("104th AVP | SGT", {
+TEAM_104TH_AVP_SGT = DarkRP.createJob("104th AVP │ SGT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/pilots/pilot_shadow_squadron.mdl"},
     description = [[]],
@@ -997,7 +997,7 @@ TEAM_104TH_AVP_SGT = DarkRP.createJob("104th AVP | SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Advanced Vehicle Platoon",
+    category = "104th Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1007,7 +1007,7 @@ TEAM_104TH_AVP_SGT = DarkRP.createJob("104th AVP | SGT", {
     end,
 })
 
-TEAM_104TH_AVP_SMJ = DarkRP.createJob("104th AVP | SMJ", {
+TEAM_104TH_AVP_SMJ = DarkRP.createJob("104th AVP │ SMJ", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/pilots/pilot_shadow_squadron.mdl"},
     description = [[]],
@@ -1018,7 +1018,7 @@ TEAM_104TH_AVP_SMJ = DarkRP.createJob("104th AVP | SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Advanced Vehicle Platoon",
+    category = "104th Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1028,7 +1028,7 @@ TEAM_104TH_AVP_SMJ = DarkRP.createJob("104th AVP | SMJ", {
     end,
 })
 
-TEAM_104TH_AVP_LT = DarkRP.createJob("104th AVP | LT", {
+TEAM_104TH_AVP_LT = DarkRP.createJob("104th AVP │ LT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/pilots/pilot_matchstick.mdl"},
     description = [[]],
@@ -1039,7 +1039,7 @@ TEAM_104TH_AVP_LT = DarkRP.createJob("104th AVP | LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Advanced Vehicle Platoon",
+    category = "104th Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1049,7 +1049,7 @@ TEAM_104TH_AVP_LT = DarkRP.createJob("104th AVP | LT", {
     end,
 })
 
-TEAM_104TH_AVP_1STLT = DarkRP.createJob("104th AVP | 1st LT", {
+TEAM_104TH_AVP_1STLT = DarkRP.createJob("104th AVP │ 1st LT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/pilots/pilot_matchstick.mdl"},
     description = [[]],
@@ -1060,7 +1060,7 @@ TEAM_104TH_AVP_1STLT = DarkRP.createJob("104th AVP | 1st LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Advanced Vehicle Platoon",
+    category = "104th Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1070,7 +1070,7 @@ TEAM_104TH_AVP_1STLT = DarkRP.createJob("104th AVP | 1st LT", {
     end,
 })
 
-TEAM_104TH_AU_PVT = DarkRP.createJob("104th Airborne | PVT", {
+TEAM_104TH_AU_PVT = DarkRP.createJob("104th Airborne │ PVT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
     description = [[]],
@@ -1081,7 +1081,7 @@ TEAM_104TH_AU_PVT = DarkRP.createJob("104th Airborne | PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Airborne Unit",
+    category = "104th Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1091,7 +1091,7 @@ TEAM_104TH_AU_PVT = DarkRP.createJob("104th Airborne | PVT", {
     end,
 })
 
-TEAM_104TH_AU_PFC = DarkRP.createJob("104th Airborne | PFC", {
+TEAM_104TH_AU_PFC = DarkRP.createJob("104th Airborne │ PFC", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
     description = [[]],
@@ -1102,7 +1102,7 @@ TEAM_104TH_AU_PFC = DarkRP.createJob("104th Airborne | PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Airborne Unit",
+    category = "104th Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1112,7 +1112,7 @@ TEAM_104TH_AU_PFC = DarkRP.createJob("104th Airborne | PFC", {
     end,
 })
 
-TEAM_104TH_AU_SPC = DarkRP.createJob("104th Airborne | SPC", {
+TEAM_104TH_AU_SPC = DarkRP.createJob("104th Airborne │ SPC", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
     description = [[]],
@@ -1123,7 +1123,7 @@ TEAM_104TH_AU_SPC = DarkRP.createJob("104th Airborne | SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Airborne Unit",
+    category = "104th Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1133,7 +1133,7 @@ TEAM_104TH_AU_SPC = DarkRP.createJob("104th Airborne | SPC", {
     end,
 })
 
-TEAM_104TH_AU_LCPL = DarkRP.createJob("104th Airborne | LCPL", {
+TEAM_104TH_AU_LCPL = DarkRP.createJob("104th Airborne │ LCPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
     description = [[]],
@@ -1144,7 +1144,7 @@ TEAM_104TH_AU_LCPL = DarkRP.createJob("104th Airborne | LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Airborne Unit",
+    category = "104th Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1154,7 +1154,7 @@ TEAM_104TH_AU_LCPL = DarkRP.createJob("104th Airborne | LCPL", {
     end,
 })
 
-TEAM_104TH_AU_CPL = DarkRP.createJob("104th Airborne | CPL", {
+TEAM_104TH_AU_CPL = DarkRP.createJob("104th Airborne │ CPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
     description = [[]],
@@ -1165,7 +1165,7 @@ TEAM_104TH_AU_CPL = DarkRP.createJob("104th Airborne | CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Airborne Unit",
+    category = "104th Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1175,7 +1175,7 @@ TEAM_104TH_AU_CPL = DarkRP.createJob("104th Airborne | CPL", {
     end,
 })
 
-TEAM_104TH_AU_CCPL = DarkRP.createJob("104th Airborne | CCPL", {
+TEAM_104TH_AU_CCPL = DarkRP.createJob("104th Airborne │ CCPL", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
     description = [[]],
@@ -1186,7 +1186,7 @@ TEAM_104TH_AU_CCPL = DarkRP.createJob("104th Airborne | CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Airborne Unit",
+    category = "104th Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1196,7 +1196,7 @@ TEAM_104TH_AU_CCPL = DarkRP.createJob("104th Airborne | CCPL", {
     end,
 })
 
-TEAM_104TH_AU_SGT = DarkRP.createJob("104th Airborne | SGT", {
+TEAM_104TH_AU_SGT = DarkRP.createJob("104th Airborne │ SGT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
     description = [[]],
@@ -1207,7 +1207,7 @@ TEAM_104TH_AU_SGT = DarkRP.createJob("104th Airborne | SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Airborne Unit",
+    category = "104th Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1217,7 +1217,7 @@ TEAM_104TH_AU_SGT = DarkRP.createJob("104th Airborne | SGT", {
     end,
 })
 
-TEAM_104TH_AU_SMJ = DarkRP.createJob("104th Airborne | SMJ", {
+TEAM_104TH_AU_SMJ = DarkRP.createJob("104th Airborne │ SMJ", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
     description = [[]],
@@ -1228,7 +1228,7 @@ TEAM_104TH_AU_SMJ = DarkRP.createJob("104th Airborne | SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Airborne Unit",
+    category = "104th Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1238,7 +1238,7 @@ TEAM_104TH_AU_SMJ = DarkRP.createJob("104th Airborne | SMJ", {
     end,
 })
 
-TEAM_104TH_AU_LT = DarkRP.createJob("104th Airborne | LT", {
+TEAM_104TH_AU_LT = DarkRP.createJob("104th Airborne │ LT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
     description = [[]],
@@ -1249,7 +1249,7 @@ TEAM_104TH_AU_LT = DarkRP.createJob("104th Airborne | LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Airborne Unit",
+    category = "104th Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1259,7 +1259,7 @@ TEAM_104TH_AU_LT = DarkRP.createJob("104th Airborne | LT", {
     end,
 })
 
-TEAM_104TH_AU_1STLT = DarkRP.createJob("104th Airborne | 1stLT", {
+TEAM_104TH_AU_1STLT = DarkRP.createJob("104th Airborne │ 1stLT", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
     description = [[]],
@@ -1270,7 +1270,7 @@ TEAM_104TH_AU_1STLT = DarkRP.createJob("104th Airborne | 1stLT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Airborne Unit",
+    category = "104th Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1280,7 +1280,7 @@ TEAM_104TH_AU_1STLT = DarkRP.createJob("104th Airborne | 1stLT", {
     end,
 })
 
-TEAM_104TH_TEB_PVT = DarkRP.createJob("104th EP | PVT", {
+TEAM_104TH_TEB_PVT = DarkRP.createJob("104th EP │ PVT", {
     color = Color(140, 140, 140),
     model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
     description = [[]],
@@ -1291,7 +1291,7 @@ TEAM_104TH_TEB_PVT = DarkRP.createJob("104th EP | PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � EP",
+    category = "104th EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1301,7 +1301,7 @@ TEAM_104TH_TEB_PVT = DarkRP.createJob("104th EP | PVT", {
     end,
 })
 
-TEAM_104TH_TEB_PFC = DarkRP.createJob("104th EP | PFC", {
+TEAM_104TH_TEB_PFC = DarkRP.createJob("104th EP │ PFC", {
     color = Color(140, 140, 140),
     model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
     description = [[]],
@@ -1312,7 +1312,7 @@ TEAM_104TH_TEB_PFC = DarkRP.createJob("104th EP | PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � EP",
+    category = "104th EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1322,7 +1322,7 @@ TEAM_104TH_TEB_PFC = DarkRP.createJob("104th EP | PFC", {
     end,
 })
 
-TEAM_104TH_TEB_SPC = DarkRP.createJob("104th EP | SPC", {
+TEAM_104TH_TEB_SPC = DarkRP.createJob("104th EP │ SPC", {
     color = Color(140, 140, 140),
     model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
     description = [[]],
@@ -1333,7 +1333,7 @@ TEAM_104TH_TEB_SPC = DarkRP.createJob("104th EP | SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � EP",
+    category = "104th EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1343,7 +1343,7 @@ TEAM_104TH_TEB_SPC = DarkRP.createJob("104th EP | SPC", {
     end,
 })
 
-TEAM_104TH_TEB_LCPL = DarkRP.createJob("104th EP | LCPL", {
+TEAM_104TH_TEB_LCPL = DarkRP.createJob("104th EP │ LCPL", {
     color = Color(140, 140, 140),
     model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
     description = [[]],
@@ -1354,7 +1354,7 @@ TEAM_104TH_TEB_LCPL = DarkRP.createJob("104th EP | LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � EP",
+    category = "104th EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1364,7 +1364,7 @@ TEAM_104TH_TEB_LCPL = DarkRP.createJob("104th EP | LCPL", {
     end,
 })
 
-TEAM_104TH_TEB_CPL = DarkRP.createJob("104th EP | CPL", {
+TEAM_104TH_TEB_CPL = DarkRP.createJob("104th EP │ CPL", {
     color = Color(140, 140, 140),
     model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
     description = [[]],
@@ -1375,7 +1375,7 @@ TEAM_104TH_TEB_CPL = DarkRP.createJob("104th EP | CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � EP",
+    category = "104th EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1385,7 +1385,7 @@ TEAM_104TH_TEB_CPL = DarkRP.createJob("104th EP | CPL", {
     end,
 })
 
-TEAM_104TH_TEB_CCPL = DarkRP.createJob("104th EP | CCPL", {
+TEAM_104TH_TEB_CCPL = DarkRP.createJob("104th EP │ CCPL", {
     color = Color(140, 140, 140),
     model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
     description = [[]],
@@ -1396,7 +1396,7 @@ TEAM_104TH_TEB_CCPL = DarkRP.createJob("104th EP | CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � EP",
+    category = "104th EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1406,7 +1406,7 @@ TEAM_104TH_TEB_CCPL = DarkRP.createJob("104th EP | CCPL", {
     end,
 })
 
-TEAM_104TH_TEB_SGT = DarkRP.createJob("104th EP | SGT", {
+TEAM_104TH_TEB_SGT = DarkRP.createJob("104th EP │ SGT", {
     color = Color(140, 140, 140),
     model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
     description = [[]],
@@ -1417,7 +1417,7 @@ TEAM_104TH_TEB_SGT = DarkRP.createJob("104th EP | SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � EP",
+    category = "104th EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1427,7 +1427,7 @@ TEAM_104TH_TEB_SGT = DarkRP.createJob("104th EP | SGT", {
     end,
 })
 
-TEAM_104TH_TEB_SMJ = DarkRP.createJob("104th EP | SMJ", {
+TEAM_104TH_TEB_SMJ = DarkRP.createJob("104th EP │ SMJ", {
     color = Color(140, 140, 140),
     model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
     description = [[]],
@@ -1438,7 +1438,7 @@ TEAM_104TH_TEB_SMJ = DarkRP.createJob("104th EP | SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � EP",
+    category = "104th EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1448,7 +1448,7 @@ TEAM_104TH_TEB_SMJ = DarkRP.createJob("104th EP | SMJ", {
     end,
 })
 
-TEAM_104TH_TEB_LT = DarkRP.createJob("104th EP | LT", {
+TEAM_104TH_TEB_LT = DarkRP.createJob("104th EP │ LT", {
     color = Color(140, 140, 140),
     model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
     description = [[]],
@@ -1459,7 +1459,7 @@ TEAM_104TH_TEB_LT = DarkRP.createJob("104th EP | LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � EP",
+    category = "104th EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1469,7 +1469,7 @@ TEAM_104TH_TEB_LT = DarkRP.createJob("104th EP | LT", {
     end,
 })
 
-TEAM_104TH_TEB_1STLT = DarkRP.createJob("104th EP | 1st LT", {
+TEAM_104TH_TEB_1STLT = DarkRP.createJob("104th EP │ 1st LT", {
     color = Color(140, 140, 140),
     model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
     description = [[]],
@@ -1480,7 +1480,7 @@ TEAM_104TH_TEB_1STLT = DarkRP.createJob("104th EP | 1st LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � EP",
+    category = "104th EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1490,7 +1490,7 @@ TEAM_104TH_TEB_1STLT = DarkRP.createJob("104th EP | 1st LT", {
     end,
 })
 
-TEAM_KC_PVT = DarkRP.createJob("Keeli Company | PVT", {
+TEAM_KC_PVT = DarkRP.createJob("Keeli Company │ PVT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
@@ -1501,7 +1501,7 @@ TEAM_KC_PVT = DarkRP.createJob("Keeli Company | PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Company",
+    category = "Keeli Company Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1511,7 +1511,7 @@ TEAM_KC_PVT = DarkRP.createJob("Keeli Company | PVT", {
     end,
 })
 
-TEAM_KC_PFC = DarkRP.createJob("Keeli Company | PFC", {
+TEAM_KC_PFC = DarkRP.createJob("Keeli Company │ PFC", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
@@ -1522,7 +1522,7 @@ TEAM_KC_PFC = DarkRP.createJob("Keeli Company | PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Company",
+    category = "Keeli Company Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1532,7 +1532,7 @@ TEAM_KC_PFC = DarkRP.createJob("Keeli Company | PFC", {
     end,
 })
 
-TEAM_KC_SPC = DarkRP.createJob("Keeli Company | SPC", {
+TEAM_KC_SPC = DarkRP.createJob("Keeli Company │ SPC", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
@@ -1543,7 +1543,7 @@ TEAM_KC_SPC = DarkRP.createJob("Keeli Company | SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Company",
+    category = "Keeli Company Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1553,7 +1553,7 @@ TEAM_KC_SPC = DarkRP.createJob("Keeli Company | SPC", {
     end,
 })
 
-TEAM_KC_LCPL = DarkRP.createJob("Keeli Company | LCPL", {
+TEAM_KC_LCPL = DarkRP.createJob("Keeli Company │ LCPL", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
@@ -1564,7 +1564,7 @@ TEAM_KC_LCPL = DarkRP.createJob("Keeli Company | LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Company",
+    category = "Keeli Company Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1574,7 +1574,7 @@ TEAM_KC_LCPL = DarkRP.createJob("Keeli Company | LCPL", {
     end,
 })
 
-TEAM_KC_CPL = DarkRP.createJob("Keeli Company | CPL", {
+TEAM_KC_CPL = DarkRP.createJob("Keeli Company │ CPL", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
@@ -1585,7 +1585,7 @@ TEAM_KC_CPL = DarkRP.createJob("Keeli Company | CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Company",
+    category = "Keeli Company Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1595,7 +1595,7 @@ TEAM_KC_CPL = DarkRP.createJob("Keeli Company | CPL", {
     end,
 })
 
-TEAM_KC_CCPL = DarkRP.createJob("Keeli Company | CCPL", {
+TEAM_KC_CCPL = DarkRP.createJob("Keeli Company │ CCPL", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
@@ -1606,7 +1606,7 @@ TEAM_KC_CCPL = DarkRP.createJob("Keeli Company | CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Company",
+    category = "Keeli Company Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1616,7 +1616,7 @@ TEAM_KC_CCPL = DarkRP.createJob("Keeli Company | CCPL", {
     end,
 })
 
-TEAM_KC_SGT = DarkRP.createJob("Keeli Company | SGT", {
+TEAM_KC_SGT = DarkRP.createJob("Keeli Company │ SGT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
@@ -1627,7 +1627,7 @@ TEAM_KC_SGT = DarkRP.createJob("Keeli Company | SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Company",
+    category = "Keeli Company Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1637,7 +1637,7 @@ TEAM_KC_SGT = DarkRP.createJob("Keeli Company | SGT", {
     end,
 })
 
-TEAM_KC_SMJ = DarkRP.createJob("Keeli Company | SMJ", {
+TEAM_KC_SMJ = DarkRP.createJob("Keeli Company │ SMJ", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
@@ -1648,7 +1648,7 @@ TEAM_KC_SMJ = DarkRP.createJob("Keeli Company | SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Company",
+    category = "Keeli Company Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1658,7 +1658,7 @@ TEAM_KC_SMJ = DarkRP.createJob("Keeli Company | SMJ", {
     end,
 })
 
-TEAM_KC_LT = DarkRP.createJob("Keeli Company | LT", {
+TEAM_KC_LT = DarkRP.createJob("Keeli Company │ LT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
@@ -1669,7 +1669,7 @@ TEAM_KC_LT = DarkRP.createJob("Keeli Company | LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Company",
+    category = "Keeli Company Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1679,7 +1679,7 @@ TEAM_KC_LT = DarkRP.createJob("Keeli Company | LT", {
     end,
 })
 
-TEAM_KC_1STLT = DarkRP.createJob("Keeli Company | 1st LT", {
+TEAM_KC_1STLT = DarkRP.createJob("Keeli Company │ 1st LT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/trooper.mdl"},
     description = [[]],
@@ -1690,7 +1690,7 @@ TEAM_KC_1STLT = DarkRP.createJob("Keeli Company | 1st LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Company",
+    category = "Keeli Company Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1700,7 +1700,7 @@ TEAM_KC_1STLT = DarkRP.createJob("Keeli Company | 1st LT", {
     end,
 })
 
-TEAM_KC_HP_PVT = DarkRP.createJob("Heavy Platoon | PVT", {
+TEAM_KC_HP_PVT = DarkRP.createJob("Heavy Platoon │ PVT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
     description = [[]],
@@ -1711,7 +1711,7 @@ TEAM_KC_HP_PVT = DarkRP.createJob("Heavy Platoon | PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "501st � Heavy Platoon",
+    category = "501st Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1721,7 +1721,7 @@ TEAM_KC_HP_PVT = DarkRP.createJob("Heavy Platoon | PVT", {
     end,
 })
 
-TEAM_KC_HP_PFC = DarkRP.createJob("Heavy Platoon | PFC", {
+TEAM_KC_HP_PFC = DarkRP.createJob("Heavy Platoon │ PFC", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
     description = [[]],
@@ -1732,7 +1732,7 @@ TEAM_KC_HP_PFC = DarkRP.createJob("Heavy Platoon | PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "501st � Heavy Platoon",
+    category = "501st Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1742,7 +1742,7 @@ TEAM_KC_HP_PFC = DarkRP.createJob("Heavy Platoon | PFC", {
     end,
 })
 
-TEAM_KC_HP_SPC = DarkRP.createJob("Heavy Platoon | SPC", {
+TEAM_KC_HP_SPC = DarkRP.createJob("Heavy Platoon │ SPC", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
     description = [[]],
@@ -1753,7 +1753,7 @@ TEAM_KC_HP_SPC = DarkRP.createJob("Heavy Platoon | SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "501st � Heavy Platoon",
+    category = "501st Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1763,7 +1763,7 @@ TEAM_KC_HP_SPC = DarkRP.createJob("Heavy Platoon | SPC", {
     end,
 })
 
-TEAM_KC_HP_LCPL = DarkRP.createJob("Heavy Platoon | LCPL", {
+TEAM_KC_HP_LCPL = DarkRP.createJob("Heavy Platoon │ LCPL", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
     description = [[]],
@@ -1774,7 +1774,7 @@ TEAM_KC_HP_LCPL = DarkRP.createJob("Heavy Platoon | LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "501st � Heavy Platoon",
+    category = "501st Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1784,7 +1784,7 @@ TEAM_KC_HP_LCPL = DarkRP.createJob("Heavy Platoon | LCPL", {
     end,
 })
 
-TEAM_KC_HP_CPL = DarkRP.createJob("Heavy Platoon | CPL", {
+TEAM_KC_HP_CPL = DarkRP.createJob("Heavy Platoon │ CPL", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
     description = [[]],
@@ -1795,7 +1795,7 @@ TEAM_KC_HP_CPL = DarkRP.createJob("Heavy Platoon | CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "501st � Heavy Platoon",
+    category = "501st Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1805,7 +1805,7 @@ TEAM_KC_HP_CPL = DarkRP.createJob("Heavy Platoon | CPL", {
     end,
 })
 
-TEAM_KC_HP_CCPL = DarkRP.createJob("Heavy Platoon | CCPL", {
+TEAM_KC_HP_CCPL = DarkRP.createJob("Heavy Platoon │ CCPL", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
     description = [[]],
@@ -1816,7 +1816,7 @@ TEAM_KC_HP_CCPL = DarkRP.createJob("Heavy Platoon | CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "501st � Heavy Platoon",
+    category = "501st Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1826,7 +1826,7 @@ TEAM_KC_HP_CCPL = DarkRP.createJob("Heavy Platoon | CCPL", {
     end,
 })
 
-TEAM_KC_HP_SGT = DarkRP.createJob("Heavy Platoon | SGT", {
+TEAM_KC_HP_SGT = DarkRP.createJob("Heavy Platoon │ SGT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
     description = [[]],
@@ -1837,7 +1837,7 @@ TEAM_KC_HP_SGT = DarkRP.createJob("Heavy Platoon | SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "501st � Heavy Platoon",
+    category = "501st Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1847,7 +1847,7 @@ TEAM_KC_HP_SGT = DarkRP.createJob("Heavy Platoon | SGT", {
     end,
 })
 
-TEAM_KC_HP_SMJ = DarkRP.createJob("Heavy Platoon | SMJ", {
+TEAM_KC_HP_SMJ = DarkRP.createJob("Heavy Platoon │ SMJ", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
     description = [[]],
@@ -1858,7 +1858,7 @@ TEAM_KC_HP_SMJ = DarkRP.createJob("Heavy Platoon | SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "501st � Heavy Platoon",
+    category = "501st Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1868,7 +1868,7 @@ TEAM_KC_HP_SMJ = DarkRP.createJob("Heavy Platoon | SMJ", {
     end,
 })
 
-TEAM_KC_HP_LT = DarkRP.createJob("Heavy Platoon | LT", {
+TEAM_KC_HP_LT = DarkRP.createJob("Heavy Platoon │ LT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
     description = [[]],
@@ -1879,7 +1879,7 @@ TEAM_KC_HP_LT = DarkRP.createJob("Heavy Platoon | LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "501st � Heavy Platoon",
+    category = "501st Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(200)
@@ -1889,7 +1889,7 @@ TEAM_KC_HP_LT = DarkRP.createJob("Heavy Platoon | LT", {
     end,
 })
 
-TEAM_KC_HP_1STLT = DarkRP.createJob("Heavy Platoon | 1st LT", {
+TEAM_KC_HP_1STLT = DarkRP.createJob("Heavy Platoon │ 1st LT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
     description = [[]],
@@ -1900,7 +1900,7 @@ TEAM_KC_HP_1STLT = DarkRP.createJob("Heavy Platoon | 1st LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "501st � Heavy Platoon",
+    category = "501st Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1910,7 +1910,7 @@ TEAM_KC_HP_1STLT = DarkRP.createJob("Heavy Platoon | 1st LT", {
     end,
 })
 
-TEAM_KC_MP_PVT = DarkRP.createJob("Medical Platoon | PVT", {
+TEAM_KC_MP_PVT = DarkRP.createJob("Medical Platoon │ PVT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic.mdl"},
     description = [[]],
@@ -1931,7 +1931,7 @@ TEAM_KC_MP_PVT = DarkRP.createJob("Medical Platoon | PVT", {
     end,
 })
 
-TEAM_KC_MP_PFC = DarkRP.createJob("Medical Platoon | PFC", {
+TEAM_KC_MP_PFC = DarkRP.createJob("Medical Platoon │ PFC", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic.mdl"},
     description = [[]],
@@ -1952,7 +1952,7 @@ TEAM_KC_MP_PFC = DarkRP.createJob("Medical Platoon | PFC", {
     end,
 })
 
-TEAM_KC_MP_SPC = DarkRP.createJob("Medical Platoon | SPC", {
+TEAM_KC_MP_SPC = DarkRP.createJob("Medical Platoon │ SPC", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic.mdl"},
     description = [[]],
@@ -1973,7 +1973,7 @@ TEAM_KC_MP_SPC = DarkRP.createJob("Medical Platoon | SPC", {
     end,
 })
 
-TEAM_KC_MP_LCPL = DarkRP.createJob("Medical Platoon | LCPL", {
+TEAM_KC_MP_LCPL = DarkRP.createJob("Medical Platoon │ LCPL", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic.mdl"},
     description = [[]],
@@ -1994,7 +1994,7 @@ TEAM_KC_MP_LCPL = DarkRP.createJob("Medical Platoon | LCPL", {
     end,
 })
 
-TEAM_KC_MP_CPL = DarkRP.createJob("Medical Platoon | CPL", {
+TEAM_KC_MP_CPL = DarkRP.createJob("Medical Platoon │ CPL", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic.mdl"},
     description = [[]],
@@ -2015,7 +2015,7 @@ TEAM_KC_MP_CPL = DarkRP.createJob("Medical Platoon | CPL", {
     end,
 })
 
-TEAM_KC_MP_CCPL = DarkRP.createJob("Medical Platoon | cCPL", {
+TEAM_KC_MP_CCPL = DarkRP.createJob("Medical Platoon │ cCPL", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic.mdl"},
     description = [[]],
@@ -2036,7 +2036,7 @@ TEAM_KC_MP_CCPL = DarkRP.createJob("Medical Platoon | cCPL", {
     end,
 })
 
-TEAM_KC_MP_SGT = DarkRP.createJob("Medical Platoon | SGT", {
+TEAM_KC_MP_SGT = DarkRP.createJob("Medical Platoon │ SGT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic_officer.mdl"},
     description = [[]],
@@ -2057,7 +2057,7 @@ TEAM_KC_MP_SGT = DarkRP.createJob("Medical Platoon | SGT", {
     end,
 })
 
-TEAM_KC_MP_SMJ = DarkRP.createJob("Medical Platoon | SMJ", {
+TEAM_KC_MP_SMJ = DarkRP.createJob("Medical Platoon │ SMJ", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic_officer.mdl"},
     description = [[]],
@@ -2078,7 +2078,7 @@ TEAM_KC_MP_SMJ = DarkRP.createJob("Medical Platoon | SMJ", {
     end,
 })
 
-TEAM_KC_MP_LT = DarkRP.createJob("Medical Platoon | LT", {
+TEAM_KC_MP_LT = DarkRP.createJob("Medical Platoon │ LT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic_officer.mdl"},
     description = [[]],
@@ -2099,7 +2099,7 @@ TEAM_KC_MP_LT = DarkRP.createJob("Medical Platoon | LT", {
     end,
 })
 
-TEAM_KC_MP_1STLT = DarkRP.createJob("Medical Platoon | 1st LT", {
+TEAM_KC_MP_1STLT = DarkRP.createJob("Medical Platoon │ 1st LT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/keeli/medic_officer.mdl"},
     description = [[]],
@@ -2120,7 +2120,7 @@ TEAM_KC_MP_1STLT = DarkRP.createJob("Medical Platoon | 1st LT", {
     end,
 })
 
-TEAM_KC_ARF_PVT = DarkRP.createJob("ARF | PVT", {
+TEAM_KC_ARF_PVT = DarkRP.createJob("ARF │ PVT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_trooper.mdl"},
     description = [[]],
@@ -2131,7 +2131,7 @@ TEAM_KC_ARF_PVT = DarkRP.createJob("ARF | PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Advanced Reconnaissance Force",
+    category = "Keeli Company Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2141,7 +2141,7 @@ TEAM_KC_ARF_PVT = DarkRP.createJob("ARF | PVT", {
     end,
 })
 
-TEAM_KC_ARF_PFC = DarkRP.createJob("ARF | PFC", {
+TEAM_KC_ARF_PFC = DarkRP.createJob("ARF │ PFC", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_trooper.mdl"},
     description = [[]],
@@ -2152,7 +2152,7 @@ TEAM_KC_ARF_PFC = DarkRP.createJob("ARF | PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Advanced Reconnaissance Force",
+    category = "Keeli Company Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2162,7 +2162,7 @@ TEAM_KC_ARF_PFC = DarkRP.createJob("ARF | PFC", {
     end,
 })
 
-TEAM_KC_ARF_SPC = DarkRP.createJob("ARF | SPC", {
+TEAM_KC_ARF_SPC = DarkRP.createJob("ARF │ SPC", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_trooper.mdl"},
     description = [[]],
@@ -2173,7 +2173,7 @@ TEAM_KC_ARF_SPC = DarkRP.createJob("ARF | SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Advanced Reconnaissance Force",
+    category = "Keeli Company Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2183,7 +2183,7 @@ TEAM_KC_ARF_SPC = DarkRP.createJob("ARF | SPC", {
     end,
 })
 
-TEAM_KC_ARF_LCPL = DarkRP.createJob("ARF | LCPL", {
+TEAM_KC_ARF_LCPL = DarkRP.createJob("ARF │ LCPL", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_trooper.mdl"},
     description = [[]],
@@ -2194,7 +2194,7 @@ TEAM_KC_ARF_LCPL = DarkRP.createJob("ARF | LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Advanced Reconnaissance Force",
+    category = "Keeli Company Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2204,7 +2204,7 @@ TEAM_KC_ARF_LCPL = DarkRP.createJob("ARF | LCPL", {
     end,
 })
 
-TEAM_KC_ARF_CPL = DarkRP.createJob("ARF | CPL", {
+TEAM_KC_ARF_CPL = DarkRP.createJob("ARF │ CPL", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_trooper.mdl"},
     description = [[]],
@@ -2215,7 +2215,7 @@ TEAM_KC_ARF_CPL = DarkRP.createJob("ARF | CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Advanced Reconnaissance Force",
+    category = "Keeli Company Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2225,7 +2225,7 @@ TEAM_KC_ARF_CPL = DarkRP.createJob("ARF | CPL", {
     end,
 })
 
-TEAM_KC_ARF_CCPL = DarkRP.createJob("ARF | CCPL", {
+TEAM_KC_ARF_CCPL = DarkRP.createJob("ARF │ CCPL", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_trooper.mdl"},
     description = [[]],
@@ -2236,7 +2236,7 @@ TEAM_KC_ARF_CCPL = DarkRP.createJob("ARF | CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Advanced Reconnaissance Force",
+    category = "Keeli Company Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2246,7 +2246,7 @@ TEAM_KC_ARF_CCPL = DarkRP.createJob("ARF | CCPL", {
     end,
 })
 
-TEAM_KC_ARF_SGT = DarkRP.createJob("ARF | SGT", {
+TEAM_KC_ARF_SGT = DarkRP.createJob("ARF │ SGT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_officer.mdl"},
     description = [[]],
@@ -2257,7 +2257,7 @@ TEAM_KC_ARF_SGT = DarkRP.createJob("ARF | SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Advanced Reconnaissance Force",
+    category = "Keeli Company Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2267,7 +2267,7 @@ TEAM_KC_ARF_SGT = DarkRP.createJob("ARF | SGT", {
     end,
 })
 
-TEAM_KC_ARF_SMJ = DarkRP.createJob("ARF | SMJ", {
+TEAM_KC_ARF_SMJ = DarkRP.createJob("ARF │ SMJ", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_officer.mdl"},
     description = [[]],
@@ -2278,7 +2278,7 @@ TEAM_KC_ARF_SMJ = DarkRP.createJob("ARF | SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Advanced Reconnaissance Force",
+    category = "Keeli Company Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2288,7 +2288,7 @@ TEAM_KC_ARF_SMJ = DarkRP.createJob("ARF | SMJ", {
     end,
 })
 
-TEAM_KC_ARF_LT = DarkRP.createJob("ARF | LT", {
+TEAM_KC_ARF_LT = DarkRP.createJob("ARF │ LT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_officer.mdl"},
     description = [[]],
@@ -2299,7 +2299,7 @@ TEAM_KC_ARF_LT = DarkRP.createJob("ARF | LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Advanced Reconnaissance Force",
+    category = "Keeli Company Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2309,7 +2309,7 @@ TEAM_KC_ARF_LT = DarkRP.createJob("ARF | LT", {
     end,
 })
 
-TEAM_KC_ARF_1STLT = DarkRP.createJob("ARF | 1st LT", {
+TEAM_KC_ARF_1STLT = DarkRP.createJob("ARF │ 1st LT", {
     color = Color(61, 23, 20),
     model = {"models/aussiwozzi/phase1clones/Keeli/arf_officer.mdl"},
     description = [[]],
@@ -2320,7 +2320,7 @@ TEAM_KC_ARF_1STLT = DarkRP.createJob("ARF | 1st LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company � Advanced Reconnaissance Force",
+    category = "Keeli Company Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2330,7 +2330,7 @@ TEAM_KC_ARF_1STLT = DarkRP.createJob("ARF | 1st LT", {
     end,
 })
 
-TEAM_ST_PVT = DarkRP.createJob("ST | PVT", {
+TEAM_ST_PVT = DarkRP.createJob("ST │ PVT", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
     description = [[False]],
@@ -2341,7 +2341,7 @@ TEAM_ST_PVT = DarkRP.createJob("ST | PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST | Company",
+    category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2351,7 +2351,7 @@ TEAM_ST_PVT = DarkRP.createJob("ST | PVT", {
     end,
 })
 
-TEAM_ST_PFC = DarkRP.createJob("ST | PFC", {
+TEAM_ST_PFC = DarkRP.createJob("ST │ PFC", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
     description = [[False]],
@@ -2362,7 +2362,7 @@ TEAM_ST_PFC = DarkRP.createJob("ST | PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | Company",
+    category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2372,7 +2372,7 @@ TEAM_ST_PFC = DarkRP.createJob("ST | PFC", {
     end,
 })
 
-TEAM_ST_SPC = DarkRP.createJob("ST | SPC", {
+TEAM_ST_SPC = DarkRP.createJob("ST │ SPC", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
     description = [[False]],
@@ -2383,7 +2383,7 @@ TEAM_ST_SPC = DarkRP.createJob("ST | SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST | Company",
+    category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2393,7 +2393,7 @@ TEAM_ST_SPC = DarkRP.createJob("ST | SPC", {
     end,
 })
 
-TEAM_ST_LCPL = DarkRP.createJob("ST | LCPL", {
+TEAM_ST_LCPL = DarkRP.createJob("ST │ LCPL", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
     description = [[False]],
@@ -2404,7 +2404,7 @@ TEAM_ST_LCPL = DarkRP.createJob("ST | LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST | Company",
+    category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2414,7 +2414,7 @@ TEAM_ST_LCPL = DarkRP.createJob("ST | LCPL", {
     end,
 })
 
-TEAM_ST_CPL = DarkRP.createJob("ST | CPL", {
+TEAM_ST_CPL = DarkRP.createJob("ST │ CPL", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
     description = [[False]],
@@ -2425,7 +2425,7 @@ TEAM_ST_CPL = DarkRP.createJob("ST | CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | Company",
+    category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2435,7 +2435,7 @@ TEAM_ST_CPL = DarkRP.createJob("ST | CPL", {
     end,
 })
 
-TEAM_ST_CCPL = DarkRP.createJob("ST | CCPL", {
+TEAM_ST_CCPL = DarkRP.createJob("ST │ CCPL", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
     description = [[False]],
@@ -2446,7 +2446,7 @@ TEAM_ST_CCPL = DarkRP.createJob("ST | CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | Company",
+    category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2456,7 +2456,7 @@ TEAM_ST_CCPL = DarkRP.createJob("ST | CCPL", {
     end,
 })
 
-TEAM_ST_SGT = DarkRP.createJob("ST | SGT", {
+TEAM_ST_SGT = DarkRP.createJob("ST │ SGT", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
     description = [[False]],
@@ -2467,7 +2467,7 @@ TEAM_ST_SGT = DarkRP.createJob("ST | SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | Company",
+    category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2477,7 +2477,7 @@ TEAM_ST_SGT = DarkRP.createJob("ST | SGT", {
     end,
 })
 
-TEAM_ST_SMJ = DarkRP.createJob("ST | SMJ", {
+TEAM_ST_SMJ = DarkRP.createJob("ST │ SMJ", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
     description = [[False]],
@@ -2488,7 +2488,7 @@ TEAM_ST_SMJ = DarkRP.createJob("ST | SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | Company",
+    category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2498,7 +2498,7 @@ TEAM_ST_SMJ = DarkRP.createJob("ST | SMJ", {
     end,
 })
 
-TEAM_ST_LT = DarkRP.createJob("ST | LT", {
+TEAM_ST_LT = DarkRP.createJob("ST │ LT", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/shock_officer.mdl"},
     description = [[False]],
@@ -2509,7 +2509,7 @@ TEAM_ST_LT = DarkRP.createJob("ST | LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | Company",
+    category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2519,7 +2519,7 @@ TEAM_ST_LT = DarkRP.createJob("ST | LT", {
     end,
 })
 
-TEAM_ST_1st_LT = DarkRP.createJob("ST | 1st LT", {
+TEAM_ST_1st_LT = DarkRP.createJob("ST │ 1st LT", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/shock_officer.mdl"},
     description = [[False]],
@@ -2530,7 +2530,7 @@ TEAM_ST_1st_LT = DarkRP.createJob("ST | 1st LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | Company",
+    category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2540,7 +2540,7 @@ TEAM_ST_1st_LT = DarkRP.createJob("ST | 1st LT", {
     end,
 })
 
-TEAM_ST_Thorn = DarkRP.createJob("ST | Thorn", {
+TEAM_ST_Thorn = DarkRP.createJob("ST │ Thorn", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/thorn.mdl"},
     description = [[False]],
@@ -2551,7 +2551,7 @@ TEAM_ST_Thorn = DarkRP.createJob("ST | Thorn", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | Company",
+    category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2572,7 +2572,7 @@ TEAM_ST_ARC = DarkRP.createJob("ST AR", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | Company",
+    category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(150)
@@ -2582,7 +2582,7 @@ TEAM_ST_ARC = DarkRP.createJob("ST AR", {
     end,
 })
 
-TEAM_ST_RIOT_PVT_CCPL = DarkRP.createJob("ST RIOT | PVT-CCPL", {
+TEAM_ST_RIOT_PVT_CCPL = DarkRP.createJob("ST RIOT │ PVT-CCPL", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
     description = [[False]],
@@ -2593,7 +2593,7 @@ TEAM_ST_RIOT_PVT_CCPL = DarkRP.createJob("ST RIOT | PVT-CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | Riot Platoon",
+    category = "ST │ Riot Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2603,7 +2603,7 @@ TEAM_ST_RIOT_PVT_CCPL = DarkRP.createJob("ST RIOT | PVT-CCPL", {
     end,
 })
 
-TEAM_ST_RIOT_SGT = DarkRP.createJob("ST RIOT | SGT", {
+TEAM_ST_RIOT_SGT = DarkRP.createJob("ST RIOT │ SGT", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
     description = [[False]],
@@ -2614,7 +2614,7 @@ TEAM_ST_RIOT_SGT = DarkRP.createJob("ST RIOT | SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | Riot Platoon",
+    category = "ST │ Riot Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2624,7 +2624,7 @@ TEAM_ST_RIOT_SGT = DarkRP.createJob("ST RIOT | SGT", {
     end,
 })
 
-TEAM_ST_RIOT_SMJ = DarkRP.createJob("ST RIOT | SMJ", {
+TEAM_ST_RIOT_SMJ = DarkRP.createJob("ST RIOT │ SMJ", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
     description = [[False]],
@@ -2635,7 +2635,7 @@ TEAM_ST_RIOT_SMJ = DarkRP.createJob("ST RIOT | SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | Riot Platoon",
+    category = "ST │ Riot Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2645,7 +2645,7 @@ TEAM_ST_RIOT_SMJ = DarkRP.createJob("ST RIOT | SMJ", {
     end,
 })
 
-TEAM_ST_RIOT_LT = DarkRP.createJob("ST RIOT | LT", {
+TEAM_ST_RIOT_LT = DarkRP.createJob("ST RIOT │ LT", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/riot_officer.mdl"},
     description = [[False]],
@@ -2656,7 +2656,7 @@ TEAM_ST_RIOT_LT = DarkRP.createJob("ST RIOT | LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | Riot Platoon",
+    category = "ST │ Riot Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2666,7 +2666,7 @@ TEAM_ST_RIOT_LT = DarkRP.createJob("ST RIOT | LT", {
     end,
 })
 
-TEAM_ST_RIOT_1st_LT = DarkRP.createJob("ST RIOT | 1st LT", {
+TEAM_ST_RIOT_1st_LT = DarkRP.createJob("ST RIOT │ 1st LT", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/shock_officer.mdl"},
     description = [[False]],
@@ -2677,7 +2677,7 @@ TEAM_ST_RIOT_1st_LT = DarkRP.createJob("ST RIOT | 1st LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | Riot Platoon",
+    category = "ST │ Riot Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2687,7 +2687,7 @@ TEAM_ST_RIOT_1st_LT = DarkRP.createJob("ST RIOT | 1st LT", {
     end,
 })
 
-TEAM_ST_K9_PVT_CCPL = DarkRP.createJob("ST K9 | PVT-CCPL", {
+TEAM_ST_K9_PVT_CCPL = DarkRP.createJob("ST K9 │ PVT-CCPL", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
     description = [[False]],
@@ -2698,7 +2698,7 @@ TEAM_ST_K9_PVT_CCPL = DarkRP.createJob("ST K9 | PVT-CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | K9 ARF Platoon",
+    category = "ST │ K9 ARF Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2708,7 +2708,7 @@ TEAM_ST_K9_PVT_CCPL = DarkRP.createJob("ST K9 | PVT-CCPL", {
     end,
 })
 
-TEAM_ST_K9_SGT = DarkRP.createJob("ST K9 | SGT", {
+TEAM_ST_K9_SGT = DarkRP.createJob("ST K9 │ SGT", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
     description = [[False]],
@@ -2719,7 +2719,7 @@ TEAM_ST_K9_SGT = DarkRP.createJob("ST K9 | SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | K9 ARF Platoon",
+    category = "ST │ K9 ARF Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2729,7 +2729,7 @@ TEAM_ST_K9_SGT = DarkRP.createJob("ST K9 | SGT", {
     end,
 })
 
-TEAM_ST_K9_SMJ = DarkRP.createJob("ST K9 | SMJ", {
+TEAM_ST_K9_SMJ = DarkRP.createJob("ST K9 │ SMJ", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
     description = [[False]],
@@ -2740,7 +2740,7 @@ TEAM_ST_K9_SMJ = DarkRP.createJob("ST K9 | SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | K9 ARF Platoon",
+    category = "ST │ K9 ARF Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2750,7 +2750,7 @@ TEAM_ST_K9_SMJ = DarkRP.createJob("ST K9 | SMJ", {
     end,
 })
 
-TEAM_ST_K9_LT = DarkRP.createJob("ST K9 | LT", {
+TEAM_ST_K9_LT = DarkRP.createJob("ST K9 │ LT", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/arf_officer.mdl"},
     description = [[False]],
@@ -2761,7 +2761,7 @@ TEAM_ST_K9_LT = DarkRP.createJob("ST K9 | LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | K9 ARF Platoon",
+    category = "ST │ K9 ARF Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2771,7 +2771,7 @@ TEAM_ST_K9_LT = DarkRP.createJob("ST K9 | LT", {
     end,
 })
 
-TEAM_ST_K9_1st_LT = DarkRP.createJob("ST K9 | 1st LT", {
+TEAM_ST_K9_1st_LT = DarkRP.createJob("ST K9 │ 1st LT", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/arf_officer.mdl"},
     description = [[False]],
@@ -2782,7 +2782,7 @@ TEAM_ST_K9_1st_LT = DarkRP.createJob("ST K9 | 1st LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST  | K9 ARF Platoon",
+    category = "ST │ K9 ARF Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2792,7 +2792,7 @@ TEAM_ST_K9_1st_LT = DarkRP.createJob("ST K9 | 1st LT", {
     end,
 })
 
-TEAM_NAVY_CREWMAN = DarkRP.createJob("Republic Navy | CM", {
+TEAM_NAVY_CREWMAN = DarkRP.createJob("Republic Navy │ CM", {
     color = Color(170, 255, 255),
     model = {"models/starwars/grady/navy/republic_navy_black.mdl"},
     description = [[False]],
@@ -2813,7 +2813,7 @@ TEAM_NAVY_CREWMAN = DarkRP.createJob("Republic Navy | CM", {
     end,
 })
 
-TEAM_NAVY_CMFC = DarkRP.createJob("Republic Navy | CMFC", {
+TEAM_NAVY_CMFC = DarkRP.createJob("Republic Navy │ CMFC", {
     color = Color(170, 255, 255),
     model = {"models/starwars/grady/navy/republic_navy_black.mdl"},
     description = [[False]],
@@ -2834,7 +2834,7 @@ TEAM_NAVY_CMFC = DarkRP.createJob("Republic Navy | CMFC", {
     end,
 })
 
-TEAM_NAVY_PO = DarkRP.createJob("Republic Navy | PO", {
+TEAM_NAVY_PO = DarkRP.createJob("Republic Navy │ PO", {
     color = Color(170, 255, 255),
     model = {"models/starwars/grady/navy/republic_navy_blue.mdl"},
     description = [[False]],
@@ -2855,7 +2855,7 @@ TEAM_NAVY_PO = DarkRP.createJob("Republic Navy | PO", {
     end,
 })
 
-TEAM_NAVY_POFC = DarkRP.createJob("Republic Navy | POFC", {
+TEAM_NAVY_POFC = DarkRP.createJob("Republic Navy │ POFC", {
     color = Color(170, 255, 255),
     model = {"models/starwars/grady/navy/republic_navy_blue.mdl"},
     description = [[False]],
@@ -2876,7 +2876,7 @@ TEAM_NAVY_POFC = DarkRP.createJob("Republic Navy | POFC", {
     end,
 })
 
-TEAM_NAVY_CPO = DarkRP.createJob("Republic Navy | CPO", {
+TEAM_NAVY_CPO = DarkRP.createJob("Republic Navy │ CPO", {
     color = Color(170, 255, 255),
     model = {"models/starwars/grady/navy/republic_navy_blue.mdl"},
     description = [[False]],
@@ -2897,7 +2897,7 @@ TEAM_NAVY_CPO = DarkRP.createJob("Republic Navy | CPO", {
     end,
 })
 
-TEAM_NAVY_CPOFC = DarkRP.createJob("Republic Navy | CPOFC", {
+TEAM_NAVY_CPOFC = DarkRP.createJob("Republic Navy │ CPOFC", {
     color = Color(170, 255, 255),
     model = {"models/starwars/grady/navy/republic_navy_blue.mdl"},
     description = [[False]],
@@ -2918,7 +2918,7 @@ TEAM_NAVY_CPOFC = DarkRP.createJob("Republic Navy | CPOFC", {
     end,
 })
 
-TEAM_NAVY_WO = DarkRP.createJob("Republic Navy | WO", {
+TEAM_NAVY_WO = DarkRP.createJob("Republic Navy │ WO", {
     color = Color(170, 255, 255),
     model = {"models/starwars/grady/navy/republic_navy_darkgrey.mdl"},
     description = [[False]],
@@ -2939,7 +2939,7 @@ TEAM_NAVY_WO = DarkRP.createJob("Republic Navy | WO", {
     end,
 })
 
-TEAM_NAVY_WOFC = DarkRP.createJob("Republic Navy | WOFC", {
+TEAM_NAVY_WOFC = DarkRP.createJob("Republic Navy │ WOFC", {
     color = Color(170, 255, 255),
     model = {"models/starwars/grady/navy/republic_navy_darkgrey.mdl"},
     description = [[False]],
@@ -2960,7 +2960,7 @@ TEAM_NAVY_WOFC = DarkRP.createJob("Republic Navy | WOFC", {
     end,
 })
 
-TEAM_NAVY_EN = DarkRP.createJob("Republic Navy | EN", {
+TEAM_NAVY_EN = DarkRP.createJob("Republic Navy │ EN", {
     color = Color(170, 255, 255),
     model = {"models/starwars/grady/navy/republic_navy_darkgrey.mdl"},
     description = [[False]],
@@ -2981,7 +2981,7 @@ TEAM_NAVY_EN = DarkRP.createJob("Republic Navy | EN", {
     end,
 })
 
-TEAM_NAVY_LT = DarkRP.createJob("Republic Navy | LT", {
+TEAM_NAVY_LT = DarkRP.createJob("Republic Navy │ LT", {
     color = Color(170, 255, 255),
     model = {"models/starwars/grady/navy/republic_navy_green.mdl"},
     description = [[False]],
@@ -3002,7 +3002,7 @@ TEAM_NAVY_LT = DarkRP.createJob("Republic Navy | LT", {
     end,
 })
 
-TEAM_NAVY_LTCMD = DarkRP.createJob("Republic Navy | LTCMD", {
+TEAM_NAVY_LTCMD = DarkRP.createJob("Republic Navy │ LTCMD", {
     color = Color(170, 255, 255),
     model = {"models/starwars/grady/navy/republic_navy_green.mdl"},
     description = [[False]],
@@ -3023,7 +3023,7 @@ TEAM_NAVY_LTCMD = DarkRP.createJob("Republic Navy | LTCMD", {
     end,
 })
 
-TEAM_NAVY_CMD = DarkRP.createJob("Republic Navy | CMD", {
+TEAM_NAVY_CMD = DarkRP.createJob("Republic Navy │ CMD", {
     color = Color(170, 255, 255),
     model = {"models/starwars/grady/navy/republic_navy_red.mdl"},
     description = [[False]],
@@ -3044,7 +3044,7 @@ TEAM_NAVY_CMD = DarkRP.createJob("Republic Navy | CMD", {
     end,
 })
 
-TEAM_NAVY_CPT = DarkRP.createJob("Republic Navy | CPT", {
+TEAM_NAVY_CPT = DarkRP.createJob("Republic Navy │ CPT", {
     color = Color(170, 255, 255),
     model = {"models/starwars/grady/navy/republic_navy_red_leader.mdl"},
     description = [[False]],
@@ -3065,7 +3065,7 @@ TEAM_NAVY_CPT = DarkRP.createJob("Republic Navy | CPT", {
     end,
 })
 
-TEAM_NAVY_AD = DarkRP.createJob("Republic Navy | AD", {
+TEAM_NAVY_AD = DarkRP.createJob("Republic Navy │ AD", {
     color = Color(170, 255, 255),
     model = {"models/star/navy/admiral/sirblitz/navy_admiral_white.mdl"},
     description = [[False]],
@@ -3086,7 +3086,7 @@ TEAM_NAVY_AD = DarkRP.createJob("Republic Navy | AD", {
     end,
 })
 
-TEAM_RC_ABLE = DarkRP.createJob("RC � Able", {
+TEAM_RC_ABLE = DarkRP.createJob("RC Able", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/trooper.mdl"},
     description = [[]],
@@ -3110,7 +3110,7 @@ TEAM_RC_ABLE = DarkRP.createJob("RC � Able", {
 --[[---------------------------------------------------------------------------
 Custom Chars
 ---------------------------------------------------------------------------]]
-TEAM_104TH_Nade = DarkRP.createJob("104th | SGT Nade", {
+TEAM_104TH_Nade = DarkRP.createJob("104th │ SGT Nade", {
     color = Color(140, 140, 140),
     model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
     description = [[]],
@@ -3121,7 +3121,7 @@ TEAM_104TH_Nade = DarkRP.createJob("104th | SGT Nade", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th � Wolfpack",
+    category = "104th │ Wolfpack",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -3160,7 +3160,7 @@ TEAM_ARC_Cade = DarkRP.createJob("SGT Cade", {
 
 TEAM_ARC_Exekuter = DarkRP.createJob("ARC Exekuter", {
     color = Color(140, 140, 140),
-    model = {"models/hazel/arc_models/7_104th/104th_arc.mdl", "models/joey/bf2/operativegreenarc.mdl", "models/hazel/arc_models/9_442nd/442nd_arc.mdl", "models/aotr/sparrow/rancor/arc/bf2cobalthero.mdl"},
+    model = {"models/hazel/arc_models/7_104th/104th_arc.mdl", "models/joey/bf2/operativegreenarc.mdl", "models/hazel/arc_models/9_442nd/442nd_arc.mdl", "models/aotr/sparrow/rancor/arc/bf2cobalthero.mdl", "models/player/alpha_arc/null/null_troopers.mdl"},
     description = [[]],
     weapons = {"rw_sw_pinglauncher", "sw_datapad", "rw_sw_stun_dc17", "rw_sw_westarm5", "rw_sw_valken38x", "climb_swep2", "rw_sw_dc15s", "jet_mk5", "rw_sw_dual_dc17ext", "stunstick", "weapon_cuff_elastic", "rw_sw_nade_stun", "rw_sw_nade_thermal"},
     command = "give_job_arc_exekuter",
