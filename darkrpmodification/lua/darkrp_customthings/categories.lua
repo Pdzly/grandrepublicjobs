@@ -84,7 +84,7 @@ DarkRP.createCategory{
     name = "Keeli Company │ Company",
     categorises = "jobs",
     startExpanded = true,
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     sortOrder = 6,
     canSee = function(ply)
         return true
@@ -92,10 +92,10 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Keeli Company │ Heavy Platoon",
+    name = "501st │ Heavy Platoon",
     categorises = "jobs",
     startExpanded = true,
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     sortOrder = 7,
     canSee = function(ply)
         return true
@@ -103,10 +103,10 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Keeli Company │ Medical Platoon",
+    name = "RMC",
     categorises = "jobs",
     startExpanded = true,
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     sortOrder = 8,
     canSee = function(ply)
         return true
@@ -117,7 +117,7 @@ DarkRP.createCategory{
     name = "Keeli Company │ Advanced Reconnaissance Force",
     categorises = "jobs",
     startExpanded = true,
-    color = Color(61,23,20),
+    color = Color(61, 23, 20),
     sortOrder = 9,
     canSee = function(ply)
         return true
@@ -246,10 +246,10 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-	name = "Glaenzer",
-	 categorises = "jobs",
+    name = "Glaenzer",
+    categorises = "jobs",
     startExpanded = true,
-    color = Color(255,255,255),
+    color = Color(255, 255, 255),
     sortOrder = 21,
     canSee = function(ply)
         return true
@@ -257,33 +257,34 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-	name = "Jedi",
-	 categorises = "jobs",
+    name = "Jedi",
+    categorises = "jobs",
     startExpanded = true,
-    color = Color(255,255,255),
+    color = Color(255, 255, 255),
     sortOrder = 22,
     canSee = function(ply)
         return true
     end,
 }
+
 DarkRP.createCategory{
-	name = "SEB",
-	 categorises = "jobs",
+    name = "SEB",
+    categorises = "jobs",
     startExpanded = true,
-    color = Color(255,255,255),
+    color = Color(255, 255, 255),
     sortOrder = 23,
     canSee = function(ply)
         return true
     end,
 }
+
 DarkRP.createCategory{
-	name = "501st",
-	 categorises = "jobs",
+    name = "501st",
+    categorises = "jobs",
     startExpanded = true,
-    color = Color(0,0,255),
+    color = Color(0, 0, 255),
     sortOrder = 24,
     canSee = function(ply)
         return true
     end,
 }
-
