@@ -3160,7 +3160,7 @@ TEAM_ARC_Cade = DarkRP.createJob("SGT Cade", {
 
 TEAM_ARC_Exekuter = DarkRP.createJob("ARC Exekuter", {
     color = Color(140, 140, 140),
-    model = {"models/hazel/arc_models/7_104th/104th_arc.mdl", "models/joey/bf2/operativegreenarc.mdl", "models/hazel/arc_models/9_442nd/442nd_arc.mdl", "models/aotr/sparrow/rancor/arc/bf2cobalthero.mdl"},
+    model = {"models/hazel/arc_models/7_104th/104th_arc.mdl", "models/joey/bf2/operativegreenarc.mdl", "models/hazel/arc_models/9_442nd/442nd_arc.mdl", "models/aotr/sparrow/rancor/arc/bf2cobalthero.mdl", "models/player/alpha_arc/null/null_troopers.mdl"},
     description = [[]],
     weapons = {"rw_sw_pinglauncher", "sw_datapad", "rw_sw_stun_dc17", "rw_sw_westarm5", "rw_sw_valken38x", "climb_swep2", "rw_sw_dc15s", "jet_mk5", "rw_sw_dual_dc17ext", "stunstick", "weapon_cuff_elastic", "rw_sw_nade_stun", "rw_sw_nade_thermal"},
     command = "give_job_arc_exekuter",
