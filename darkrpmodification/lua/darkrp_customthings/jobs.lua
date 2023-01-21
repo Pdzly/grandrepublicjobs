@@ -1810,7 +1810,7 @@ TEAM_KC_HP_CPL = DarkRP.createJob("Heavy Platoon │ CPL", {
 
 TEAM_KC_HP_CCPL = DarkRP.createJob("Heavy Platoon │ CCPL", {
     color = Color(0, 0, 255),
-    model = "models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
     command = "give_job_kc_hp_ccpl",
