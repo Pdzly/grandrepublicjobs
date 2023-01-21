@@ -81,7 +81,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Keeli Company │ Company",
+    name = "Keeli │ Company",
     categorises = "jobs",
     startExpanded = true,
     color = Color(61, 23, 20),
