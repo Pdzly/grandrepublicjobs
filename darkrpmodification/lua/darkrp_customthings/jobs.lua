@@ -430,7 +430,7 @@ TEAM_104TH_WARTHOG = DarkRP.createJob("Warthog", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th │ Advanced Vehicle Platoon",
+    category = "104th Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -535,7 +535,7 @@ TEAM_KC_KEELI = DarkRP.createJob("Keeli", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Company",
+    category = "Keeli │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(150)
@@ -1081,7 +1081,7 @@ TEAM_104TH_AU_PVT = DarkRP.createJob("104th Airborne │ PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Airborne Unit",
+    category = "104th │ Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1102,7 +1102,7 @@ TEAM_104TH_AU_PFC = DarkRP.createJob("104th Airborne │ PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Airborne Unit",
+    category = "104th │ Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1123,7 +1123,7 @@ TEAM_104TH_AU_SPC = DarkRP.createJob("104th Airborne │ SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Airborne Unit",
+    category = "104th │ Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1144,7 +1144,7 @@ TEAM_104TH_AU_LCPL = DarkRP.createJob("104th Airborne │ LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Airborne Unit",
+    category = "104th │ Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1165,7 +1165,7 @@ TEAM_104TH_AU_CPL = DarkRP.createJob("104th Airborne │ CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Airborne Unit",
+    category = "104th │ Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1186,7 +1186,7 @@ TEAM_104TH_AU_CCPL = DarkRP.createJob("104th Airborne │ CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Airborne Unit",
+    category = "104th │ Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1207,7 +1207,7 @@ TEAM_104TH_AU_SGT = DarkRP.createJob("104th Airborne │ SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Airborne Unit",
+    category = "104th │ Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1228,7 +1228,7 @@ TEAM_104TH_AU_SMJ = DarkRP.createJob("104th Airborne │ SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Airborne Unit",
+    category = "104th │ Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1249,7 +1249,7 @@ TEAM_104TH_AU_LT = DarkRP.createJob("104th Airborne │ LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Airborne Unit",
+    category = "104th │ Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1270,7 +1270,7 @@ TEAM_104TH_AU_1STLT = DarkRP.createJob("104th Airborne │ 1stLT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Airborne Unit",
+    category = "104th │ Airborne Unit",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1291,7 +1291,7 @@ TEAM_104TH_TEB_PVT = DarkRP.createJob("104th EP │ PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th EP",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1312,7 +1312,7 @@ TEAM_104TH_TEB_PFC = DarkRP.createJob("104th EP │ PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th EP",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1333,7 +1333,7 @@ TEAM_104TH_TEB_SPC = DarkRP.createJob("104th EP │ SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th EP",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1354,7 +1354,7 @@ TEAM_104TH_TEB_LCPL = DarkRP.createJob("104th EP │ LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th EP",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1375,7 +1375,7 @@ TEAM_104TH_TEB_CPL = DarkRP.createJob("104th EP │ CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th EP",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1396,7 +1396,7 @@ TEAM_104TH_TEB_CCPL = DarkRP.createJob("104th EP │ CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th EP",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1417,7 +1417,7 @@ TEAM_104TH_TEB_SGT = DarkRP.createJob("104th EP │ SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th EP",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1438,7 +1438,7 @@ TEAM_104TH_TEB_SMJ = DarkRP.createJob("104th EP │ SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th EP",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1459,7 +1459,7 @@ TEAM_104TH_TEB_LT = DarkRP.createJob("104th EP │ LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th EP",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1480,7 +1480,7 @@ TEAM_104TH_TEB_1STLT = DarkRP.createJob("104th EP │ 1st LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th EP",
+    category = "104th │ EP",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1501,7 +1501,7 @@ TEAM_KC_PVT = DarkRP.createJob("Keeli Company │ PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Company",
+    category = "Keeli │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1522,7 +1522,7 @@ TEAM_KC_PFC = DarkRP.createJob("Keeli Company │ PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Company",
+    category = "Keeli │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1543,7 +1543,7 @@ TEAM_KC_SPC = DarkRP.createJob("Keeli Company │ SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Company",
+    category = "Keeli │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1564,7 +1564,7 @@ TEAM_KC_LCPL = DarkRP.createJob("Keeli Company │ LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Company",
+    category = "Keeli │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1585,7 +1585,7 @@ TEAM_KC_CPL = DarkRP.createJob("Keeli Company │ CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Company",
+    category = "Keeli │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1606,7 +1606,7 @@ TEAM_KC_CCPL = DarkRP.createJob("Keeli Company │ CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Company",
+    category = "Keeli │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1627,7 +1627,7 @@ TEAM_KC_SGT = DarkRP.createJob("Keeli Company │ SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Company",
+    category = "Keeli │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1648,7 +1648,7 @@ TEAM_KC_SMJ = DarkRP.createJob("Keeli Company │ SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Company",
+    category = "Keeli │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1669,7 +1669,7 @@ TEAM_KC_LT = DarkRP.createJob("Keeli Company │ LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Company",
+    category = "Keeli │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1690,7 +1690,7 @@ TEAM_KC_1STLT = DarkRP.createJob("Keeli Company │ 1st LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Company",
+    category = "Keeli │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1714,15 +1714,16 @@ TEAM_KC_HP_PVT = DarkRP.createJob("Heavy Platoon │ PVT", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(250)
-        ply:SetMaxHealth(250)
+        ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_PFC = DarkRP.createJob("Heavy Platoon │ PFC", {
-    color = Color(61, 23, 20),
+    color = Color(0, 0, 255),
+
     model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
@@ -1735,15 +1736,15 @@ TEAM_KC_HP_PFC = DarkRP.createJob("Heavy Platoon │ PFC", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-         ply:SetHealth(250)
-        ply:SetMaxHealth(250)
+       ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_SPC = DarkRP.createJob("Heavy Platoon │ SPC", {
-    color = Color(61, 23, 20),
+     color = Color(0, 0, 255),
     model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
@@ -1756,15 +1757,16 @@ TEAM_KC_HP_SPC = DarkRP.createJob("Heavy Platoon │ SPC", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-       ply:SetHealth(250)
-        ply:SetMaxHealth(250)
+       ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_LCPL = DarkRP.createJob("Heavy Platoon │ LCPL", {
-    color = Color(61, 23, 20),
+     color = Color(0, 0, 255),
+
     model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
@@ -1777,15 +1779,16 @@ TEAM_KC_HP_LCPL = DarkRP.createJob("Heavy Platoon │ LCPL", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-         ply:SetHealth(250)
-        ply:SetMaxHealth(250)
+       ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_CPL = DarkRP.createJob("Heavy Platoon │ CPL", {
-    color = Color(61, 23, 20),
+    color = Color(0, 0, 255),
+
     model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
@@ -1798,16 +1801,16 @@ TEAM_KC_HP_CPL = DarkRP.createJob("Heavy Platoon │ CPL", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(250)
-        ply:SetMaxHealth(250)
+        ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_CCPL = DarkRP.createJob("Heavy Platoon │ CCPL", {
-    color = Color(61, 23, 20),
-    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
+    color = Color(0, 0, 255),
+    model = "models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
     command = "give_job_kc_hp_ccpl",
@@ -1819,15 +1822,15 @@ TEAM_KC_HP_CCPL = DarkRP.createJob("Heavy Platoon │ CCPL", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-          ply:SetHealth(250)
-        ply:SetMaxHealth(250)
+         ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_SGT = DarkRP.createJob("Heavy Platoon │ SGT", {
-    color = Color(61, 23, 20),
+    color = Color(0, 0, 255),
     model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dual_dc17", "rw_sw_pinglauncher", "weapon_shield_activator", "rw_sw_dual_dc17",},
@@ -1840,15 +1843,15 @@ TEAM_KC_HP_SGT = DarkRP.createJob("Heavy Platoon │ SGT", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-         ply:SetHealth(250)
-        ply:SetMaxHealth(250)
+        ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_SMJ = DarkRP.createJob("Heavy Platoon │ SMJ", {
-    color = Color(61, 23, 20),
+ color = Color(0, 0, 255),
     model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "at_sw_dc15a_heavy3", "rw_sw_dc15s", "rw_sw_dual_dc17", "rw_sw_pinglauncher", "weapon_shield_activator", "rw_sw_dual_dc17",},
@@ -1861,15 +1864,15 @@ TEAM_KC_HP_SMJ = DarkRP.createJob("Heavy Platoon │ SMJ", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(250)
-        ply:SetMaxHealth(250)
+        ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_LT = DarkRP.createJob("Heavy Platoon │ LT", {
-    color = Color(61, 23, 20),
+    color = Color(0, 0, 255),
     model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dual_dc17ext", "rw_sw_pinglauncher", "weapon_shield_activator", "rw_sw_dual_dc17ext",},
@@ -1882,15 +1885,15 @@ TEAM_KC_HP_LT = DarkRP.createJob("Heavy Platoon │ LT", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-         ply:SetHealth(250)
-        ply:SetMaxHealth(250)
+         ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_1STLT = DarkRP.createJob("Heavy Platoon │ 1st LT", {
-    color = Color(61, 23, 20),
+    color = Color(0, 0, 255),
     model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "weapon_cuff_elastic", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dual_dc17ext", "rw_sw_pinglauncher", "weapon_shield_activator", "rw_sw_dual_dc17ext",},
@@ -1903,8 +1906,8 @@ TEAM_KC_HP_1STLT = DarkRP.createJob("Heavy Platoon │ 1st LT", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(250)
-        ply:SetMaxHealth(250)
+        ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
@@ -2582,7 +2585,7 @@ TEAM_ST_ARC = DarkRP.createJob("ST AR", {
     end,
 })
 
-TEAM_ST_RIOT_PVT_CCPL = DarkRP.createJob("ST RIOT │ PVT-CCPL", {
+TEAM_ST_RIOT_PVT = DarkRP.createJob("ST RIOT │ PVT", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
     description = [[False]],
@@ -2602,6 +2605,91 @@ TEAM_ST_RIOT_PVT_CCPL = DarkRP.createJob("ST RIOT │ PVT-CCPL", {
         ply:SetMaxArmor(200)
     end,
 })
+
+TEAM_ST_RIOT_PFC = DarkRP.createJob("ST RIOT │ PFC", {
+    color = Color(170, 255, 255),
+    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
+    description = [[False]],
+    weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
+    command = "give_job_st_riot_pfc",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "ST │ Riot Platoon",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(100)
+        ply:SetMaxHealth(100)
+        ply:SetArmor(200)
+        ply:SetMaxArmor(200)
+    end,
+})
+
+TEAM_ST_RIOT_LCPL = DarkRP.createJob("ST RIOT │ LCPL", {
+    color = Color(170, 255, 255),
+    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
+    description = [[False]],
+    weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
+    command = "give_job_st_riot_lcpl",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "ST │ Riot Platoon",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(100)
+        ply:SetMaxHealth(100)
+        ply:SetArmor(200)
+        ply:SetMaxArmor(200)
+    end,
+})
+
+TEAM_ST_RIOT_CPL = DarkRP.createJob("ST RIOT │ CPL", {
+    color = Color(170, 255, 255),
+    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
+    description = [[False]],
+    weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
+    command = "give_job_st_riot_cpl",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "ST │ Riot Platoon",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(100)
+        ply:SetMaxHealth(100)
+        ply:SetArmor(200)
+        ply:SetMaxArmor(200)
+    end,
+})
+
+TEAM_ST_RIOT_CCPL = DarkRP.createJob("ST RIOT │ CCPL", {
+    color = Color(170, 255, 255),
+    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
+    description = [[False]],
+    weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
+    command = "give_job_st_riot_ccpl",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "ST │ Riot Platoon",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(100)
+        ply:SetMaxHealth(100)
+        ply:SetArmor(200)
+        ply:SetMaxArmor(200)
+    end,
+})
+
 
 TEAM_ST_RIOT_SGT = DarkRP.createJob("ST RIOT │ SGT", {
     color = Color(170, 255, 255),
@@ -2687,12 +2775,95 @@ TEAM_ST_RIOT_1st_LT = DarkRP.createJob("ST RIOT │ 1st LT", {
     end,
 })
 
-TEAM_ST_K9_PVT_CCPL = DarkRP.createJob("ST K9 │ PVT-CCPL", {
+TEAM_ST_K9_PVT = DarkRP.createJob("ST K9 │ PVT", {
     color = Color(170, 255, 255),
     model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic", "weapon_leash_elastic"},
     command = "give_job_st_k9_pvt_ccpl",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "ST │ K9 ARF Platoon",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(100)
+        ply:SetMaxHealth(100)
+        ply:SetArmor(200)
+        ply:SetMaxArmor(200)
+    end,
+})
+
+TEAM_ST_K9_PFC = DarkRP.createJob("ST K9 │ PFC", {
+    color = Color(170, 255, 255),
+    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
+    description = [[False]],
+    weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic", "weapon_leash_elastic"},
+    command = "give_job_st_k9_pfc",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "ST │ K9 ARF Platoon",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(100)
+        ply:SetMaxHealth(100)
+        ply:SetArmor(200)
+        ply:SetMaxArmor(200)
+    end,
+})
+
+TEAM_ST_K9_LCPL = DarkRP.createJob("ST K9 │ LCPL", {
+    color = Color(170, 255, 255),
+    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
+    description = [[False]],
+    weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic", "weapon_leash_elastic"},
+    command = "give_job_st_k9_lcpl",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "ST │ K9 ARF Platoon",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(100)
+        ply:SetMaxHealth(100)
+        ply:SetArmor(200)
+        ply:SetMaxArmor(200)
+    end,
+})
+
+TEAM_ST_K9_CPL = DarkRP.createJob("ST K9 │ CPL", {
+    color = Color(170, 255, 255),
+    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
+    description = [[False]],
+    weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic", "weapon_leash_elastic"},
+    command = "give_job_st_k9_cpl",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "ST │ K9 ARF Platoon",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(100)
+        ply:SetMaxHealth(100)
+        ply:SetArmor(200)
+        ply:SetMaxArmor(200)
+    end,
+})
+TEAM_ST_K9_CCPL = DarkRP.createJob("ST K9 │ CCPL", {
+    color = Color(170, 255, 255),
+    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
+    description = [[False]],
+    weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic", "weapon_leash_elastic"},
+    command = "give_job_st_k9_ccpl",
     max = 0,
     salary = 100,
     admin = 0,
@@ -3242,6 +3413,28 @@ TEAM_SEB = DarkRP.createJob("Sondereinsatzbrigade", {
     end,
 })
 
+TEAM_NARC = DarkRP.createJob("Null ARC's", {
+    color = Color(0, 0, 0),
+    model = {"models/aussiwozzi/phase1clones/lieutenant_arc.mdl", "models/aussiwozzi/phase1clones/sergeant_arc.mdl", "models/aussiwozzi/phase1clones/Captain_arc.mdl"},
+    description = [[Sondereinsatzbrigade]],
+    weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector", "rw_sw_dual_dc17ext", "at_sw_dc15a_all", "sw_datapad", "rw_sw_z6", "rw_sw_nt242c","at_sw_dc15sa","rw_sw_wristblaster_heavy_yellow","rw_sw_nade_thermal","rw_sw_nade_stun","tfa_defi_swrp","weapon_rpw_binoculars_explorer","rw_ammo_distributor","mortar_range_finder","defuse_kit","bkeypads_cracker"},
+    command = "give_job_NARC",
+    max = 0,
+    salary = 0,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "NARC",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(300)
+        ply:SetMaxHealth(300)
+        ply:SetArmor(300)
+        ply:SetMaxArmor(300)
+    end,
+})
+
+
 TEAM_501 = DarkRP.createJob("501st Attack Batallion", {
     color = Color(0,0,150),
     model = {"models/aussiwozzi/phase1clones/501st/Trooper.mdl","models/aussiwozzi/phase1clones/501st/Denal.mdl","models/aussiwozzi/phase1clones/501st/Echo.mdl","models/aussiwozzi/phase1clones/501st/Fives.mdl","models/aussiwozzi/phase1clones/501st/hardcase.mdl","models/aussiwozzi/phase1clones/501st/Jesse.mdl","models/aussiwozzi/phase1clones/501st/kano.mdl","models/aussiwozzi/phase1clones/501st/Kix.mdl","models/aussiwozzi/phase1clones/501st/Mixer.mdl","models/aussiwozzi/phase1clones/501st/Redeye.mdl","models/hazel/arc_models/2_501st/501st_arc.mdl","models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl","models/aussiwozzi/phase1clones/501st/arf_trooper.mdl"},
@@ -3262,29 +3455,6 @@ TEAM_501 = DarkRP.createJob("501st Attack Batallion", {
         ply:SetMaxArmor(400)
     end,
 })
-
-
-TEAM_stphantom = DarkRP.createJob("ST Private │ Phantom ", {
-    color = Color(0,0,150),
-    model = {"models/aussiwozzi/phase1clones/cg/officer.mdl"},
-    description = [[]],
-    weapons = {"at_sw_dc15a_base1","at_sw_dc15s_base1","rw_sw_dc17","rw_sw_nade_thermal","sw_datapad"},
-    command = "give_job_stphantom",
-    max = 0,
-    salary = 1000,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    category = "ST │ Phantom",
-    canDemote = false,
-    PlayerSpawn = function(ply)
-        ply:SetHealth(400)
-        ply:SetMaxHealth(400)
-        ply:SetArmor(400)
-        ply:SetMaxArmor(400)
-    end,
-})
-
 
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted

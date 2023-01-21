@@ -81,7 +81,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Keeli Company │ Company",
+    name = "Keeli │ Company",
     categorises = "jobs",
     startExpanded = true,
     color = Color(61, 23, 20),
@@ -95,7 +95,7 @@ DarkRP.createCategory{
     name = "501st │ Heavy Platoon",
     categorises = "jobs",
     startExpanded = true,
-    color = Color(0, 0, 255),
+    color = Color(61, 23, 20),
     sortOrder = 7,
     canSee = function(ply)
         return true
@@ -290,7 +290,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "ST │ Phantom",
+    name = "NARC",
     categorises = "jobs",
     startExpanded = true,
     color = Color(0, 0, 255),
