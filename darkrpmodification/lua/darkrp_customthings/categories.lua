@@ -289,13 +289,3 @@ DarkRP.createCategory{
     end,
 }
 
-DarkRP.createCategory{
-    name = "NARC",
-    categorises = "jobs",
-    startExpanded = true,
-    color = Color(0, 0, 255),
-    sortOrder = 24,
-    canSee = function(ply)
-        return true
-    end,
-}

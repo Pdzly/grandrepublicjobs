@@ -3396,7 +3396,7 @@ TEAM_SEB = DarkRP.createJob("Sondereinsatzbrigade", {
     color = Color(153, 0, 0),
     model = { "models/aussiwozzi/phase1clones/lieutenant_arc.mdl","models/starwars/grady/legends_arcs/arc_trooper_luks.mdl","models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl", "models/aussiwozzi/phase1clones/sergeant_arc.mdl", "models/aussiwozzi/phase1clones/Captain_arc.mdl", "models/fisher/mando/skirata/skirata.mdl", "models/fisher/mando/vau/vau.mdl"},
     description = [[Sondereinsatzbrigade]],
-    weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "at_sw_dc15a_recon3", "sw_datapad", "rw_sw_z6", "rw_sw_dc15x"},
+    weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic","bkeypads_cracker","defuse_kit","shadow", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "at_sw_dc15a_recon3", "sw_datapad", "rw_sw_z6", "rw_sw_dc15x"},
     command = "give_job_seb",
     max = 0,
     salary = 0,
@@ -3413,26 +3413,6 @@ TEAM_SEB = DarkRP.createJob("Sondereinsatzbrigade", {
     end,
 })
 
-TEAM_NARC = DarkRP.createJob("Null ARC's", {
-    color = Color(0, 0, 0),
-    model = {"models/aussiwozzi/phase1clones/lieutenant_arc.mdl", "models/aussiwozzi/phase1clones/sergeant_arc.mdl", "models/aussiwozzi/phase1clones/Captain_arc.mdl"},
-    description = [[Sondereinsatzbrigade]],
-    weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector", "rw_sw_dual_dc17ext", "at_sw_dc15a_all", "sw_datapad", "rw_sw_z6", "rw_sw_nt242c","at_sw_dc15sa","rw_sw_wristblaster_heavy_yellow","rw_sw_nade_thermal","rw_sw_nade_stun","tfa_defi_swrp","weapon_rpw_binoculars_explorer","rw_ammo_distributor","mortar_range_finder","defuse_kit","bkeypads_cracker"},
-    command = "give_job_NARC",
-    max = 0,
-    salary = 0,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    category = "NARC",
-    canDemote = false,
-    PlayerSpawn = function(ply)
-        ply:SetHealth(300)
-        ply:SetMaxHealth(300)
-        ply:SetArmor(300)
-        ply:SetMaxArmor(300)
-    end,
-})
 
 
 TEAM_501 = DarkRP.createJob("501st Attack Batallion", {
