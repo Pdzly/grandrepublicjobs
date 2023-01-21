@@ -631,7 +631,7 @@ TEAM_RC_MEDIC_SNIPER = DarkRP.createJob("RC Sev", {
 
 TEAM_104TH_PVT = DarkRP.createJob("104th │ PVT", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "rw_sw_dc17",},
     command = "give_job_104th_pvt",
@@ -652,7 +652,7 @@ TEAM_104TH_PVT = DarkRP.createJob("104th │ PVT", {
 
 TEAM_104TH_PFC_CCPL = DarkRP.createJob("104th │ PFC", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"climb_swep2", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17",},
     command = "give_job_104th_pfc",
@@ -673,7 +673,7 @@ TEAM_104TH_PFC_CCPL = DarkRP.createJob("104th │ PFC", {
 
 TEAM_104TH_SPC = DarkRP.createJob("104th │ SPC", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17",},
     command = "give_job_104th_spc",
@@ -694,7 +694,7 @@ TEAM_104TH_SPC = DarkRP.createJob("104th │ SPC", {
 
 TEAM_104TH_LCPL = DarkRP.createJob("104th │ LCPL", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17",},
     command = "give_job_104th_lcpl",
@@ -715,7 +715,7 @@ TEAM_104TH_LCPL = DarkRP.createJob("104th │ LCPL", {
 
 TEAM_104TH_CPL = DarkRP.createJob("104th │ CPL", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17",},
     command = "give_job_104th_cpl",
@@ -736,7 +736,7 @@ TEAM_104TH_CPL = DarkRP.createJob("104th │ CPL", {
 
 TEAM_104TH_CCPL = DarkRP.createJob("104th │ CCPL", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17"},
     command = "give_job_104th_ccpl",
@@ -757,7 +757,7 @@ TEAM_104TH_CCPL = DarkRP.createJob("104th │ CCPL", {
 
 TEAM_104TH_SGT = DarkRP.createJob("104th │ SGT", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17",},
     command = "give_job_104th_sgt",
@@ -778,7 +778,7 @@ TEAM_104TH_SGT = DarkRP.createJob("104th │ SGT", {
 
 TEAM_104TH_SMJ = DarkRP.createJob("104th │ SMJ", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17",},
     command = "give_job_104th_smj",
@@ -799,7 +799,7 @@ TEAM_104TH_SMJ = DarkRP.createJob("104th │ SMJ", {
 
 TEAM_104TH_LT = DarkRP.createJob("104th │ LT", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
     command = "give_job_104th_lt",
@@ -820,7 +820,7 @@ TEAM_104TH_LT = DarkRP.createJob("104th │ LT", {
 
 TEAM_104TH_1STLT = DarkRP.createJob("104th │ 1stLT", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
     command = "give_job_104th_1stlt",
@@ -841,7 +841,7 @@ TEAM_104TH_1STLT = DarkRP.createJob("104th │ 1stLT", {
 
 TEAM_104TH_CPT = DarkRP.createJob("104th │ CPT", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/trooper.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"climb_swep2", "jet_mk2", "sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc15le", "realistic_hook", "rw_sw_dc17", "rw_sw_dual_dc17ext",},
     command = "give_job_104th_cpt",
@@ -862,7 +862,7 @@ TEAM_104TH_CPT = DarkRP.createJob("104th │ CPT", {
 
 TEAM_104TH_AVP_PVT_CCPL = DarkRP.createJob("104th AVP │ PVT", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_dp23", "rw_sw_dc15s", "rw_sw_dc17",},
     command = "give_job_104th_avp_pvt",
@@ -883,7 +883,7 @@ TEAM_104TH_AVP_PVT_CCPL = DarkRP.createJob("104th AVP │ PVT", {
 
 TEAM_104TH_AVP_PFC = DarkRP.createJob("104th AVP │ PFC", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_dp23", "rw_sw_dc15s", "rw_sw_dc17",},
     command = "give_job_104th_avp_pfc",
@@ -904,7 +904,7 @@ TEAM_104TH_AVP_PFC = DarkRP.createJob("104th AVP │ PFC", {
 
 TEAM_104TH_AVP_SPC = DarkRP.createJob("104th AVP │ SPC", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_dp23", "rw_sw_dc15s", "rw_sw_dc17",},
     command = "give_job_104th_avp_spc",
@@ -925,7 +925,7 @@ TEAM_104TH_AVP_SPC = DarkRP.createJob("104th AVP │ SPC", {
 
 TEAM_104TH_AVP_LCPL = DarkRP.createJob("104th AVP │ LCPL", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_dp23", "rw_sw_dc15s", "rw_sw_dc17",},
     command = "give_job_104th_avp_lcpl",
@@ -946,7 +946,7 @@ TEAM_104TH_AVP_LCPL = DarkRP.createJob("104th AVP │ LCPL", {
 
 TEAM_104TH_AVP_CPL = DarkRP.createJob("104th AVP │ CPL", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_dp23", "rw_sw_dc15s", "rw_sw_dc17",},
     command = "give_job_104th_avp_cpl",
@@ -967,7 +967,7 @@ TEAM_104TH_AVP_CPL = DarkRP.createJob("104th AVP │ CPL", {
 
 TEAM_104TH_AVP_CCPL = DarkRP.createJob("104th AVP │ CCPL", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/pilot.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_dp23", "rw_sw_dc15s", "rw_sw_dc17",},
     command = "give_job_104th_avp_ccpl",
@@ -988,7 +988,7 @@ TEAM_104TH_AVP_CCPL = DarkRP.createJob("104th AVP │ CCPL", {
 
 TEAM_104TH_AVP_SGT = DarkRP.createJob("104th AVP │ SGT", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/pilots/pilot_shadow_squadron.mdl"},
+    model = {"models/aussiwozzi/phase1clones/pilots/pilot_shadow_squadron.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_dp23", "rw_sw_dc15s", "rw_sw_dual_dc17", "rw_sw_dc17",},
     command = "give_job_104th_avp_sgt",
@@ -1009,7 +1009,7 @@ TEAM_104TH_AVP_SGT = DarkRP.createJob("104th AVP │ SGT", {
 
 TEAM_104TH_AVP_SMJ = DarkRP.createJob("104th AVP │ SMJ", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/pilots/pilot_shadow_squadron.mdl"},
+    model = {"models/aussiwozzi/phase1clones/pilots/pilot_shadow_squadron.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_dp23", "rw_sw_dc15s", "rw_sw_dual_dc17", "rw_sw_dc17",},
     command = "give_job_104th_avp_smj",
@@ -1030,7 +1030,7 @@ TEAM_104TH_AVP_SMJ = DarkRP.createJob("104th AVP │ SMJ", {
 
 TEAM_104TH_AVP_LT = DarkRP.createJob("104th AVP │ LT", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/pilots/pilot_matchstick.mdl"},
+    model = {"models/aussiwozzi/phase1clones/pilots/pilot_matchstick.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_dp23", "rw_sw_dc15s", "rw_sw_dual_dc17ext", "rw_sw_dc17",},
     command = "give_job_104th_avp_lt",
@@ -1051,7 +1051,7 @@ TEAM_104TH_AVP_LT = DarkRP.createJob("104th AVP │ LT", {
 
 TEAM_104TH_AVP_1STLT = DarkRP.createJob("104th AVP │ 1st LT", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/pilots/pilot_matchstick.mdl"},
+    model = {"models/aussiwozzi/phase1clones/pilots/pilot_matchstick.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_dp23", "rw_sw_dc15s", "rw_sw_dual_dc17ext", "rw_sw_dc17",},
     command = "give_job_104th_avp_1stlt",
@@ -1072,7 +1072,7 @@ TEAM_104TH_AVP_1STLT = DarkRP.createJob("104th AVP │ 1st LT", {
 
 TEAM_104TH_AU_PVT = DarkRP.createJob("104th Airborne │ PVT", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_impact", "jet_mk5", "rw_sw_dp23", "rw_sw_dp24", "rw_sw_dc15s", "rw_sw_dc17",},
     command = "give_job_104th_au_pvt",
@@ -1093,7 +1093,7 @@ TEAM_104TH_AU_PVT = DarkRP.createJob("104th Airborne │ PVT", {
 
 TEAM_104TH_AU_PFC = DarkRP.createJob("104th Airborne │ PFC", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_impact", "jet_mk5", "rw_sw_dp23", "rw_sw_dp24", "rw_sw_dc15s", "rw_sw_dc17",},
     command = "give_job_104th_au_pfc",
@@ -1114,7 +1114,7 @@ TEAM_104TH_AU_PFC = DarkRP.createJob("104th Airborne │ PFC", {
 
 TEAM_104TH_AU_SPC = DarkRP.createJob("104th Airborne │ SPC", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_impact", "jet_mk5", "rw_sw_dp23", "rw_sw_dp24", "rw_sw_dc15s", "rw_sw_dc17",},
     command = "give_job_104th_au_spc",
@@ -1135,7 +1135,7 @@ TEAM_104TH_AU_SPC = DarkRP.createJob("104th Airborne │ SPC", {
 
 TEAM_104TH_AU_LCPL = DarkRP.createJob("104th Airborne │ LCPL", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_impact", "jet_mk5", "rw_sw_dp23", "rw_sw_dp24", "rw_sw_dc15s", "rw_sw_dc17",},
     command = "give_job_104th_au_lcpl",
@@ -1156,7 +1156,7 @@ TEAM_104TH_AU_LCPL = DarkRP.createJob("104th Airborne │ LCPL", {
 
 TEAM_104TH_AU_CPL = DarkRP.createJob("104th Airborne │ CPL", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_impact", "jet_mk5", "rw_sw_dp23", "rw_sw_dp24", "rw_sw_dc15s", "rw_sw_dc17",},
     command = "give_job_104th_au_cpl",
@@ -1177,7 +1177,7 @@ TEAM_104TH_AU_CPL = DarkRP.createJob("104th Airborne │ CPL", {
 
 TEAM_104TH_AU_CCPL = DarkRP.createJob("104th Airborne │ CCPL", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_impact", "jet_mk5", "rw_sw_dp23", "rw_sw_dp24", "rw_sw_dc15s", "rw_sw_dc17",},
     command = "give_job_104th_au_ccpl",
@@ -1198,7 +1198,7 @@ TEAM_104TH_AU_CCPL = DarkRP.createJob("104th Airborne │ CCPL", {
 
 TEAM_104TH_AU_SGT = DarkRP.createJob("104th Airborne │ SGT", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_impact", "jet_mk5", "rw_sw_dp23", "rw_sw_dp24", "rw_sw_dc15s", "rw_sw_dual_dc17", "rw_sw_dc17",},
     command = "give_job_104th_au_sgt",
@@ -1219,7 +1219,7 @@ TEAM_104TH_AU_SGT = DarkRP.createJob("104th Airborne │ SGT", {
 
 TEAM_104TH_AU_SMJ = DarkRP.createJob("104th Airborne │ SMJ", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_impact", "jet_mk5", "rw_sw_dp23", "rw_sw_dp24", "rw_sw_dc15s", "rw_sw_dual_dc17", "rw_sw_dc17",},
     command = "give_job_104th_au_smj",
@@ -1240,7 +1240,7 @@ TEAM_104TH_AU_SMJ = DarkRP.createJob("104th Airborne │ SMJ", {
 
 TEAM_104TH_AU_LT = DarkRP.createJob("104th Airborne │ LT", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_impact", "jet_mk5", "rw_sw_dp23", "rw_sw_dp24", "rw_sw_dc15s", "rw_sw_dual_dc17ext", "rw_sw_dc17",},
     command = "give_job_104th_au_lt",
@@ -1261,7 +1261,7 @@ TEAM_104TH_AU_LT = DarkRP.createJob("104th Airborne │ LT", {
 
 TEAM_104TH_AU_1STLT = DarkRP.createJob("104th Airborne │ 1stLT", {
     color = Color(140, 140, 140),
-    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl"},
+    model = {"models/aussiwozzi/phase1clones/104th/aerial.mdl","models/defcon/banks/coldwweather/41st_cold/41st_gree/41st_gree.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_impact", "jet_mk5", "rw_sw_dp23", "rw_sw_dp24", "rw_sw_dc15s", "rw_sw_dual_dc17ext", "rw_sw_dc17",},
     command = "give_job_104th_au_1stlt",
@@ -1282,7 +1282,7 @@ TEAM_104TH_AU_1STLT = DarkRP.createJob("104th Airborne │ 1stLT", {
 
 TEAM_104TH_TEB_PVT = DarkRP.createJob("104th EP │ PVT", {
     color = Color(140, 140, 140),
-    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
+    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl","models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "defuse_kit", "rw_sw_nade_incendiary", "rw_sw_dc15le", "rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17", "realistic_hook", "weapon_armorkit", "fort_datapad", "alydus_fusioncutter", "",},
     command = "give_job_104th_teb_pvt",
@@ -1303,7 +1303,7 @@ TEAM_104TH_TEB_PVT = DarkRP.createJob("104th EP │ PVT", {
 
 TEAM_104TH_TEB_PFC = DarkRP.createJob("104th EP │ PFC", {
     color = Color(140, 140, 140),
-    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
+    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl","models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[]],
     weapons = {"", "sw_datapad", "weapon_rpw_binoculars", "defuse_kit", "bkeypads_cracker", "at_sw_dc15a_heavy3", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_dc15le", "rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17", "realistic_hook", "weapon_armorkit", "fort_datapad", "alydus_fusioncutter", "",},
     command = "give_job_104th_teb_pfc",
@@ -1324,7 +1324,7 @@ TEAM_104TH_TEB_PFC = DarkRP.createJob("104th EP │ PFC", {
 
 TEAM_104TH_TEB_SPC = DarkRP.createJob("104th EP │ SPC", {
     color = Color(140, 140, 140),
-    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
+    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl","models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "defuse_kit", "bkeypads_cracker", "at_sw_dc15a_heavy3", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_dc15le", "rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17", "realistic_hook", "weapon_armorkit", "fort_datapad", "alydus_fusioncutter", "",},
     command = "give_job_104th_teb_spc",
@@ -1345,7 +1345,7 @@ TEAM_104TH_TEB_SPC = DarkRP.createJob("104th EP │ SPC", {
 
 TEAM_104TH_TEB_LCPL = DarkRP.createJob("104th EP │ LCPL", {
     color = Color(140, 140, 140),
-    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
+    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl","models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "defuse_kit", "bkeypads_cracker", "at_sw_dc15a_heavy3", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_dc15le", "rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17", "realistic_hook", "weapon_armorkit", "fort_datapad", "alydus_fusioncutter", "",},
     command = "give_job_104th_teb_lcpl",
@@ -1366,7 +1366,7 @@ TEAM_104TH_TEB_LCPL = DarkRP.createJob("104th EP │ LCPL", {
 
 TEAM_104TH_TEB_CPL = DarkRP.createJob("104th EP │ CPL", {
     color = Color(140, 140, 140),
-    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
+    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl","models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "defuse_kit", "bkeypads_cracker", "at_sw_dc15a_heavy3", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_dc15le", "rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17", "realistic_hook", "weapon_armorkit", "fort_datapad", "alydus_fusioncutter", "",},
     command = "give_job_104th_teb_cpl",
@@ -1387,7 +1387,7 @@ TEAM_104TH_TEB_CPL = DarkRP.createJob("104th EP │ CPL", {
 
 TEAM_104TH_TEB_CCPL = DarkRP.createJob("104th EP │ CCPL", {
     color = Color(140, 140, 140),
-    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
+    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl","models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "defuse_kit", "bkeypads_cracker", "at_sw_dc15a_heavy3", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_dc15le", "rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17", "realistic_hook", "weapon_armorkit", "fort_datapad", "alydus_fusioncutter", "",},
     command = "give_job_104th_teb_ccpl",
@@ -1408,7 +1408,7 @@ TEAM_104TH_TEB_CCPL = DarkRP.createJob("104th EP │ CCPL", {
 
 TEAM_104TH_TEB_SGT = DarkRP.createJob("104th EP │ SGT", {
     color = Color(140, 140, 140),
-    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
+    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl","models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "defuse_kit", "bkeypads_cracker", "at_sw_dc15a_heavy3", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_dc15le", "rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17", "realistic_hook", "weapon_armorkit", "fort_datapad", "alydus_fusioncutter", "rw_sw_dual_dc17",},
     command = "give_job_104th_teb_sgt",
@@ -1429,7 +1429,7 @@ TEAM_104TH_TEB_SGT = DarkRP.createJob("104th EP │ SGT", {
 
 TEAM_104TH_TEB_SMJ = DarkRP.createJob("104th EP │ SMJ", {
     color = Color(140, 140, 140),
-    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
+    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl","models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "defuse_kit", "bkeypads_cracker", "at_sw_dc15a_heavy3", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_dc15le", "rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17", "realistic_hook", "weapon_armorkit", "fort_datapad", "alydus_fusioncutter", "rw_sw_dual_dc17",},
     command = "give_job_104th_teb_smj",
@@ -1450,7 +1450,7 @@ TEAM_104TH_TEB_SMJ = DarkRP.createJob("104th EP │ SMJ", {
 
 TEAM_104TH_TEB_LT = DarkRP.createJob("104th EP │ LT", {
     color = Color(140, 140, 140),
-    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
+    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl","models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "defuse_kit", "bkeypads_cracker", "at_sw_dc15a_heavy3", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_dc15le", "rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17", "realistic_hook", "weapon_armorkit", "fort_datapad", "alydus_fusioncutter", "rw_sw_dual_dc17ext",},
     command = "give_job_104th_teb_lt",
@@ -1471,7 +1471,7 @@ TEAM_104TH_TEB_LT = DarkRP.createJob("104th EP │ LT", {
 
 TEAM_104TH_TEB_1STLT = DarkRP.createJob("104th EP │ 1st LT", {
     color = Color(140, 140, 140),
-    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl"},
+    model = {"models/player/sono/swbf2/eod_clone_phase1.mdl","models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "defuse_kit", "at_sw_dc15a_heavy3", "bkeypads_cracker", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_dc15le", "rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17", "realistic_hook", "weapon_armorkit", "fort_datapad", "alydus_fusioncutter", "rw_sw_dual_dc17ext",},
     command = "give_job_104th_teb_1stlt",
@@ -1702,7 +1702,7 @@ TEAM_KC_1STLT = DarkRP.createJob("Keeli Company │ 1st LT", {
 
 TEAM_KC_HP_PVT = DarkRP.createJob("Heavy Platoon │ PVT", {
     color = Color(61, 23, 20),
-    model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
     command = "give_job_kc_hp_pvt",
@@ -1714,16 +1714,17 @@ TEAM_KC_HP_PVT = DarkRP.createJob("Heavy Platoon │ PVT", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(100)
-        ply:SetMaxHealth(100)
+        ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_PFC = DarkRP.createJob("Heavy Platoon │ PFC", {
-    color = Color(61, 23, 20),
-    model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
+    color = Color(0, 0, 255),
+
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
     command = "give_job_kc_hp_pfc",
@@ -1735,16 +1736,16 @@ TEAM_KC_HP_PFC = DarkRP.createJob("Heavy Platoon │ PFC", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(100)
-        ply:SetMaxHealth(100)
+       ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_SPC = DarkRP.createJob("Heavy Platoon │ SPC", {
-    color = Color(61, 23, 20),
-    model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
+     color = Color(0, 0, 255),
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
     command = "give_job_kc_hp_spc",
@@ -1756,16 +1757,17 @@ TEAM_KC_HP_SPC = DarkRP.createJob("Heavy Platoon │ SPC", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(100)
-        ply:SetMaxHealth(100)
+       ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_LCPL = DarkRP.createJob("Heavy Platoon │ LCPL", {
-    color = Color(61, 23, 20),
-    model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
+     color = Color(0, 0, 255),
+
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
     command = "give_job_kc_hp_lcpl",
@@ -1777,16 +1779,17 @@ TEAM_KC_HP_LCPL = DarkRP.createJob("Heavy Platoon │ LCPL", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(100)
-        ply:SetMaxHealth(100)
+       ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_CPL = DarkRP.createJob("Heavy Platoon │ CPL", {
-    color = Color(61, 23, 20),
-    model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
+    color = Color(0, 0, 255),
+
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
     command = "give_job_kc_hp_cpl",
@@ -1798,16 +1801,16 @@ TEAM_KC_HP_CPL = DarkRP.createJob("Heavy Platoon │ CPL", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(100)
-        ply:SetMaxHealth(100)
+        ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_CCPL = DarkRP.createJob("Heavy Platoon │ CCPL", {
-    color = Color(61, 23, 20),
-    model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
+    color = Color(0, 0, 255),
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
     command = "give_job_kc_hp_ccpl",
@@ -1819,16 +1822,16 @@ TEAM_KC_HP_CCPL = DarkRP.createJob("Heavy Platoon │ CCPL", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(100)
-        ply:SetMaxHealth(100)
+         ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_SGT = DarkRP.createJob("Heavy Platoon │ SGT", {
-    color = Color(61, 23, 20),
-    model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
+    color = Color(0, 0, 255),
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dual_dc17", "rw_sw_pinglauncher", "weapon_shield_activator", "rw_sw_dual_dc17",},
     command = "give_job_kc_hp_sgt",
@@ -1840,16 +1843,16 @@ TEAM_KC_HP_SGT = DarkRP.createJob("Heavy Platoon │ SGT", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(100)
-        ply:SetMaxHealth(100)
-        ply:SetArmor(215)
-        ply:SetMaxArmor(215)
+        ply:SetHealth(260)
+        ply:SetMaxHealth(260)
+        ply:SetArmor(260)
+        ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_SMJ = DarkRP.createJob("Heavy Platoon │ SMJ", {
-    color = Color(61, 23, 20),
-    model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
+ color = Color(0, 0, 255),
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "at_sw_dc15a_heavy3", "rw_sw_dc15s", "rw_sw_dual_dc17", "rw_sw_pinglauncher", "weapon_shield_activator", "rw_sw_dual_dc17",},
     command = "give_job_kc_hp_smj",
@@ -1861,16 +1864,16 @@ TEAM_KC_HP_SMJ = DarkRP.createJob("Heavy Platoon │ SMJ", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(100)
-        ply:SetMaxHealth(100)
-        ply:SetArmor(230)
-        ply:SetMaxArmor(230)
+        ply:SetHealth(260)
+        ply:SetMaxHealth(260)
+        ply:SetArmor(260)
+        ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_LT = DarkRP.createJob("Heavy Platoon │ LT", {
-    color = Color(61, 23, 20),
-    model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
+    color = Color(0, 0, 255),
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dual_dc17ext", "rw_sw_pinglauncher", "weapon_shield_activator", "rw_sw_dual_dc17ext",},
     command = "give_job_kc_hp_lt",
@@ -1882,16 +1885,16 @@ TEAM_KC_HP_LT = DarkRP.createJob("Heavy Platoon │ LT", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(200)
-        ply:SetMaxHealth(200)
-        ply:SetArmor(300)
-        ply:SetMaxArmor(300)
+         ply:SetHealth(260)
+        ply:SetMaxHealth(260)
+        ply:SetArmor(260)
+        ply:SetMaxArmor(260)
     end,
 })
 
 TEAM_KC_HP_1STLT = DarkRP.createJob("Heavy Platoon │ 1st LT", {
-    color = Color(61, 23, 20),
-    model = {"models/aussiwozzi/phase1clones/501st/jet_trooper.mdl"},
+    color = Color(0, 0, 255),
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "weapon_cuff_elastic", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dual_dc17ext", "rw_sw_pinglauncher", "weapon_shield_activator", "rw_sw_dual_dc17ext",},
     command = "give_job_kc_hp_1stlt",
@@ -1903,8 +1906,8 @@ TEAM_KC_HP_1STLT = DarkRP.createJob("Heavy Platoon │ 1st LT", {
     category = "501st │ Heavy Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(100)
-        ply:SetMaxHealth(100)
+        ply:SetHealth(260)
+        ply:SetMaxHealth(260)
         ply:SetArmor(260)
         ply:SetMaxArmor(260)
     end,
@@ -2332,7 +2335,7 @@ TEAM_KC_ARF_1STLT = DarkRP.createJob("ARF │ 1st LT", {
 
 TEAM_ST_PVT = DarkRP.createJob("ST │ PVT", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_pvt",
@@ -2353,7 +2356,7 @@ TEAM_ST_PVT = DarkRP.createJob("ST │ PVT", {
 
 TEAM_ST_PFC = DarkRP.createJob("ST │ PFC", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_pfc",
@@ -2374,7 +2377,7 @@ TEAM_ST_PFC = DarkRP.createJob("ST │ PFC", {
 
 TEAM_ST_SPC = DarkRP.createJob("ST │ SPC", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_spc",
@@ -2395,7 +2398,7 @@ TEAM_ST_SPC = DarkRP.createJob("ST │ SPC", {
 
 TEAM_ST_LCPL = DarkRP.createJob("ST │ LCPL", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_lcpl",
@@ -2416,7 +2419,7 @@ TEAM_ST_LCPL = DarkRP.createJob("ST │ LCPL", {
 
 TEAM_ST_CPL = DarkRP.createJob("ST │ CPL", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_cpl",
@@ -2437,7 +2440,7 @@ TEAM_ST_CPL = DarkRP.createJob("ST │ CPL", {
 
 TEAM_ST_CCPL = DarkRP.createJob("ST │ CCPL", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_ccpl",
@@ -2458,7 +2461,7 @@ TEAM_ST_CCPL = DarkRP.createJob("ST │ CCPL", {
 
 TEAM_ST_SGT = DarkRP.createJob("ST │ SGT", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_sgt",
@@ -2479,7 +2482,7 @@ TEAM_ST_SGT = DarkRP.createJob("ST │ SGT", {
 
 TEAM_ST_SMJ = DarkRP.createJob("ST │ SMJ", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/shock_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_smj",
@@ -2500,7 +2503,7 @@ TEAM_ST_SMJ = DarkRP.createJob("ST │ SMJ", {
 
 TEAM_ST_LT = DarkRP.createJob("ST │ LT", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/shock_officer.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/shock_officer.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_LT",
@@ -2521,7 +2524,7 @@ TEAM_ST_LT = DarkRP.createJob("ST │ LT", {
 
 TEAM_ST_1st_LT = DarkRP.createJob("ST │ 1st LT", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/shock_officer.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/shock_officer.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_1st_LT",
@@ -2542,7 +2545,7 @@ TEAM_ST_1st_LT = DarkRP.createJob("ST │ 1st LT", {
 
 TEAM_ST_Thorn = DarkRP.createJob("ST │ Thorn", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/thorn.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/thorn.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_commander/cg_commander.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext", "stunstick", "weapon_cuff_elastic", "rw_sw_z6"},
     command = "give_job_st_thorn",
@@ -2563,7 +2566,7 @@ TEAM_ST_Thorn = DarkRP.createJob("ST │ Thorn", {
 
 TEAM_ST_ARC = DarkRP.createJob("ST AR", {
     color = Color(170, 255, 255),
-    model = {"models/joey/st/starctrooper.mdl"},
+    model = {"models/joey/st/starctrooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "jet_mk5", "rw_sw_dc17", "rw_sw_dual_dc17ext", "stunstick", "weapon_cuff_elastic", "rw_sw_dc15le", "rw_sw_nade_stun", "rw_sw_nade_thermal"},
     command = "give_job_st_arc",
@@ -2584,7 +2587,7 @@ TEAM_ST_ARC = DarkRP.createJob("ST AR", {
 
 TEAM_ST_RIOT_PVT = DarkRP.createJob("ST RIOT │ PVT", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_riot_pvt_ccpl",
@@ -2605,7 +2608,7 @@ TEAM_ST_RIOT_PVT = DarkRP.createJob("ST RIOT │ PVT", {
 
 TEAM_ST_RIOT_PFC = DarkRP.createJob("ST RIOT │ PFC", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_riot_pfc",
@@ -2626,7 +2629,7 @@ TEAM_ST_RIOT_PFC = DarkRP.createJob("ST RIOT │ PFC", {
 
 TEAM_ST_RIOT_LCPL = DarkRP.createJob("ST RIOT │ LCPL", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_riot_lcpl",
@@ -2647,7 +2650,7 @@ TEAM_ST_RIOT_LCPL = DarkRP.createJob("ST RIOT │ LCPL", {
 
 TEAM_ST_RIOT_CPL = DarkRP.createJob("ST RIOT │ CPL", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_riot_cpl",
@@ -2668,7 +2671,7 @@ TEAM_ST_RIOT_CPL = DarkRP.createJob("ST RIOT │ CPL", {
 
 TEAM_ST_RIOT_CCPL = DarkRP.createJob("ST RIOT │ CCPL", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_riot_ccpl",
@@ -2690,7 +2693,7 @@ TEAM_ST_RIOT_CCPL = DarkRP.createJob("ST RIOT │ CCPL", {
 
 TEAM_ST_RIOT_SGT = DarkRP.createJob("ST RIOT │ SGT", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_riot_sgt",
@@ -2711,7 +2714,7 @@ TEAM_ST_RIOT_SGT = DarkRP.createJob("ST RIOT │ SGT", {
 
 TEAM_ST_RIOT_SMJ = DarkRP.createJob("ST RIOT │ SMJ", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/riot_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_riot_smj",
@@ -2732,7 +2735,7 @@ TEAM_ST_RIOT_SMJ = DarkRP.createJob("ST RIOT │ SMJ", {
 
 TEAM_ST_RIOT_LT = DarkRP.createJob("ST RIOT │ LT", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/riot_officer.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/riot_officer.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_riot_LT",
@@ -2753,7 +2756,7 @@ TEAM_ST_RIOT_LT = DarkRP.createJob("ST RIOT │ LT", {
 
 TEAM_ST_RIOT_1st_LT = DarkRP.createJob("ST RIOT │ 1st LT", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/shock_officer.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/shock_officer.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext", "stunstick", "weapon_cuff_elastic"},
     command = "give_job_st_riot_1st_LT",
@@ -2774,7 +2777,7 @@ TEAM_ST_RIOT_1st_LT = DarkRP.createJob("ST RIOT │ 1st LT", {
 
 TEAM_ST_K9_PVT = DarkRP.createJob("ST K9 │ PVT", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic", "weapon_leash_elastic"},
     command = "give_job_st_k9_pvt_ccpl",
@@ -2795,7 +2798,7 @@ TEAM_ST_K9_PVT = DarkRP.createJob("ST K9 │ PVT", {
 
 TEAM_ST_K9_PFC = DarkRP.createJob("ST K9 │ PFC", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic", "weapon_leash_elastic"},
     command = "give_job_st_k9_pfc",
@@ -2816,7 +2819,7 @@ TEAM_ST_K9_PFC = DarkRP.createJob("ST K9 │ PFC", {
 
 TEAM_ST_K9_LCPL = DarkRP.createJob("ST K9 │ LCPL", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic", "weapon_leash_elastic"},
     command = "give_job_st_k9_lcpl",
@@ -2837,7 +2840,7 @@ TEAM_ST_K9_LCPL = DarkRP.createJob("ST K9 │ LCPL", {
 
 TEAM_ST_K9_CPL = DarkRP.createJob("ST K9 │ CPL", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic", "weapon_leash_elastic"},
     command = "give_job_st_k9_cpl",
@@ -2857,7 +2860,7 @@ TEAM_ST_K9_CPL = DarkRP.createJob("ST K9 │ CPL", {
 })
 TEAM_ST_K9_CCPL = DarkRP.createJob("ST K9 │ CCPL", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "stunstick", "weapon_cuff_elastic", "weapon_leash_elastic"},
     command = "give_job_st_k9_ccpl",
@@ -2878,7 +2881,7 @@ TEAM_ST_K9_CCPL = DarkRP.createJob("ST K9 │ CCPL", {
 
 TEAM_ST_K9_SGT = DarkRP.createJob("ST K9 │ SGT", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17", "stunstick", "weapon_cuff_elastic", "weapon_leash_elastic"},
     command = "give_job_st_k9_sgt",
@@ -2899,7 +2902,7 @@ TEAM_ST_K9_SGT = DarkRP.createJob("ST K9 │ SGT", {
 
 TEAM_ST_K9_SMJ = DarkRP.createJob("ST K9 │ SMJ", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/arf_trooper.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17", "stunstick", "weapon_cuff_elastic", "weapon_leash_elastic"},
     command = "give_job_st_k9_smj",
@@ -2920,7 +2923,7 @@ TEAM_ST_K9_SMJ = DarkRP.createJob("ST K9 │ SMJ", {
 
 TEAM_ST_K9_LT = DarkRP.createJob("ST K9 │ LT", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/arf_officer.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/arf_officer.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext", "stunstick", "weapon_cuff_elastic", "weapon_leash_elastic"},
     command = "give_job_st_k9_LT",
@@ -2941,7 +2944,7 @@ TEAM_ST_K9_LT = DarkRP.createJob("ST K9 │ LT", {
 
 TEAM_ST_K9_1st_LT = DarkRP.createJob("ST K9 │ 1st LT", {
     color = Color(170, 255, 255),
-    model = {"models/aussiwozzi/phase1clones/cg/arf_officer.mdl"},
+    model = {"models/aussiwozzi/phase1clones/cg/arf_officer.mdl","models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc15a_o", "rw_sw_dc15s", "rw_sw_stun_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17ext", "stunstick", "weapon_cuff_elastic", "weapon_leash_elastic"},
     command = "give_job_st_k9_1st_LT",
@@ -3235,7 +3238,7 @@ TEAM_NAVY_CPT = DarkRP.createJob("Republic Navy │ CPT", {
 
 TEAM_NAVY_AD = DarkRP.createJob("Republic Navy │ AD", {
     color = Color(170, 255, 255),
-    model = {"models/star/navy/admiral/sirblitz/navy_admiral_white.mdl"},
+    model = {"models/starwars/grady/navy/republic_navy_admiral.mdl"},
     description = [[False]],
     weapons = {"rw_sw_dc17ext", "rw_sw_stun_dc17"},
     command = "give_job_navy_ad",
@@ -3391,9 +3394,9 @@ TEAM_Jedi_Orden = DarkRP.createJob("Jedi Orden", {
 
 TEAM_SEB = DarkRP.createJob("Sondereinsatzbrigade", {
     color = Color(153, 0, 0),
-    model = {"models/starwars/grady/legends_arcs/arc_trooper_luks.mdl", "models/aussiwozzi/phase1clones/lieutenant_arc.mdl", "models/aussiwozzi/phase1clones/sergeant_arc.mdl", "models/aussiwozzi/phase1clones/Captain_arc.mdl", "models/fisher/mando/skirata/skirata.mdl", "models/fisher/mando/vau/vau.mdl"},
+    model = { "models/aussiwozzi/phase1clones/lieutenant_arc.mdl","models/starwars/grady/legends_arcs/arc_trooper_luks.mdl","models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl", "models/aussiwozzi/phase1clones/sergeant_arc.mdl", "models/aussiwozzi/phase1clones/Captain_arc.mdl", "models/fisher/mando/skirata/skirata.mdl", "models/fisher/mando/vau/vau.mdl"},
     description = [[Sondereinsatzbrigade]],
-    weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "at_sw_dc15a_recon3", "sw_datapad", "rw_sw_z6", "rw_sw_dc15x"},
+    weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic","bkeypads_cracker","defuse_kit","shadow", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "at_sw_dc15a_all", "sw_datapad", "rw_sw_z6", "at_sw_dc15sa","rw_sw_wristblaster_heavy_yellow","rw_ammo_distributor","rw_sw_iqa11c","rw_sw_nade_stun","rw_sw_nade_thermal", "rw_sw_nade_dioxis", "tfa_defi_swrp"},
     command = "give_job_seb",
     max = 0,
     salary = 0,
@@ -3410,9 +3413,11 @@ TEAM_SEB = DarkRP.createJob("Sondereinsatzbrigade", {
     end,
 })
 
+
+
 TEAM_501 = DarkRP.createJob("501st Attack Batallion", {
     color = Color(0,0,150),
-    model = {"models/aussiwozzi/phase1clones/501st/Trooper.mdl","models/aussiwozzi/phase1clones/501st/Denal.mdl","models/aussiwozzi/phase1clones/501st/Echo.mdl","models/aussiwozzi/phase1clones/501st/Fives.mdl","models/aussiwozzi/phase1clones/501st/hardcase.mdl","models/aussiwozzi/phase1clones/501st/Jesse.mdl","models/aussiwozzi/phase1clones/501st/kano.mdl","models/aussiwozzi/phase1clones/501st/Kix.mdl","models/aussiwozzi/phase1clones/501st/Mixer.mdl","models/aussiwozzi/phase1clones/501st/Redeye.mdl","models/hazel/arc_models/2_501st/501st_arc.mdl","models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl","models/aussiwozzi/phase1clones/501st/arf_trooper.mdl"},
+    model = {"models/defcon/banks/coldwweather/501st_cold/501st_rex/501st_rex.mdl","models/aussiwozzi/phase1clones/501st/Trooper.mdl","models/aussiwozzi/phase1clones/501st/Denal.mdl","models/aussiwozzi/phase1clones/501st/Echo.mdl","models/aussiwozzi/phase1clones/501st/Fives.mdl","models/aussiwozzi/phase1clones/501st/hardcase.mdl","models/aussiwozzi/phase1clones/501st/Jesse.mdl","models/aussiwozzi/phase1clones/501st/kano.mdl","models/aussiwozzi/phase1clones/501st/Kix.mdl","models/aussiwozzi/phase1clones/501st/Mixer.mdl","models/aussiwozzi/phase1clones/501st/Redeye.mdl","models/hazel/arc_models/2_501st/501st_arc.mdl","models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl","models/aussiwozzi/phase1clones/501st/arf_trooper.mdl"},
     description = [[]],
     weapons = {"at_sw_dc15a_base1","at_sw_dc15s_base1","rw_sw_dc17","rw_sw_nade_thermal","sw_datapad"},
     command = "give_job_501",
