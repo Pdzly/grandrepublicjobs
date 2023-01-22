@@ -325,7 +325,7 @@ TEAM_MASSIFF = DarkRP.createJob("Massiff", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST K9 ARF Platoon",
+    category = "ST │ K9 ARF Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(450)
@@ -430,7 +430,7 @@ TEAM_104TH_WARTHOG = DarkRP.createJob("Warthog", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Advanced Vehicle Platoon",
+    category = "104th │ Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -472,7 +472,7 @@ TEAM_ST_FOX = DarkRP.createJob("Fox", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST Company",
+    category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(200)
@@ -493,7 +493,7 @@ TEAM_ST_THIRE = DarkRP.createJob("Thire", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST Company",
+    category = "ST │ Company",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(150)
@@ -514,7 +514,7 @@ TEAM_ST_HOUND = DarkRP.createJob("Hound", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "ST K9 ARF Platoon",
+    category = "ST │ K9 ARF Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -871,7 +871,7 @@ TEAM_104TH_AVP_PVT_CCPL = DarkRP.createJob("104th AVP │ PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Advanced Vehicle Platoon",
+    category = "104th │ Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -892,7 +892,7 @@ TEAM_104TH_AVP_PFC = DarkRP.createJob("104th AVP │ PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Advanced Vehicle Platoon",
+    category = "104th │ Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -913,7 +913,7 @@ TEAM_104TH_AVP_SPC = DarkRP.createJob("104th AVP │ SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Advanced Vehicle Platoon",
+    category = "104th │ Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -934,7 +934,7 @@ TEAM_104TH_AVP_LCPL = DarkRP.createJob("104th AVP │ LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Advanced Vehicle Platoon",
+    category = "104th │ Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -955,7 +955,7 @@ TEAM_104TH_AVP_CPL = DarkRP.createJob("104th AVP │ CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Advanced Vehicle Platoon",
+    category = "104th │ Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -976,7 +976,7 @@ TEAM_104TH_AVP_CCPL = DarkRP.createJob("104th AVP │ CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Advanced Vehicle Platoon",
+    category = "104th │ Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -997,7 +997,7 @@ TEAM_104TH_AVP_SGT = DarkRP.createJob("104th AVP │ SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Advanced Vehicle Platoon",
+    category = "104th │ Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1018,7 +1018,7 @@ TEAM_104TH_AVP_SMJ = DarkRP.createJob("104th AVP │ SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Advanced Vehicle Platoon",
+    category = "104th │ Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1039,7 +1039,7 @@ TEAM_104TH_AVP_LT = DarkRP.createJob("104th AVP │ LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Advanced Vehicle Platoon",
+    category = "104th │ Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -1060,7 +1060,7 @@ TEAM_104TH_AVP_1STLT = DarkRP.createJob("104th AVP │ 1st LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "104th Advanced Vehicle Platoon",
+    category = "104th │ Advanced Vehicle Platoon",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2134,7 +2134,7 @@ TEAM_KC_ARF_PVT = DarkRP.createJob("ARF │ PVT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Advanced Reconnaissance Force",
+    category = "Keeli Company │ Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2155,7 +2155,7 @@ TEAM_KC_ARF_PFC = DarkRP.createJob("ARF │ PFC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Advanced Reconnaissance Force",
+    category = "Keeli Company │ Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2176,7 +2176,7 @@ TEAM_KC_ARF_SPC = DarkRP.createJob("ARF │ SPC", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Advanced Reconnaissance Force",
+    category = "Keeli Company │ Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2197,7 +2197,7 @@ TEAM_KC_ARF_LCPL = DarkRP.createJob("ARF │ LCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Advanced Reconnaissance Force",
+    category = "Keeli Company │ Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2218,7 +2218,7 @@ TEAM_KC_ARF_CPL = DarkRP.createJob("ARF │ CPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Advanced Reconnaissance Force",
+    category = "Keeli Company │ Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2239,7 +2239,7 @@ TEAM_KC_ARF_CCPL = DarkRP.createJob("ARF │ CCPL", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Advanced Reconnaissance Force",
+    category = "Keeli Company │ Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2260,7 +2260,7 @@ TEAM_KC_ARF_SGT = DarkRP.createJob("ARF │ SGT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Advanced Reconnaissance Force",
+    category = "Keeli Company │ Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2281,7 +2281,7 @@ TEAM_KC_ARF_SMJ = DarkRP.createJob("ARF │ SMJ", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Advanced Reconnaissance Force",
+    category = "Keeli Company │ Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2302,7 +2302,7 @@ TEAM_KC_ARF_LT = DarkRP.createJob("ARF │ LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Advanced Reconnaissance Force",
+    category = "Keeli Company │ Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)
@@ -2323,7 +2323,7 @@ TEAM_KC_ARF_1STLT = DarkRP.createJob("ARF │ 1st LT", {
     admin = 0,
     vote = false,
     hasLicense = false,
-    category = "Keeli Company Advanced Reconnaissance Force",
+    category = "Keeli Company │ Advanced Reconnaissance Force",
     canDemote = false,
     PlayerSpawn = function(ply)
         ply:SetHealth(100)

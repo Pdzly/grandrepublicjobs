@@ -289,3 +289,13 @@ DarkRP.createCategory{
     end,
 }
 
+DarkRP.createCategory{
+    name = "ARC/AARC",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(0, 0, 255),
+    sortOrder = 25,
+    canSee = function(ply)
+        return true
+    end,
+}
