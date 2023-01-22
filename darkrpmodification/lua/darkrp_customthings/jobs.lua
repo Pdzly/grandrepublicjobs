@@ -3394,9 +3394,9 @@ TEAM_Jedi_Orden = DarkRP.createJob("Jedi Orden", {
 
 TEAM_SEB = DarkRP.createJob("Sondereinsatzbrigade", {
     color = Color(153, 0, 0),
-    model = { "models/aussiwozzi/phase1clones/lieutenant_arc.mdl","models/starwars/grady/legends_arcs/arc_trooper_luks.mdl","models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl", "models/aussiwozzi/phase1clones/sergeant_arc.mdl", "models/aussiwozzi/phase1clones/Captain_arc.mdl", "models/fisher/mando/skirata/skirata.mdl", "models/fisher/mando/vau/vau.mdl"},
+    model = { "models/aussiwozzi/phase1clones/lieutenant_arc.mdl","models/aotr/sparrow/rancor/arc/bf2umbaraoperative.mdl","models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl", "models/aussiwozzi/phase1clones/sergeant_arc.mdl", "models/aussiwozzi/phase1clones/Captain_arc.mdl", "models/fisher/mando/skirata/skirata.mdl"},
     description = [[Sondereinsatzbrigade]],
-    weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic","bkeypads_cracker","defuse_kit","shadow", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "at_sw_dc15a_all", "sw_datapad", "rw_sw_z6", "at_sw_dc15sa","rw_sw_wristblaster_heavy_yellow","rw_ammo_distributor","rw_sw_iqa11c","rw_sw_nade_stun","rw_sw_nade_thermal", "rw_sw_nade_dioxis", "tfa_defi_swrp"},
+    weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic","bkeypads_cracker","defuse_kit","shadow", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector","rw_sw_dual_dc17ext", "at_sw_dc15a_all", "sw_datapad", "rw_sw_z6", "at_sw_dc15sa","rw_sw_wristblaster_heavy_yellow","rw_ammo_distributor","rw_sw_iqa11c","rw_sw_nade_stun","rw_sw_nade_thermal", "rw_sw_nade_dioxis", "tfa_defi_swrp"},
     command = "give_job_seb",
     max = 0,
     salary = 0,
@@ -3406,10 +3406,10 @@ TEAM_SEB = DarkRP.createJob("Sondereinsatzbrigade", {
     category = "SEB",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(200)
-        ply:SetMaxHealth(200)
-        ply:SetArmor(200)
-        ply:SetMaxArmor(200)
+        ply:SetHealth(300)
+        ply:SetMaxHealth(300)
+        ply:SetArmor(300)
+        ply:SetMaxArmor(300)
     end,
 })
 
@@ -3436,6 +3436,26 @@ TEAM_501 = DarkRP.createJob("501st Attack Batallion", {
     end,
 })
 
+TEAM_ARCAARC = DarkRP.createJob("ARC/AARC", {
+    color = Color(0,0,150),
+    model = { "models/player/alpha_arc/null/null_troopers.mdl", "models/starwars/grady/legends_arcs/arc_trooper_luks.mdl"},
+    description = [[]],
+    weapons = {"at_sw_dc15a_all", "at_sw_dc15s_all","shadow","rw_sw_wristrocket","rw_sw_dual_dc17s","rw_sw_dc17s","rw_sw_westarm5","rw_sw_valken38x","rw_ammo_distributor","jet_mk5","seal6-c4","weapon_rpw_binoculars_nvg","weapon_cuff_elastic","cross_arms_infront_swep","cross_arms_swep","salute_swep","comlink_swep","middlefinger_animation_swep","alydus_fusioncutter","bkeypads_cracker"},
+    command = "give_job_arcaarc",
+    max = 0,
+    salary = 1000,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "ARC/AARC",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(300)
+        ply:SetMaxHealth(300)
+        ply:SetArmor(300)
+        ply:SetMaxArmor(300)
+    end,
+})
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
 ---------------------------------------------------------------------------]]
