@@ -1702,7 +1702,7 @@ TEAM_KC_1STLT = DarkRP.createJob("Keeli Company │ 1st LT", {
 
 TEAM_KC_HP_PVT = DarkRP.createJob("Heavy Platoon │ PVT", {
     color = Color(61, 23, 20),
-    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl","models/aussiwozzi/phase1clones/501st/501st_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
     command = "give_job_kc_hp_pvt",
@@ -1724,7 +1724,7 @@ TEAM_KC_HP_PVT = DarkRP.createJob("Heavy Platoon │ PVT", {
 TEAM_KC_HP_PFC = DarkRP.createJob("Heavy Platoon │ PFC", {
     color = Color(0, 0, 255),
 
-    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl","models/aussiwozzi/phase1clones/501st/501st_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
     command = "give_job_kc_hp_pfc",
@@ -1745,7 +1745,7 @@ TEAM_KC_HP_PFC = DarkRP.createJob("Heavy Platoon │ PFC", {
 
 TEAM_KC_HP_SPC = DarkRP.createJob("Heavy Platoon │ SPC", {
      color = Color(0, 0, 255),
-    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl","models/aussiwozzi/phase1clones/501st/501st_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
     command = "give_job_kc_hp_spc",
@@ -1767,7 +1767,7 @@ TEAM_KC_HP_SPC = DarkRP.createJob("Heavy Platoon │ SPC", {
 TEAM_KC_HP_LCPL = DarkRP.createJob("Heavy Platoon │ LCPL", {
      color = Color(0, 0, 255),
 
-    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl","models/aussiwozzi/phase1clones/501st/501st_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
     command = "give_job_kc_hp_lcpl",
@@ -1789,7 +1789,7 @@ TEAM_KC_HP_LCPL = DarkRP.createJob("Heavy Platoon │ LCPL", {
 TEAM_KC_HP_CPL = DarkRP.createJob("Heavy Platoon │ CPL", {
     color = Color(0, 0, 255),
 
-    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl","models/aussiwozzi/phase1clones/501st/501st_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
     command = "give_job_kc_hp_cpl",
@@ -1810,7 +1810,7 @@ TEAM_KC_HP_CPL = DarkRP.createJob("Heavy Platoon │ CPL", {
 
 TEAM_KC_HP_CCPL = DarkRP.createJob("Heavy Platoon │ CCPL", {
     color = Color(0, 0, 255),
-    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl","models/aussiwozzi/phase1clones/501st/501st_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dc17", "weapon_shield_activator", "rw_sw_pinglauncher",},
     command = "give_job_kc_hp_ccpl",
@@ -1831,7 +1831,7 @@ TEAM_KC_HP_CCPL = DarkRP.createJob("Heavy Platoon │ CCPL", {
 
 TEAM_KC_HP_SGT = DarkRP.createJob("Heavy Platoon │ SGT", {
     color = Color(0, 0, 255),
-    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl","models/aussiwozzi/phase1clones/501st/501st_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dual_dc17", "rw_sw_pinglauncher", "weapon_shield_activator", "rw_sw_dual_dc17",},
     command = "give_job_kc_hp_sgt",
@@ -1852,7 +1852,7 @@ TEAM_KC_HP_SGT = DarkRP.createJob("Heavy Platoon │ SGT", {
 
 TEAM_KC_HP_SMJ = DarkRP.createJob("Heavy Platoon │ SMJ", {
  color = Color(0, 0, 255),
-    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl","models/aussiwozzi/phase1clones/501st/501st_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "rw_sw_dc15le", "rw_sw_z6", "at_sw_dc15a_heavy3", "rw_sw_dc15s", "rw_sw_dual_dc17", "rw_sw_pinglauncher", "weapon_shield_activator", "rw_sw_dual_dc17",},
     command = "give_job_kc_hp_smj",
@@ -1873,7 +1873,7 @@ TEAM_KC_HP_SMJ = DarkRP.createJob("Heavy Platoon │ SMJ", {
 
 TEAM_KC_HP_LT = DarkRP.createJob("Heavy Platoon │ LT", {
     color = Color(0, 0, 255),
-    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl","models/aussiwozzi/phase1clones/501st/501st_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_cuff_elastic", "weapon_rpw_binoculars", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dual_dc17ext", "rw_sw_pinglauncher", "weapon_shield_activator", "rw_sw_dual_dc17ext",},
     command = "give_job_kc_hp_lt",
@@ -1894,7 +1894,7 @@ TEAM_KC_HP_LT = DarkRP.createJob("Heavy Platoon │ LT", {
 
 TEAM_KC_HP_1STLT = DarkRP.createJob("Heavy Platoon │ 1st LT", {
     color = Color(0, 0, 255),
-    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"},
+    model = {"models/defcon/stan/arcevo/regimentals/evo501starc.mdl","models/aussiwozzi/phase1clones/501st/501st_officer.mdl"},
     description = [[]],
     weapons = {"sw_datapad", "weapon_rpw_binoculars", "weapon_cuff_elastic", "rw_sw_nade_thermal", "at_sw_dc15a_heavy3", "rw_sw_z6", "rw_sw_dc15s", "rw_sw_dual_dc17ext", "rw_sw_pinglauncher", "weapon_shield_activator", "rw_sw_dual_dc17ext",},
     command = "give_job_kc_hp_1stlt",
