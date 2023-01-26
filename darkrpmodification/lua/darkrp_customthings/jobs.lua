@@ -3394,9 +3394,9 @@ TEAM_Jedi_Orden = DarkRP.createJob("Jedi Orden", {
 
 TEAM_SEB = DarkRP.createJob("Sondereinsatzbrigade", {
     color = Color(153, 0, 0),
-    model = { "models/aussiwozzi/phase1clones/lieutenant_arc.mdl","models/aotr/sparrow/rancor/arc/bf2umbaraoperative.mdl","models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl", "models/aussiwozzi/phase1clones/sergeant_arc.mdl", "models/aussiwozzi/phase1clones/Captain_arc.mdl", "models/fisher/mando/skirata/skirata.mdl"},
+    model = { "models/aussiwozzi/phase1clones/lieutenant_arc.mdl","models/aotr/sparrow/rancor/arc/bf2umbaraoperative.mdl","models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl", "models/aussiwozzi/phase1clones/sergeant_arc.mdl", "models/aussiwozzi/phase1clones/Captain_arc.mdl"},
     description = [[Sondereinsatzbrigade]],
-    weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic","bkeypads_cracker","defuse_kit","shadow", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector","rw_sw_dual_dc17ext", "at_sw_dc15a_all", "sw_datapad", "rw_sw_z6", "at_sw_dc15sa","rw_sw_wristblaster_heavy_yellow","rw_ammo_distributor","rw_sw_iqa11c","rw_sw_nade_stun","rw_sw_nade_thermal", "rw_sw_nade_dioxis", "tfa_defi_swrp"},
+    weapons = {"jet_mk5", "seal6-c4", "weapon_cuff_elastic","bkeypads_cracker","rw_sw_nt242c","defuse_kit","shadow", "rw_sw_nade_bacta", "stunstick", "alydus_fusioncutter", "weapon_bactainjector","rw_sw_dual_dc17ext", "at_sw_dc15a_all", "sw_datapad", "rw_sw_z6", "at_sw_dc15sa","rw_sw_wristblaster_heavy_yellow","rw_ammo_distributor","rw_sw_iqa11c","rw_sw_nade_stun","rw_sw_nade_thermal", "rw_sw_nade_dioxis", "tfa_defi_swrp"},
     command = "give_job_seb",
     max = 0,
     salary = 0,
@@ -3412,6 +3412,28 @@ TEAM_SEB = DarkRP.createJob("Sondereinsatzbrigade", {
         ply:SetMaxArmor(300)
     end,
 })
+
+TEAM_SEB_Kal = DarkRP.createJob("Kal Skirata", {
+    color = Color(153, 0, 0),
+    model = { "models/fisher/mando/skirata/skirata.mdl"},
+    description = [[]],
+    weapons = {"jet_mk5","rw_sw_dual_westar34","rw_sw_ee3a","bkeypads_cracker","defuse_kit","shadow", "rw_sw_nade_bacta", "weapon_bactainjector","sw_datapad","rw_sw_wristflame","tfa_defi_swrp"},
+    command = "give_job_seb_kal",
+    max = 0,
+    salary = 1700,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "SEB",
+    canDemote = false,
+    PlayerSpawn = function(ply)
+        ply:SetHealth(300)
+        ply:SetMaxHealth(300)
+        ply:SetArmor(300)
+        ply:SetMaxArmor(300)
+    end,
+})
+
 
 
 
@@ -3429,10 +3451,10 @@ TEAM_501 = DarkRP.createJob("501st Attack Batallion", {
     category = "501st",
     canDemote = false,
     PlayerSpawn = function(ply)
-        ply:SetHealth(400)
-        ply:SetMaxHealth(400)
-        ply:SetArmor(400)
-        ply:SetMaxArmor(400)
+        ply:SetHealth(100)
+        ply:SetMaxHealth(100)
+        ply:SetArmor(100)
+        ply:SetMaxArmor(100)
     end,
 })
 
